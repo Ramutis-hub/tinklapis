@@ -32,7 +32,7 @@ export function Process() {
             {t.process.subtitle}
           </p>
         </div>
-        
+
         <div className="space-y-16">
           {steps.map((step, index) => (
             <motion.div
@@ -53,6 +53,12 @@ export function Process() {
               </div>
             </motion.div>
           ))}
+        </div>
+
+        <div className="mt-16 pt-12 border-t border-therapy-warm-200">
+          <p className="text-center text-therapy-warm-600 text-sm md:text-base">
+            {t.process.sessionDuration}
+          </p>
         </div>
       </div>
     </Section>

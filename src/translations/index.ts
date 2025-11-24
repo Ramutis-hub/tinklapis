@@ -37,6 +37,7 @@ export interface Translations {
   process: {
     title: string;
     subtitle: string;
+    sessionDuration: string;
     steps: {
       first: {
         title: string;
@@ -45,6 +46,10 @@ export interface Translations {
       safe: {
         title: string;
         items: string[];
+        description: string;
+      };
+      integration: {
+        title: string;
         description: string;
       };
     };
@@ -74,7 +79,6 @@ export interface Translations {
     address: string;
     hours: string;
     workingHours: string;
-    sessionDuration: string;
     cancellationTitle: string;
     cancellationPolicy: string;
   };
@@ -138,6 +142,7 @@ const translations: Record<Language, Translations> = {
     process: {
       title: 'Kaip vyksta terapija?',
       subtitle: 'Terapijos procesas, kuris padeda atrasti naują perspektyvą ir sprendimus.',
+      sessionDuration: 'Sesijos trukmė: 50 min.',
       steps: {
         first: {
           title: 'Pirmasis susitikimas',
@@ -202,7 +207,6 @@ const translations: Record<Language, Translations> = {
       address: 'Adresas',
       hours: 'Darbo laikas',
       workingHours: 'I-V 8.00-20.00',
-      sessionDuration: 'Sesijos trukmė: 50 min.',
       cancellationTitle: 'Apie atšaukimą',
       cancellationPolicy: 'Prašau pranešti ne vėliau kaip 24 valandas prieš sesiją. Kai įmanoma, stengiuosi būti lankstus ir perkelti susitikimą į tą pačią savaitę. Jei aš vėluoju – atidirbinu laiką. Jei vėluojate jūs – sesija vyksta likusį laiką.'
     },
@@ -264,6 +268,7 @@ const translations: Record<Language, Translations> = {
     process: {
       title: 'How does therapy work?',
       subtitle: 'A therapeutic process that helps discover new perspectives and solutions.',
+      sessionDuration: 'Session duration: 50 min.',
       steps: {
         first: {
           title: 'First meeting',
@@ -328,7 +333,6 @@ const translations: Record<Language, Translations> = {
       address: 'Address',
       hours: 'Working hours',
       workingHours: 'Mon-Fri 8:00-20:00',
-      sessionDuration: 'Session duration: 50 min.',
       cancellationTitle: 'About cancellation',
       cancellationPolicy: 'Please notify at least 24 hours before your session. When possible, I try to be flexible and reschedule your session within the same week. If I am late – I make up the time. If you are late – the session continues for the remaining time.'
     },

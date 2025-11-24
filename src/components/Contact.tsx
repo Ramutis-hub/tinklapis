@@ -102,18 +102,13 @@ export function Contact() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-therapy-warm-600/30">
-          <div className="max-w-2xl mx-auto space-y-5 text-center">
-            <p className="text-therapy-warm-200 text-sm md:text-base">
-              {t.contact.sessionDuration}
+          <div className="max-w-2xl mx-auto space-y-2 text-center">
+            <p className="text-therapy-warm-200 text-sm font-medium">
+              {t.contact.cancellationTitle}
             </p>
-            <div className="space-y-2">
-              <p className="text-therapy-warm-200 text-sm font-medium">
-                {t.contact.cancellationTitle}
-              </p>
-              <p className="text-therapy-warm-300 text-xs md:text-sm leading-relaxed">
-                {t.contact.cancellationPolicy}
-              </p>
-            </div>
+            <p className="text-therapy-warm-300 text-xs md:text-sm leading-relaxed">
+              {t.contact.cancellationPolicy}
+            </p>
           </div>
         </div>
       </div>
