@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
 import { Menu, X, Circle } from 'lucide-react';
+import { useLanguage } from '../hooks/useLanguage';
+import { useTranslations } from '../translations';
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { language } = useLanguage();
+  const t = useTranslations(language);
 
   return (
     <header className="bg-lacanian-real-950 border-b border-lacanian-symbolic-800">
@@ -11,16 +15,18 @@ export function Header() {
           <div className="flex items-center gap-3">
             <Circle className="text-lacanian-symbolic-500" size={24} />
             <div className="flex flex-col">
-              <span className="text-xl font-serif text-lacanian-real-100">Dialogo Erdvė</span>
+              <span className="text-xl font-serif text-lacanian-real-100">
+                {language === 'lt' ? 'Dialogo Erdvė' : 'Dialogue Space'}
+              </span>
               <span className="text-sm text-lacanian-real-300">Ramutis Klimanskis</span>
             </div>
           </div>
           <div className="hidden md:flex items-center gap-12">
-            <a href="#paslaugos" className="text-lacanian-real-200 hover:text-lacanian-symbolic-500 transition-colors">Paslaugos</a>
-            <a href="#apie" className="text-lacanian-real-200 hover:text-lacanian-symbolic-500 transition-colors">Apie mane</a>
-            <a href="#kontaktai" className="text-lacanian-real-200 hover:text-lacanian-symbolic-500 transition-colors">Kontaktai</a>
+            <a href="#paslaugos" className="text-lacanian-real-200 hover:text-lacanian-symbolic-500 transition-colors">{t.nav.services}</a>
+            <a href="#apie" className="text-lacanian-real-200 hover:text-lacanian-symbolic-500 transition-colors">{t.nav.about}</a>
+            <a href="#kontaktai" className="text-lacanian-real-200 hover:text-lacanian-symbolic-500 transition-colors">{t.nav.contact}</a>
           </div>
-          <button 
+          <button
             className="md:hidden text-lacanian-real-200"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
@@ -32,26 +38,26 @@ export function Header() {
         {isMenuOpen && (
           <div className="md:hidden absolute top-[72px] left-0 right-0 bg-lacanian-real-950 border-b border-lacanian-symbolic-800 py-4 px-6 z-50">
             <div className="flex flex-col gap-4">
-              <a 
-                href="#paslaugos" 
+              <a
+                href="#paslaugos"
                 className="text-lacanian-real-200 hover:text-lacanian-symbolic-500 transition-colors py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Paslaugos
+                {t.nav.services}
               </a>
-              <a 
-                href="#apie" 
+              <a
+                href="#apie"
                 className="text-lacanian-real-200 hover:text-lacanian-symbolic-500 transition-colors py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Apie mane
+                {t.nav.about}
               </a>
-              <a 
-                href="#kontaktai" 
+              <a
+                href="#kontaktai"
                 className="text-lacanian-real-200 hover:text-lacanian-symbolic-500 transition-colors py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Kontaktai
+                {t.nav.contact}
               </a>
             </div>
           </div>
