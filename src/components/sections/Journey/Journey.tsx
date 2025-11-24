@@ -18,8 +18,8 @@ export function Journey() {
             <h2 className="section-title text-center">{t.about.title}</h2>
           </div>
           
-          <motion.div 
-            className="space-y-6 text-base md:text-lg leading-relaxed text-therapy-warm-700 text-center max-w-3xl mx-auto"
+          <motion.div
+            className="space-y-6 text-base md:text-lg leading-relaxed text-therapy-warm-700 text-left max-w-3xl mx-auto"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
