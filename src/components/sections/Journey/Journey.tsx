@@ -11,7 +11,7 @@ export function Journey() {
   const t = useTranslations(language);
 
   return (
-    <Section id="apie" background="light" className="bg-white">
+    <Section id="apie" background="light" className="bg-white !pt-8 md:!pt-10">
       <div className="max-w-4xl mx-auto">
         <div className="space-y-6 md:space-y-8 text-slate-700 mb-10 md:mb-12">
           <div className="text-center">

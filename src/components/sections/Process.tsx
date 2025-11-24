@@ -24,7 +24,7 @@ export function Process() {
   ];
 
   return (
-    <Section background="light" className="bg-white">
+    <Section background="light" className="bg-white !pb-8 md:!pb-10">
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-10 md:mb-12">
           <h2 className="section-title">{t.process.title}</h2>
