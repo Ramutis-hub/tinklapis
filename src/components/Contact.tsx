@@ -38,73 +38,64 @@ export function Contact() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-4xl mx-auto">
           {/* Professional Portrait */}
-          <div className="lg:col-span-1">
-            <div className="aspect-[3/4] rounded-lg overflow-hidden shadow-xl max-w-xs mx-auto lg:max-w-sm">
+          <div className="order-2 lg:order-1">
+            <div className="aspect-[3/4] rounded-lg overflow-hidden shadow-2xl max-w-sm mx-auto">
               <img
                 src="/images/apie mane copy copy copy copy copy.jpg"
                 alt="Psichoterapeutas Ramutis Klimanskis"
-                className="w-full h-full object-cover object-center transition-all duration-500"
+                className="w-full h-full object-cover object-center"
                 style={{
                   filter: 'brightness(1.05) contrast(0.95) saturate(0.95)',
                 }}
               />
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-slate-900/20"></div>
             </div>
           </div>
 
           {/* Contact Information */}
-          <div className="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="bg-white p-4 rounded-sm border border-therapy-warm-200 hover:border-therapy-sage-300 transition-all duration-300 shadow-sm">
-              <div className="flex flex-col items-center text-center gap-3 h-full justify-center">
-                <div className="bg-therapy-sage-50 p-3 rounded-sm">
-                  <Phone className="text-therapy-sage-600" size={22} />
-                </div>
-                <div>
-                  <h3 className="text-sm font-medium text-therapy-warm-600 mb-1.5">{t.contact.phone}</h3>
-                  <a href="tel:+37062176092" className="text-therapy-warm-700 text-base font-medium hover:text-therapy-sage-600 transition-colors">
-                    +370 621 76092
-                  </a>
-                </div>
+          <div className="order-1 lg:order-2 space-y-6">
+            <div className="flex items-start gap-4 group">
+              <div className="flex-shrink-0 mt-1">
+                <Phone className="text-therapy-sage-400 group-hover:text-therapy-sage-300 transition-colors" size={24} />
+              </div>
+              <div>
+                <h3 className="text-therapy-warm-100 text-sm font-medium mb-1">{t.contact.phone}</h3>
+                <a href="tel:+37062176092" className="text-white text-lg font-medium hover:text-therapy-sage-300 transition-colors">
+                  +370 621 76092
+                </a>
               </div>
             </div>
 
-            <div className="bg-white p-4 rounded-sm border border-therapy-warm-200 hover:border-therapy-sage-300 transition-all duration-300 shadow-sm">
-              <div className="flex flex-col items-center text-center gap-3 h-full justify-center">
-                <div className="bg-therapy-sage-50 p-3 rounded-sm">
-                  <Mail className="text-therapy-sage-600" size={22} />
-                </div>
-                <div>
-                  <h3 className="text-sm font-medium text-therapy-warm-600 mb-1.5">{t.contact.email}</h3>
-                  <a href="mailto:ramutis.klimanskis@gmail.com" className="text-therapy-warm-700 text-sm font-medium hover:text-therapy-sage-600 transition-colors break-all">
-                    ramutis.klimanskis@gmail.com
-                  </a>
-                </div>
+            <div className="flex items-start gap-4 group">
+              <div className="flex-shrink-0 mt-1">
+                <Mail className="text-therapy-sage-400 group-hover:text-therapy-sage-300 transition-colors" size={24} />
+              </div>
+              <div>
+                <h3 className="text-therapy-warm-100 text-sm font-medium mb-1">{t.contact.email}</h3>
+                <a href="mailto:ramutis.klimanskis@gmail.com" className="text-white text-base font-medium hover:text-therapy-sage-300 transition-colors break-all">
+                  ramutis.klimanskis@gmail.com
+                </a>
               </div>
             </div>
 
-            <div className="bg-white p-4 rounded-sm border border-therapy-warm-200 hover:border-therapy-sage-300 transition-all duration-300 shadow-sm">
-              <div className="flex flex-col items-center text-center gap-3 h-full justify-center">
-                <div className="bg-therapy-sage-50 p-3 rounded-sm">
-                  <MapPin className="text-therapy-sage-600" size={22} />
-                </div>
-                <div>
-                  <h3 className="text-sm font-medium text-therapy-warm-600 mb-1.5">{t.contact.address}</h3>
-                  <p className="text-therapy-warm-700 text-base font-medium">Kęstučio g. 17, Vilnius</p>
-                </div>
+            <div className="flex items-start gap-4 group">
+              <div className="flex-shrink-0 mt-1">
+                <MapPin className="text-therapy-sage-400 group-hover:text-therapy-sage-300 transition-colors" size={24} />
+              </div>
+              <div>
+                <h3 className="text-therapy-warm-100 text-sm font-medium mb-1">{t.contact.address}</h3>
+                <p className="text-white text-lg font-medium">Kęstučio g. 17, Vilnius</p>
               </div>
             </div>
 
-            <div className="bg-white p-4 rounded-sm border border-therapy-warm-200 hover:border-therapy-sage-300 transition-all duration-300 shadow-sm">
-              <div className="flex flex-col items-center text-center gap-3 h-full justify-center">
-                <div className="bg-therapy-sage-50 p-3 rounded-sm">
-                  <Clock className="text-therapy-sage-600" size={22} />
-                </div>
-                <div>
-                  <h3 className="text-sm font-medium text-therapy-warm-600 mb-1.5">{t.contact.hours}</h3>
-                  <p className="text-therapy-warm-700 text-base font-medium">I-V 8.00-20.00</p>
-                </div>
+            <div className="flex items-start gap-4 group">
+              <div className="flex-shrink-0 mt-1">
+                <Clock className="text-therapy-sage-400 group-hover:text-therapy-sage-300 transition-colors" size={24} />
+              </div>
+              <div>
+                <h3 className="text-therapy-warm-100 text-sm font-medium mb-1">{t.contact.hours}</h3>
+                <p className="text-white text-lg font-medium">I-V 8.00-20.00</p>
               </div>
             </div>
           </div>
