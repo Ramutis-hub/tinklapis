@@ -15,9 +15,9 @@ export function About() {
             {t.about.title}
           </h2>
 
-          <div className="space-y-6 text-lacanian-real-200 mb-12 [&>p]:text-justify [&>p]:hyphens-auto">
+          <div className="space-y-6 text-lacanian-real-200 mb-12">
             {t.about.paragraphs.map((paragraph, index) => (
-              <p key={index} className="leading-relaxed">
+              <p key={index} className="leading-relaxed text-justify hyphens-auto">
                 {paragraph}
               </p>
             ))}
