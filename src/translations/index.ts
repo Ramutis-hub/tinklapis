@@ -152,7 +152,7 @@ const translations: Record<Language, Translations> = {
     },
     process: {
       title: 'Kaip vyksta terapija?',
-      subtitle: 'Terapijos procesas, kuris padeda atrasti naują perspektyvą ir sprendimus. Viena sesija trunka 50 minučių. Susitikimai paprastai vyksta vieną kartą per savaitę.',
+      subtitle: 'Terapijos procesas, kuris padeda atrasti naują perspektyvą ir sprendimus. Sesijos trukmė – 50 minučių. Susitikimai paprastai vyksta vieną kartą per savaitę.',
       sessionInfo: '',
       steps: {
         first: {
