@@ -29,22 +29,22 @@ export function Header() {
       animate={{ y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
     >
-      <nav className="container mx-auto">
-        <div className="flex justify-between items-center h-14 md:h-16">
+      <nav className="container mx-auto px-4 md:px-6">
+        <div className="flex justify-between items-center h-16 md:h-20">
           <Logo />
 
-          <div className="hidden md:flex items-center gap-8">
-            <motion.div className="flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-12">
+            <motion.div className="flex items-center gap-10">
               <a href="#apie" className="nav-link">{t.nav.about}</a>
               <a href="#paslaugos" className="nav-link">{t.nav.services}</a>
               <a href="#kontaktai" className="nav-link">{t.nav.contact}</a>
             </motion.div>
-            
+
             {/* Language Switcher - Desktop */}
-            <motion.div className="flex items-center ml-2">
+            <motion.div className="flex items-center">
               <button
                 onClick={() => changeLanguage(language === 'lt' ? 'en' : 'lt')}
-                className="px-2.5 py-1 text-xs font-medium text-therapy-warm-700 hover:text-therapy-sage-700 transition-colors border border-therapy-warm-300 rounded-sm hover:border-therapy-sage-400 uppercase"
+                className="px-3 py-1.5 text-xs font-semibold tracking-wider text-therapy-warm-700 hover:text-therapy-sage-700 transition-colors border border-therapy-warm-300 rounded hover:border-therapy-sage-400 hover:bg-therapy-warm-100 uppercase"
               >
                 {language === 'lt' ? 'en' : 'lt'}
               </button>
