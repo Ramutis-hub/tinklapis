@@ -209,8 +209,8 @@ const translations: Record<Language, Translations> = {
       hours: 'Darbo laikas',
       workingHours: 'I-V 8.00-20.00',
       cancellationTitle: 'Atšaukimas ir apmokėjimas',
-      cancellationPolicy: 'Prašau pranešti ne vėliau kaip 24 valandas prieš sesiją. Kai įmanoma, stengiuosi būti lankstus ir perkelti susitikimą į tą pačią savaitę. Vėliau nei 24 valandas prieš sesiją atšauktos ar praleistos sesijos apmokamos pilna kaina.',
-      paymentNote: 'Apmokama prieš arba iš karto po sesijos.'
+      cancellationPolicy: 'Prašau pranešti apie atšaukimą ne vėliau kaip prieš 24 valandas iki sesijos. Kai tik įmanoma, stengiuosi būti lankstus ir perkelti susitikimą į tą pačią savaitę. Vėliau nei 24 valandas iki sesijos atšauktos ar praleistos sesijos apmokamos pilna kaina.',
+      paymentNote: 'Apmokėjimas atliekamas prieš sesiją arba iš karto po jos.'
     },
     footer: {
       quote: '„Terapija nėra receptas. Tai kelionė į save."',
@@ -336,8 +336,8 @@ const translations: Record<Language, Translations> = {
       hours: 'Working hours',
       workingHours: 'Mon-Fri 8:00-20:00',
       cancellationTitle: 'Cancellation and payment',
-      cancellationPolicy: 'Please notify at least 24 hours before your session. When possible, I try to be flexible and reschedule within the same week. Sessions cancelled or missed with less than 24 hours notice are charged in full.',
-      paymentNote: 'Payment is due before or immediately following our session.'
+      cancellationPolicy: 'Please notify about cancellation at least 24 hours before your session. Whenever possible, I try to be flexible and reschedule within the same week. Sessions cancelled or missed with less than 24 hours notice are charged in full.',
+      paymentNote: 'Payment is made before the session or immediately after.'
     },
     footer: {
       quote: '"Therapy is not a prescription. It\'s a journey to yourself."',
