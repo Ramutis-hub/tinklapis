@@ -54,18 +54,12 @@ export function Hero() {
             </div>
             
             <FadeIn delay={0.8}>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <a 
-                  href="#kontaktai" 
-                  className="bg-therapy-sage-600 text-white px-6 md:px-8 py-3 md:py-4 hover:bg-therapy-sage-700 transition-all duration-300 shadow-sm text-center font-medium rounded-sm"
+              <div>
+                <a
+                  href="#kontaktai"
+                  className="inline-block bg-therapy-sage-600 text-white px-6 md:px-8 py-3 md:py-4 hover:bg-therapy-sage-700 transition-all duration-300 shadow-sm text-center font-medium rounded-sm"
                 >
                   {t.hero.cta}
-                </a>
-                <a 
-                  href="#apie" 
-                  className="border border-therapy-sage-600 text-therapy-sage-700 px-6 py-3 hover:bg-therapy-sage-50 transition-all duration-300 rounded-sm text-center font-medium"
-                >
-                  {t.hero.aboutButton}
                 </a>
               </div>
             </FadeIn>
