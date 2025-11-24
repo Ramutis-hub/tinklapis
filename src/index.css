@@ -5,6 +5,10 @@
 @tailwind utilities;
 
 /* Base styles */
+html {
+  scroll-padding-top: 4rem;
+}
+
 body {
   font-family: 'Inter', system-ui, sans-serif;
   background-color: #faf9f7;
