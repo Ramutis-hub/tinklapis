@@ -41,26 +41,24 @@ export function Services() {
           </div>
         </FadeIn>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="space-y-12">
           {services.map((service, index) => (
             <FadeIn key={index} delay={index * 0.2}>
-              <div className="card hover-lift h-full flex flex-col">
-                <h3 className="service-title mb-4 text-center flex-shrink-0">
+              <div className="max-w-2xl mx-auto">
+                <h3 className="text-2xl font-serif text-therapy-warm-900 mb-4 text-center">
                   {service.title}
                 </h3>
-                <p className="text-base md:text-lg text-therapy-warm-700 mb-6 flex-grow leading-relaxed text-center">
+                <p className="text-base md:text-lg text-therapy-warm-700 mb-6 leading-relaxed text-center">
                   {service.description}
                 </p>
-                <div className="mt-auto">
-                  <ul className="space-y-3">
+                <ul className="space-y-2 max-w-xl mx-auto">
                   {service.keywords.map((keyword, idx) => (
-                      <li key={idx} className="flex items-start gap-3 text-sm text-therapy-warm-700">
+                    <li key={idx} className="flex items-start gap-3 text-sm text-therapy-warm-700">
                       <Leaf className="text-therapy-sage-500 flex-shrink-0 mt-1" size={16} />
                       <span>{keyword}</span>
                     </li>
                   ))}
-                  </ul>
-                </div>
+                </ul>
               </div>
             </FadeIn>
           ))}
