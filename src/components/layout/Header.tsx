@@ -35,8 +35,8 @@ export function Header() {
 
           <div className="hidden md:flex items-center gap-8">
             <motion.div className="flex items-center gap-8">
-              <a href="#paslaugos" className="nav-link">{t.nav.services}</a>
               <a href="#apie" className="nav-link">{t.nav.about}</a>
+              <a href="#paslaugos" className="nav-link">{t.nav.services}</a>
               <a href="#kontaktai" className="nav-link">{t.nav.contact}</a>
             </motion.div>
             
@@ -44,9 +44,9 @@ export function Header() {
             <motion.div className="flex items-center ml-2">
               <button
                 onClick={() => changeLanguage(language === 'lt' ? 'en' : 'lt')}
-                className="px-2.5 py-1 text-xs font-medium text-therapy-warm-700 hover:text-therapy-sage-700 transition-colors border border-therapy-warm-300 rounded-sm hover:border-therapy-sage-400"
+                className="px-2.5 py-1 text-xs font-medium text-therapy-warm-700 hover:text-therapy-sage-700 transition-colors border border-therapy-warm-300 rounded-sm hover:border-therapy-sage-400 uppercase"
               >
-                {language === 'lt' ? 'EN' : 'LT'}
+                {language === 'lt' ? 'en' : 'lt'}
               </button>
             </motion.div>
           </div>
@@ -79,18 +79,18 @@ export function Header() {
               <div className="px-6 py-6">
                 <div className="flex flex-col gap-4">
                   <a
-                    href="#paslaugos"
-                    className="text-lg font-medium text-therapy-warm-800 hover:text-therapy-sage-600 transition-colors py-3 border-b border-therapy-warm-200"
-                    onClick={() => setIsMenuOpen(false)}
-                  >
-                    {t.nav.services}
-                  </a>
-                  <a
                     href="#apie"
                     className="text-lg font-medium text-therapy-warm-800 hover:text-therapy-sage-600 transition-colors py-3 border-b border-therapy-warm-200"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     {t.nav.about}
+                  </a>
+                  <a
+                    href="#paslaugos"
+                    className="text-lg font-medium text-therapy-warm-800 hover:text-therapy-sage-600 transition-colors py-3 border-b border-therapy-warm-200"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {t.nav.services}
                   </a>
                   <a
                     href="#kontaktai"
@@ -106,9 +106,9 @@ export function Header() {
                         changeLanguage(language === 'lt' ? 'en' : 'lt');
                         setIsMenuOpen(false);
                       }}
-                      className="w-full px-4 py-2.5 rounded-sm text-sm font-medium transition-colors bg-therapy-warm-100 text-therapy-warm-700 hover:bg-therapy-warm-200 border border-therapy-warm-300"
+                      className="w-full px-4 py-2.5 rounded-sm text-sm font-medium transition-colors bg-therapy-warm-100 text-therapy-warm-700 hover:bg-therapy-warm-200 border border-therapy-warm-300 uppercase"
                     >
-                      {language === 'lt' ? 'Switch to English' : 'Perjungti į lietuvių'}
+                      {language === 'lt' ? 'en' : 'lt'}
                     </button>
                   </div>
                 </div>
