@@ -102,12 +102,15 @@ export function Contact() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-therapy-warm-600/30">
-          <div className="max-w-2xl mx-auto space-y-2 text-center">
+          <div className="max-w-2xl mx-auto space-y-3 text-center">
             <p className="text-therapy-warm-200 text-sm font-medium">
               {t.contact.cancellationTitle}
             </p>
             <p className="text-therapy-warm-300 text-xs md:text-sm leading-relaxed">
               {t.contact.cancellationPolicy}
+            </p>
+            <p className="text-therapy-warm-300 text-xs md:text-sm font-medium">
+              {t.contact.paymentNote}
             </p>
           </div>
         </div>

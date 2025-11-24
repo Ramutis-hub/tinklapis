@@ -37,7 +37,7 @@ export interface Translations {
   process: {
     title: string;
     subtitle: string;
-    sessionDuration: string;
+    sessionInfo: string;
     steps: {
       first: {
         title: string;
@@ -81,6 +81,7 @@ export interface Translations {
     workingHours: string;
     cancellationTitle: string;
     cancellationPolicy: string;
+    paymentNote: string;
   };
   footer: {
     quote: string;
@@ -142,7 +143,7 @@ const translations: Record<Language, Translations> = {
     process: {
       title: 'Kaip vyksta terapija?',
       subtitle: 'Terapijos procesas, kuris padeda atrasti naują perspektyvą ir sprendimus.',
-      sessionDuration: 'Sesijos trukmė: 50 min.',
+      sessionInfo: 'Viena sesija trunka 50 minučių.',
       steps: {
         first: {
           title: 'Pirmasis susitikimas',
@@ -207,8 +208,9 @@ const translations: Record<Language, Translations> = {
       address: 'Adresas',
       hours: 'Darbo laikas',
       workingHours: 'I-V 8.00-20.00',
-      cancellationTitle: 'Apie atšaukimą',
-      cancellationPolicy: 'Prašau pranešti ne vėliau kaip 24 valandas prieš sesiją. Kai įmanoma, stengiuosi būti lankstus ir perkelti susitikimą į tą pačią savaitę. Jei aš vėluoju – atidirbinu laiką. Jei vėluojate jūs – sesija vyksta likusį laiką.'
+      cancellationTitle: 'Atšaukimas ir apmokėjimas',
+      cancellationPolicy: 'Prašau pranešti ne vėliau kaip 24 valandas prieš sesiją. Kai įmanoma, stengiuosi būti lankstus ir perkelti susitikimą į tą pačią savaitę. Jei aš vėluoju – atidirbinu laiką. Jei vėluojate jūs – sesija vyksta likusį laiką.',
+      paymentNote: 'Vėliau nei 24 valandas prieš sesiją atšauktos ar praleistos sesijos yra apmokestinamos.'
     },
     footer: {
       quote: '„Terapija nėra receptas. Tai kelionė į save."',
@@ -268,7 +270,7 @@ const translations: Record<Language, Translations> = {
     process: {
       title: 'How does therapy work?',
       subtitle: 'A therapeutic process that helps discover new perspectives and solutions.',
-      sessionDuration: 'Session duration: 50 min.',
+      sessionInfo: 'One session lasts 50 minutes.',
       steps: {
         first: {
           title: 'First meeting',
@@ -333,8 +335,9 @@ const translations: Record<Language, Translations> = {
       address: 'Address',
       hours: 'Working hours',
       workingHours: 'Mon-Fri 8:00-20:00',
-      cancellationTitle: 'About cancellation',
-      cancellationPolicy: 'Please notify at least 24 hours before your session. When possible, I try to be flexible and reschedule your session within the same week. If I am late – I make up the time. If you are late – the session continues for the remaining time.'
+      cancellationTitle: 'Cancellation and payment',
+      cancellationPolicy: 'Please notify at least 24 hours before your session. When possible, I try to be flexible and reschedule your session within the same week. If I am late – I make up the time. If you are late – the session continues for the remaining time.',
+      paymentNote: 'Sessions cancelled or missed with less than 24 hours notice will be charged.'
     },
     footer: {
       quote: '"Therapy is not a prescription. It\'s a journey to yourself."',

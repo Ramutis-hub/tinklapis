@@ -56,8 +56,8 @@ export function Process() {
         </div>
 
         <div className="mt-16 pt-12 border-t border-therapy-warm-200">
-          <p className="text-center text-therapy-warm-600 text-sm md:text-base">
-            {t.process.sessionDuration}
+          <p className="text-center text-therapy-warm-700 text-base md:text-lg">
+            {t.process.sessionInfo}
           </p>
         </div>
       </div>
