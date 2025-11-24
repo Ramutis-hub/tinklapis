@@ -31,24 +31,24 @@ export function Journey() {
           </motion.div>
         </div>
 
-        <motion.div 
-          className="card"
+        <motion.div
+          className="mt-12"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h3 className="service-title mb-6 text-center">{t.about.education.title}</h3>
-          <div className="space-y-3 text-therapy-warm-700">
+          <h3 className="text-2xl font-serif text-therapy-warm-800 mb-8 text-center">{t.about.education.title}</h3>
+          <div className="space-y-6 text-therapy-warm-700 max-w-3xl mx-auto">
             {t.about.education.items.map((item, index) => (
-              <div key={index} className="text-sm md:text-base leading-relaxed border-b border-therapy-warm-100 last:border-b-0 pb-2 last:pb-0">
-                <div className="font-medium text-therapy-warm-800">{item.title}</div>
-                <div className="text-therapy-sage-600 text-sm">{item.institution}</div>
+              <div key={index} className="text-sm md:text-base leading-relaxed">
+                <div className="font-medium text-therapy-warm-900 mb-1">{item.title}</div>
+                <div className="text-therapy-sage-600">{item.institution}</div>
               </div>
             ))}
           </div>
-          <div className="border-t border-therapy-warm-200 mt-6 pt-4">
-            <p className="text-therapy-warm-600 text-center text-xs md:text-sm">
+          <div className="mt-8 pt-6">
+            <p className="text-therapy-warm-600 text-center text-sm italic max-w-2xl mx-auto">
               {t.about.education.note}
             </p>
           </div>
