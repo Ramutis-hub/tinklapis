@@ -146,8 +146,7 @@ const translations: Record<Language, Translations> = {
         keywords: [
           'Konfliktų sprendimas',
           'Sveikų ribų nustatymas',
-          'Pasitikėjimo ir artumo stiprinimas',
-          'Įvairių santykių formų palaikymas'
+          'Pasitikėjimo ir artumo stiprinimas'
         ]
       }
     },
@@ -286,8 +285,7 @@ const translations: Record<Language, Translations> = {
         keywords: [
           'Conflict resolution',
           'Setting healthy boundaries',
-          'Strengthening trust and intimacy',
-          'Supporting various relationship forms'
+          'Strengthening trust and intimacy'
         ]
       }
     },
