@@ -2,7 +2,7 @@ export const formalEducation = [
   {
     title: 'Klinikinės psichologijos magistrantūra',
     institution: 'Université Côte d\'Azur, Nica, Prancūzija',
-    description: 'Specializacija psichoanalizėje',
+    description: 'Studijos Prancūzijos universitete su Lakaniška psichoanalitine pakraipa',
     benefit: 'Gilinimasis į psichoanalitinę praktiką padeda man geriau suprasti ir atliepti jūsų poreikius terapijoje'
   },
   {
