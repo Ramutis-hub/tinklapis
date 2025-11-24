@@ -78,73 +78,81 @@ export function Header() {
         </div>
 
         {isMenuOpen && (
-          <motion.div 
-            className="md:hidden fixed inset-0 top-16 bg-therapy-warm-50/98 backdrop-blur-sm"
-            initial={{ opacity: 0, y: -10 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -10 }}
-          >
-            <div className="container py-8">
-              <div className="flex flex-col gap-6">
-                <a 
-                  href="#paslaugos" 
-                  className="text-lg text-therapy-warm-800 hover:text-therapy-sage-600 transition-colors py-2"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {t.nav.services}
-                </a>
-                <a 
-                  href="#apie" 
-                  className="text-lg text-therapy-warm-800 hover:text-therapy-sage-600 transition-colors py-2"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {t.nav.about}
-                </a>
-                <a 
-                  href="#kontaktai" 
-                  className="text-lg text-therapy-warm-800 hover:text-therapy-sage-600 transition-colors py-2"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {t.nav.contact}
-                </a>
-                
-                {/* Language Switcher - Mobile */}
-                <div className="border-t border-therapy-warm-200 pt-4 mt-2">
-                  <div className="mb-3">
-                    <span className="text-therapy-warm-700 font-medium">Kalba / Language</span>
-                  </div>
-                  <div className="flex gap-2">
-                    <button
-                      onClick={() => {
-                        changeLanguage('lt');
-                        setIsMenuOpen(false);
-                      }}
-                      className={`px-4 py-2 rounded-sm text-sm font-medium transition-colors ${
-                        language === 'lt' 
-                          ? 'bg-therapy-sage-600 text-white' 
-                          : 'bg-therapy-warm-100 text-therapy-warm-700 hover:bg-therapy-warm-200'
-                      }`}
-                    >
-                      Lietuvių
-                    </button>
-                    <button
-                      onClick={() => {
-                        changeLanguage('en');
-                        setIsMenuOpen(false);
-                      }}
-                      className={`px-4 py-2 rounded-sm text-sm font-medium transition-colors ${
-                        language === 'en' 
-                          ? 'bg-therapy-sage-600 text-white' 
-                          : 'bg-therapy-warm-100 text-therapy-warm-700 hover:bg-therapy-warm-200'
-                      }`}
-                    >
-                      English
-                    </button>
+          <>
+            <motion.div
+              className="md:hidden fixed inset-0 bg-black/30 z-30 top-16"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setIsMenuOpen(false)}
+            />
+            <motion.div
+              className="md:hidden fixed left-0 right-0 top-16 bg-therapy-warm-50 shadow-xl z-40"
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+            >
+              <div className="px-6 py-6">
+                <div className="flex flex-col gap-4">
+                  <a
+                    href="#paslaugos"
+                    className="text-lg font-medium text-therapy-warm-800 hover:text-therapy-sage-600 transition-colors py-3 border-b border-therapy-warm-200"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {t.nav.services}
+                  </a>
+                  <a
+                    href="#apie"
+                    className="text-lg font-medium text-therapy-warm-800 hover:text-therapy-sage-600 transition-colors py-3 border-b border-therapy-warm-200"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {t.nav.about}
+                  </a>
+                  <a
+                    href="#kontaktai"
+                    className="text-lg font-medium text-therapy-warm-800 hover:text-therapy-sage-600 transition-colors py-3 border-b border-therapy-warm-200"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {t.nav.contact}
+                  </a>
+
+                  <div className="pt-2">
+                    <div className="mb-3">
+                      <span className="text-sm text-therapy-warm-600 font-medium">Kalba / Language</span>
+                    </div>
+                    <div className="flex gap-3">
+                      <button
+                        onClick={() => {
+                          changeLanguage('lt');
+                          setIsMenuOpen(false);
+                        }}
+                        className={`flex-1 px-4 py-2.5 rounded-sm text-sm font-medium transition-colors ${
+                          language === 'lt'
+                            ? 'bg-therapy-sage-600 text-white shadow-sm'
+                            : 'bg-therapy-warm-100 text-therapy-warm-700 hover:bg-therapy-warm-200'
+                        }`}
+                      >
+                        Lietuvių
+                      </button>
+                      <button
+                        onClick={() => {
+                          changeLanguage('en');
+                          setIsMenuOpen(false);
+                        }}
+                        className={`flex-1 px-4 py-2.5 rounded-sm text-sm font-medium transition-colors ${
+                          language === 'en'
+                            ? 'bg-therapy-sage-600 text-white shadow-sm'
+                            : 'bg-therapy-warm-100 text-therapy-warm-700 hover:bg-therapy-warm-200'
+                        }`}
+                      >
+                        English
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </motion.div>
+            </motion.div>
+          </>
         )}
       </nav>
     </motion.header>
