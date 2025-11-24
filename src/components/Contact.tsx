@@ -41,7 +41,7 @@ export function Contact() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-4xl mx-auto">
           {/* Professional Portrait */}
           <div className="order-2 lg:order-1">
-            <div className="aspect-[3/4] rounded-lg overflow-hidden shadow-2xl max-w-sm mx-auto">
+            <div className="aspect-[3/4] rounded-lg overflow-hidden shadow-2xl max-w-xs mx-auto">
               <img
                 src="/images/apie mane copy copy copy copy copy.jpg"
                 alt="Psichoterapeutas Ramutis Klimanskis"
