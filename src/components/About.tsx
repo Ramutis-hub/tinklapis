@@ -17,17 +17,7 @@ export function About() {
 
           <div className="space-y-6 text-lacanian-real-200 mb-12">
             {t.about.paragraphs.map((paragraph, index) => (
-              <p key={index} lang="lt" className="leading-relaxed" style={{
-                textAlign: 'justify',
-                textJustify: 'inter-word',
-                textAlignLast: 'left',
-                hyphens: 'auto',
-                WebkitHyphens: 'auto',
-                MozHyphens: 'auto',
-                msHyphens: 'auto',
-                wordBreak: 'break-word',
-                overflowWrap: 'break-word'
-              }}>
+              <p key={index} className="leading-relaxed text-justify hyphens-auto">
                 {paragraph}
               </p>
             ))}
