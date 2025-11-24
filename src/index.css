@@ -68,8 +68,8 @@ body {
   }
 
   .nav-link {
-    @apply text-sm md:text-base text-therapy-warm-800 hover:text-therapy-sage-600 
-           transition-colors font-medium;
+    @apply text-sm md:text-base text-therapy-warm-800 hover:text-therapy-sage-600
+           transition-colors font-medium flex items-center;
   }
 
   .service-title {
