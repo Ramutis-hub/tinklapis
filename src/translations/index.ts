@@ -203,8 +203,8 @@ const translations: Record<Language, Translations> = {
       hours: 'Darbo laikas',
       workingHours: 'I-V 8.00-20.00',
       sessionDuration: 'Sesijos trukmė: 50 min.',
-      cancellationTitle: 'ATŠAUKIMO POLITIKA:',
-      cancellationPolicy: 'Praleistos ar atšauktos sesijos apmokestinamos, jei nesusisiekiate ne vėliau kaip 24 valandas iki susitikimo. Tačiau būčiau dėkingas, jei apie atšaukimą praneštumėte kuo greičiau. Kai įmanoma, stengiuosi būti lankstus ir perkelti jūsų sesiją į tą pačią savaitę. Jei aš vėluoju, atidirbinu prarastą laiką (taigi gaunate pilną sesiją). Jei jūs vėluojate, prarastas laikas neatidirbamas.'
+      cancellationTitle: 'Apie atšaukimą',
+      cancellationPolicy: 'Prašau pranešti ne vėliau kaip 24 valandas prieš sesiją. Kai įmanoma, stengiuosi būti lankstus ir perkelti susitikimą į tą pačią savaitę. Jei aš vėluoju – atidirbinu laiką. Jei vėluojate jūs – sesija vyksta likusį laiką.'
     },
     footer: {
       quote: '„Terapija nėra receptas. Tai kelionė į save."',
@@ -329,8 +329,8 @@ const translations: Record<Language, Translations> = {
       hours: 'Working hours',
       workingHours: 'Mon-Fri 8:00-20:00',
       sessionDuration: 'Session duration: 50 min.',
-      cancellationTitle: 'CANCELLATION POLICY:',
-      cancellationPolicy: 'I do charge for missed or cancelled sessions unless I am notified 24 hours before the time of your appointment. However, I would appreciate knowing about the cancellations as soon as possible. When I can, I try to be as flexible as possible to reschedule your session in the same week. If I am late, I make up the lost time (so you get your full session). If you are late, I do not make up the lost time.'
+      cancellationTitle: 'About cancellation',
+      cancellationPolicy: 'Please notify at least 24 hours before your session. When possible, I try to be flexible and reschedule your session within the same week. If I am late – I make up the time. If you are late – the session continues for the remaining time.'
     },
     footer: {
       quote: '"Therapy is not a prescription. It\'s a journey to yourself."',
