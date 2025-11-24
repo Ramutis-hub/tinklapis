@@ -26,14 +26,14 @@ export function Process() {
   return (
     <Section background="light" className="bg-white">
       <div className="max-w-3xl mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 md:mb-12">
           <h2 className="section-title">{t.process.title}</h2>
           <p className="text-base md:text-lg text-therapy-warm-700">
             {t.process.subtitle}
           </p>
         </div>
 
-        <div className="space-y-16">
+        <div className="space-y-10 md:space-y-12">
           {steps.map((step, index) => (
             <motion.div
               key={index}
@@ -55,7 +55,7 @@ export function Process() {
           ))}
         </div>
 
-        <div className="mt-16 pt-12 border-t border-therapy-warm-200">
+        <div className="mt-10 md:mt-12 pt-8 md:pt-10 border-t border-therapy-warm-200">
           <p className="text-center text-therapy-warm-700 text-base md:text-lg">
             {t.process.sessionInfo}
           </p>

@@ -31,24 +31,24 @@ export function Services() {
     <Section id="paslaugos" background="light" className="bg-therapy-warm-50/50">
       <div className="max-w-4xl mx-auto">
         <FadeIn>
-          <div className="text-center mb-16">
+          <div className="text-center mb-10 md:mb-12">
             <h2 className="section-title">
               {t.services.title}
             </h2>
-            <p className="text-therapy-warm-700 text-lg">
+            <p className="text-therapy-warm-700 text-base md:text-lg">
               {t.services.subtitle}
             </p>
           </div>
         </FadeIn>
 
-        <div className="space-y-12">
+        <div className="space-y-8 md:space-y-10">
           {services.map((service, index) => (
             <FadeIn key={index} delay={index * 0.2}>
               <div className="max-w-2xl mx-auto">
-                <h3 className="text-2xl font-serif text-therapy-warm-900 mb-4 text-center">
+                <h3 className="text-xl md:text-2xl font-serif text-therapy-warm-900 mb-3 md:mb-4 text-center">
                   {service.title}
                 </h3>
-                <p className="text-base md:text-lg text-therapy-warm-700 mb-6 leading-relaxed text-center">
+                <p className="text-base md:text-lg text-therapy-warm-700 mb-4 md:mb-6 leading-relaxed text-center">
                   {service.description}
                 </p>
                 <ul className="space-y-2 max-w-xl mx-auto">

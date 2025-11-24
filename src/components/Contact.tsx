@@ -8,23 +8,23 @@ export function Contact() {
   const t = useTranslations(language);
 
   return (
-    <section id="kontaktai" className="py-12 md:py-14 bg-therapy-warm-800 relative overflow-hidden">
+    <section id="kontaktai" className="py-12 md:py-16 bg-therapy-warm-800 relative overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-64 h-64 bg-therapy-sage-300/8 rounded-full blur-3xl"></div>
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-therapy-sage-300/4 rounded-full blur-3xl"></div>
       
       <div className="max-w-5xl mx-auto px-6 relative z-10">
-        <h2 className="section-title text-center text-white mb-6">
+        <h2 className="section-title text-center text-white mb-6 md:mb-8">
           {t.contact.title}
         </h2>
         
-        <div className="text-center mb-8">
+        <div className="text-center mb-6 md:mb-8">
           <p className="text-therapy-warm-100 text-lg md:text-xl font-medium mb-4">
             {t.contact.subtitle}
           </p>
         </div>
 
-        <div className="text-center mb-12">
+        <div className="text-center mb-8 md:mb-10">
           <div className="space-y-3">
             <p className="text-therapy-warm-100 text-base md:text-lg">{t.contact.description}</p>
             <p className="text-therapy-warm-200 text-sm md:text-base">{t.contact.languages}</p>

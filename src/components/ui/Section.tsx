@@ -19,9 +19,9 @@ export function Section({
   };
 
   return (
-    <section 
+    <section
       id={id}
-      className={`py-20 ${backgrounds[background]} ${className}`}
+      className={`py-12 md:py-16 ${backgrounds[background]} ${className}`}
     >
       <div className="max-w-6xl mx-auto px-6">
         {children}
