@@ -6,13 +6,7 @@
 
 /* Base styles */
 html {
-  scroll-padding-top: 5rem;
-}
-
-@media (min-width: 768px) {
-  html {
-    scroll-padding-top: 6rem;
-  }
+  scroll-padding-top: 50vh;
 }
 
 body {
