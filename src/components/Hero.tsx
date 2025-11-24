@@ -27,7 +27,7 @@ export function Hero() {
           </div>
 
           <div className="relative fade-in flex justify-center md:justify-end">
-            <div className="aspect-[4/5] bg-lacanian-symbolic-100 rounded-sm overflow-hidden shadow-sm max-w-[320px] w-full">
+            <div className="aspect-[4/5] bg-lacanian-symbolic-100 rounded-sm overflow-hidden shadow-sm max-w-[260px] w-full">
               <img
                 src={IMAGES.PROFILE_PORTRAIT}
                 alt="Psichoterapeutas Ramutis Klimanskis"
@@ -35,8 +35,8 @@ export function Hero() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-lacanian-symbolic-100/20 to-transparent"></div>
             </div>
-            <div className="absolute -bottom-4 -left-4 w-20 h-20 border-2 border-lacanian-symbolic-500/60"></div>
-            <div className="absolute -top-4 -right-4 w-20 h-20 border-2 border-lacanian-symbolic-500/60"></div>
+            <div className="absolute -bottom-4 -left-4 w-16 h-16 border-2 border-lacanian-symbolic-500/60"></div>
+            <div className="absolute -top-4 -right-4 w-16 h-16 border-2 border-lacanian-symbolic-500/60"></div>
           </div>
         </div>
       </div>
