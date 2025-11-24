@@ -75,7 +75,8 @@ export interface Translations {
     hours: string;
     workingHours: string;
     sessionDuration: string;
-    cancellation: string;
+    cancellationTitle: string;
+    cancellationPolicy: string;
   };
   footer: {
     quote: string;
@@ -202,7 +203,8 @@ const translations: Record<Language, Translations> = {
       hours: 'Darbo laikas',
       workingHours: 'I-V 8.00-20.00',
       sessionDuration: 'Sesijos trukmė: 50 min.',
-      cancellation: 'Atšaukimas: ne vėliau kaip 24 val. iki susitikimo (vėliau atšauktos sesijos apmokestinamos).'
+      cancellationTitle: 'ATŠAUKIMO POLITIKA:',
+      cancellationPolicy: 'Praleistos ar atšauktos sesijos apmokestinamos, jei nesusisiekiate ne vėliau kaip 24 valandas iki susitikimo. Tačiau būčiau dėkingas, jei apie atšaukimą praneštumėte kuo greičiau. Kai įmanoma, stengiuosi būti lankstus ir perkelti jūsų sesiją į tą pačią savaitę. Jei aš vėluoju, atidirbinu prarastą laiką (taigi gaunate pilną sesiją). Jei jūs vėluojate, prarastas laikas neatidirbamas.'
     },
     footer: {
       quote: '„Terapija nėra receptas. Tai kelionė į save."',
@@ -327,7 +329,8 @@ const translations: Record<Language, Translations> = {
       hours: 'Working hours',
       workingHours: 'Mon-Fri 8:00-20:00',
       sessionDuration: 'Session duration: 50 min.',
-      cancellation: 'Cancellation: no later than 24 hours before the meeting (later cancelled sessions are charged).'
+      cancellationTitle: 'CANCELLATION POLICY:',
+      cancellationPolicy: 'I do charge for missed or cancelled sessions unless I am notified 24 hours before the time of your appointment. However, I would appreciate knowing about the cancellations as soon as possible. When I can, I try to be as flexible as possible to reschedule your session in the same week. If I am late, I make up the lost time (so you get your full session). If you are late, I do not make up the lost time.'
     },
     footer: {
       quote: '"Therapy is not a prescription. It\'s a journey to yourself."',
