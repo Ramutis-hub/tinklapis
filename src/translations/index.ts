@@ -287,11 +287,11 @@ const translations: Record<Language, Translations> = {
       }
     },
     about: {
-      title: 'About Me',
+      title: 'Apie mane',
       paragraphs: [
-        'As a therapist, I work interactively, focusing on what happens between us here and now. I believe that the therapeutic relationship itself is healing – authentic connection and open dialogue can open the path to change.',
-        'Studying in France, delving into Lacanian psychoanalysis and Gestalt therapy in international trainings, I discovered that the greatest changes occur when a person becomes more conscious of their feelings and experiences. This allows overcoming internal blocks and finding more freedom to live.',
-        'Each therapy is unique because it is created by both of us – you and me. I come to our meetings with openness, curiosity, flexibility, and respect for your journey.'
+        'Kaip terapeutas, dirbu interaktyviai, orientuodamasis į tai, kas vyksta tarp mūsų čia ir dabar. Tikiu, kad terapinis santykis pats savaime yra gydantis – autentiškas ryšys ir atviras dialogas gali atverti kelią pokyčiams.',
+        'Mokydamasis Prancūzijoje, gilindamasis į Lacano psichoanalizę ir Gestalt terapiją tarptautiniuose mokymuose, atradau, kad didžiausi pokyčiai įvyksta tada, kai žmogus tampa sąmoningesnis savo jausmams ir patirtims. Tai leidžia įveikti vidinius blokus ir atrasti daugiau laisvės gyventi.',
+        'Kiekviena terapija yra unikali, nes ją kuria abu – tiek jūs, tiek aš. Į mūsų susitikimus ateinu su atvirumu, smalsumu, lankstumu ir pagarba jūsų keliui.'
       ],
       education: {
         title: 'Education',

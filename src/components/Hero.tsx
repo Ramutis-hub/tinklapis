@@ -1,5 +1,4 @@
 import React from 'react';
-import { Circle } from 'lucide-react';
 import { IMAGES } from '../utils/images';
 
 export function Hero() {
@@ -10,12 +9,9 @@ export function Hero() {
       <div className="max-w-6xl mx-auto px-6 relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 fade-in">
-            <div className="flex items-center gap-3">
-              <Circle className="text-lacanian-symbolic-600" size={32} />
-              <h1 className="text-4xl md:text-5xl font-serif text-lacanian-real-800">
-                Dialogo Erdvė
-              </h1>
-            </div>
+            <h1 className="text-4xl md:text-5xl font-serif text-lacanian-real-800">
+              Dialogo Erdvė
+            </h1>
             <p className="text-xl text-lacanian-real-600 leading-relaxed">
               Geštalto terapija – tai kelionė į autentiško Aš atradimą ir gilesnį
               santykį su savimi bei Kitu. Kartu kuriame erdvę, kurioje atsiskleidžia
