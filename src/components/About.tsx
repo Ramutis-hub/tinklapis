@@ -15,9 +15,9 @@ export function About() {
             {t.about.title}
           </h2>
 
-          <div className="space-y-6 text-lacanian-real-200 text-justify mb-12">
+          <div className="space-y-6 text-lacanian-real-200 mb-12">
             {t.about.paragraphs.map((paragraph, index) => (
-              <p key={index}>{paragraph}</p>
+              <p key={index} className="text-left leading-relaxed">{paragraph}</p>
             ))}
           </div>
 
