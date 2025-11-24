@@ -1,5 +1,4 @@
 import React from 'react';
-import { Leaf } from 'lucide-react';
 import { Section } from './ui/Section';
 import { FadeIn } from './ui/animations';
 import { useLanguage } from '../hooks/useLanguage';
@@ -53,9 +52,8 @@ export function Services() {
                 </p>
                 <ul className="space-y-2 max-w-xl mx-auto">
                   {service.keywords.map((keyword, idx) => (
-                    <li key={idx} className="flex items-start gap-3 text-sm text-therapy-warm-700">
-                      <Leaf className="text-therapy-sage-500 flex-shrink-0 mt-1" size={16} />
-                      <span>{keyword}</span>
+                    <li key={idx} className="text-sm text-therapy-warm-700 text-center">
+                      {keyword}
                     </li>
                   ))}
                 </ul>

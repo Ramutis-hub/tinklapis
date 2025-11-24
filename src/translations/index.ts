@@ -137,8 +137,7 @@ const translations: Record<Language, Translations> = {
         keywords: [
           'Darbas su netektimis, smurtu, karo patirtimis',
           'Emocijų reguliacija ir saugaus ryšio kūrimas',
-          'Potrauminio augimo galimybės',
-          'Diskriminacijos patirčių apdorojimas'
+          'Potrauminio augimo galimybės'
         ]
       },
       couples: {
@@ -278,8 +277,7 @@ const translations: Record<Language, Translations> = {
         keywords: [
           'Working with loss, violence, war experiences',
           'Emotion regulation and safe attachment',
-          'Post-traumatic growth opportunities',
-          'Processing discrimination experiences'
+          'Post-traumatic growth opportunities'
         ]
       },
       couples: {
