@@ -55,55 +55,55 @@ export function Contact() {
           </div>
 
           {/* Contact Information */}
-          <div className="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-white p-6 md:p-8 rounded-sm border border-therapy-warm-200 hover:border-therapy-sage-300 transition-all duration-300 shadow-sm">
-              <div className="flex flex-col items-center text-center gap-4 h-full justify-center">
-                <div className="bg-therapy-sage-50 p-4 rounded-sm">
-                  <Phone className="text-therapy-sage-600" size={28} />
+          <div className="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="bg-white p-4 rounded-sm border border-therapy-warm-200 hover:border-therapy-sage-300 transition-all duration-300 shadow-sm">
+              <div className="flex flex-col items-center text-center gap-3 h-full justify-center">
+                <div className="bg-therapy-sage-50 p-3 rounded-sm">
+                  <Phone className="text-therapy-sage-600" size={22} />
                 </div>
                 <div>
-                  <h3 className="contact-title mb-3">{t.contact.phone}</h3>
-                  <a href="tel:+37062176092" className="text-therapy-warm-700 text-base md:text-lg font-medium hover:text-therapy-sage-600 transition-colors">
+                  <h3 className="text-sm font-medium text-therapy-warm-600 mb-1.5">{t.contact.phone}</h3>
+                  <a href="tel:+37062176092" className="text-therapy-warm-700 text-base font-medium hover:text-therapy-sage-600 transition-colors">
                     +370 621 76092
                   </a>
                 </div>
               </div>
             </div>
 
-            <div className="bg-white p-6 md:p-8 rounded-sm border border-therapy-warm-200 hover:border-therapy-sage-300 transition-all duration-300 shadow-sm">
-              <div className="flex flex-col items-center text-center gap-4 h-full justify-center">
-                <div className="bg-therapy-sage-50 p-4 rounded-sm">
-                  <Mail className="text-therapy-sage-600" size={28} />
+            <div className="bg-white p-4 rounded-sm border border-therapy-warm-200 hover:border-therapy-sage-300 transition-all duration-300 shadow-sm">
+              <div className="flex flex-col items-center text-center gap-3 h-full justify-center">
+                <div className="bg-therapy-sage-50 p-3 rounded-sm">
+                  <Mail className="text-therapy-sage-600" size={22} />
                 </div>
                 <div>
-                  <h3 className="contact-title mb-3">{t.contact.email}</h3>
-                  <a href="mailto:ramutis.klimanskis@gmail.com" className="text-therapy-warm-700 font-medium hover:text-therapy-sage-600 transition-colors text-sm md:text-base break-all">
+                  <h3 className="text-sm font-medium text-therapy-warm-600 mb-1.5">{t.contact.email}</h3>
+                  <a href="mailto:ramutis.klimanskis@gmail.com" className="text-therapy-warm-700 text-sm font-medium hover:text-therapy-sage-600 transition-colors break-all">
                     ramutis.klimanskis@gmail.com
                   </a>
                 </div>
               </div>
             </div>
 
-            <div className="bg-white p-6 md:p-8 rounded-sm border border-therapy-warm-200 hover:border-therapy-sage-300 transition-all duration-300 shadow-sm">
-              <div className="flex flex-col items-center text-center gap-4 h-full justify-center">
-                <div className="bg-therapy-sage-50 p-4 rounded-sm">
-                  <MapPin className="text-therapy-sage-600" size={28} />
+            <div className="bg-white p-4 rounded-sm border border-therapy-warm-200 hover:border-therapy-sage-300 transition-all duration-300 shadow-sm">
+              <div className="flex flex-col items-center text-center gap-3 h-full justify-center">
+                <div className="bg-therapy-sage-50 p-3 rounded-sm">
+                  <MapPin className="text-therapy-sage-600" size={22} />
                 </div>
                 <div>
-                  <h3 className="contact-title mb-3">{t.contact.address}</h3>
-                  <p className="text-therapy-warm-700 text-base md:text-lg font-medium">Kęstučio g. 17, Vilnius</p>
+                  <h3 className="text-sm font-medium text-therapy-warm-600 mb-1.5">{t.contact.address}</h3>
+                  <p className="text-therapy-warm-700 text-base font-medium">Kęstučio g. 17, Vilnius</p>
                 </div>
               </div>
             </div>
 
-            <div className="bg-white p-6 md:p-8 rounded-sm border border-therapy-warm-200 hover:border-therapy-sage-300 transition-all duration-300 shadow-sm">
-              <div className="flex flex-col items-center text-center gap-4 h-full justify-center">
-                <div className="bg-therapy-sage-50 p-4 rounded-sm">
-                  <Clock className="text-therapy-sage-600" size={28} />
+            <div className="bg-white p-4 rounded-sm border border-therapy-warm-200 hover:border-therapy-sage-300 transition-all duration-300 shadow-sm">
+              <div className="flex flex-col items-center text-center gap-3 h-full justify-center">
+                <div className="bg-therapy-sage-50 p-3 rounded-sm">
+                  <Clock className="text-therapy-sage-600" size={22} />
                 </div>
                 <div>
-                  <h3 className="contact-title mb-3">{t.contact.hours}</h3>
-                  <p className="text-therapy-warm-700 text-base md:text-lg font-medium">I-V 8.00-20.00</p>
+                  <h3 className="text-sm font-medium text-therapy-warm-600 mb-1.5">{t.contact.hours}</h3>
+                  <p className="text-therapy-warm-700 text-base font-medium">I-V 8.00-20.00</p>
                 </div>
               </div>
             </div>
