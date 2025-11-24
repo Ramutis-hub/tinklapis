@@ -19,8 +19,14 @@ export function About() {
             {t.about.paragraphs.map((paragraph, index) => (
               <p
                 key={index}
-                className="text-justify leading-relaxed indent-8"
-                style={{ hyphens: 'auto', textAlignLast: 'left' }}
+                className="leading-relaxed"
+                style={{
+                  textAlign: 'justify',
+                  textJustify: 'inter-word',
+                  hyphens: 'auto',
+                  WebkitHyphens: 'auto',
+                  MozHyphens: 'auto'
+                }}
               >
                 {paragraph}
               </p>
