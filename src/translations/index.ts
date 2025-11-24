@@ -315,9 +315,12 @@ const translations: Record<Language, Translations> = {
     about: {
       title: 'About Me',
       paragraphs: [
-        'As a therapist, I work interactively, focusing on what happens between us here and now. I believe that the therapeutic relationship itself is healing – authentic connection and open dialogue can open the path to change.',
-        'Studying in France, delving into Lacanian psychoanalysis and Gestalt therapy in international trainings, I discovered that the greatest changes occur when a person becomes more conscious of their feelings and experiences. This allows overcoming internal blocks and finding more freedom to live.',
-        'Each therapy is unique because it is created by both of us – you and me. I come to our meetings with openness, curiosity, flexibility, and respect for your journey.'
+        'As a therapist, I pay close attention to what happens between us in the moment — in our conversation, in the pauses, in what feels easy and in what feels difficult. I believe that real change begins when we can meet each other honestly, without rushing, and simply stay with what is true for you right now.',
+        'My path in this work has been shaped by clinical psychology, my studies in France, and long-term training in Lacanian psychoanalysis and Gestalt therapy. Over the years, I\'ve learned that change happens when a person becomes more aware of what moves them — not only their feelings, but also their patterns, wishes, conflicts, defenses, the stories they tell and the ones they avoid, the things that return again and again, and even the moments where words fail. When these layers become more visible, life often starts to feel less fixed and more open.',
+        'In therapy, I don\'t come with a fixed plan or ready-made answers. Instead, I try to meet you as you are. I bring openness, curiosity, and a willingness to stay present with whatever you\'re experiencing — whether it\'s confusion, pain, clarity, or something in between.',
+        'People come to me with many different struggles: relationship difficulties, emotional pain, anxiety, burnout, or simply a sense that something inside feels stuck. Together, we take time to understand what is happening beneath the surface and what needs attention.',
+        'I see therapy as something we create together. Each session is unique because it\'s shaped by the two of us — your honesty and readiness to explore, and my commitment to meet you respectfully, thoughtfully, and with care.',
+        'My hope is to offer a space where you can breathe a little easier, hear yourself more clearly, and reconnect with parts of you that may have been silent for a long time — so you can move toward a life that feels more free, grounded, and your own.'
       ],
       values: {
         professional: {
