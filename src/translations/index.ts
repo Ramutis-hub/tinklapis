@@ -172,9 +172,12 @@ const translations: Record<Language, Translations> = {
     about: {
       title: 'Apie mane',
       paragraphs: [
-        'Kaip terapeutas, dirbu interaktyviai, orientuodamasis į tai, kas vyksta tarp mūsų čia ir dabar. Tikiu, kad terapinis santykis pats savaime yra gydantis – autentiškas ryšys ir atviras dialogas gali atverti kelią pokyčiams.',
-        'Mokydamasis Prancūzijoje, gilindamasis į Lacano psichoanalizę ir Gestalt terapiją tarptautiniuose mokymuose, atradau, kad didžiausi pokyčiai įvyksta tada, kai žmogus tampa sąmoningesnis savo jausmams ir patirtims. Tai leidžia įveikti vidinius blokus ir atrasti daugiau laisvės gyventi.',
-        'Kiekviena terapija yra unikali, nes ją kuria abu – tiek jūs, tiek aš. Į mūsų susitikimus ateinu su atvirumu, smalsumu, lankstumu ir pagarba jūsų keliui.'
+        'Kaip terapeutas, atidžiai stengiuosi pastebėti, kas vyksta tarp mūsų čia ir dabar – mūsų pokalbyje, pauzėse, tame, kas jaučiasi lengva, ir tame, kas sunku. Tikiu, kad tikras pokytis prasideda tada, kai galime susitikti sąžiningai, neskubėdami ir tiesiog būdami su tuo, kas jums dabar yra tiesa.',
+        'Mano kelią šiame darbe formavo klinikinė psichologija, studijos Prancūzijoje ir ilgalaikiai mokymai Lacano psichoanalizėje bei Gestalt terapijoje. Per metus sužinojau, kad pokytis įvyksta tada, kai žmogus tampa labiau sąmoningas to, kas jį jaudina – ne tik savo jausmų, bet ir modelių, norų, konfliktų, gynybos mechanizmų, istorijų, kurias pasakoja, ir tų, kurių vengia, dalykų, kurie kartojasi vėl ir vėl, net momentų, kai žodžiai nebetenka prasmės. Kai šie sluoksniai tampa labiau matomi, gyvenimas dažnai pradeda atrodyti mažiau fiksuotas ir atviresnis.',
+        'Terapijoje neatėjau su fiksuotu planu ar paruoštais atsakymais. Vietoj to stengiuosi sutikti jus tokius, kokie esate. Ateinu su atvirumu, smalsumu ir noru būti čia su tuo, ką patiriat – nesvarbu, ar tai būtų painiava, skausmas, aiškumas ar kažkas tarp.',
+        'Žmonės ateina pas mane su įvairiomis problemomis: santykių sunkumais, emociniu skausmu, nerimu, perdegimo sindromo ar tiesiog jausmu, kad kažkas viduje yra užstrigę. Kartu skiriame laiko suprasti, kas vyksta po paviršiumi ir kas reikalauja dėmesio.',
+        'Matau terapiją kaip kažką, ką kuriame kartu. Kiekviena sesija yra unikali, nes ją formuoja mes abu – jūsų sąžiningumas ir pasirengimas tyrinėti bei mano įsipareigojimas sutikti jus su pagarba, atidumu ir rūpesčiu.',
+        'Mano viltis – pasiūlyti erdvę, kurioje galėtumėte kvėpuoti šiek tiek lengviau, aiškiau girdėti save ir iš naujo susieti su jūsų dalimis, kurios galbūt ilgą laiką tylėjo – kad galėtumėte judėti link gyvenimo, kuris jaučiasi laisvesnis, pagrįstesnis ir jūsų pačių.'
       ],
       values: {
         professional: {
