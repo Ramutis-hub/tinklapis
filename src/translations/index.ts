@@ -74,6 +74,8 @@ export interface Translations {
     address: string;
     hours: string;
     workingHours: string;
+    sessionDuration: string;
+    cancellation: string;
   };
   footer: {
     quote: string;
@@ -198,7 +200,9 @@ const translations: Record<Language, Translations> = {
       email: 'El. paštas',
       address: 'Adresas',
       hours: 'Darbo laikas',
-      workingHours: 'I-V 8.00-20.00'
+      workingHours: 'I-V 8.00-20.00',
+      sessionDuration: 'Sesijos trukmė: 50 min.',
+      cancellation: 'Atšaukimas: ne vėliau kaip 24 val. iki susitikimo (vėliau atšauktos sesijos apmokestinamos).'
     },
     footer: {
       quote: '„Terapija nėra receptas. Tai kelionė į save."',
@@ -321,7 +325,9 @@ const translations: Record<Language, Translations> = {
       email: 'Email',
       address: 'Address',
       hours: 'Working hours',
-      workingHours: 'Mon-Fri 8:00-20:00'
+      workingHours: 'Mon-Fri 8:00-20:00',
+      sessionDuration: 'Session duration: 50 min.',
+      cancellation: 'Cancellation: no later than 24 hours before the meeting (later cancelled sessions are charged).'
     },
     footer: {
       quote: '"Therapy is not a prescription. It\'s a journey to yourself."',

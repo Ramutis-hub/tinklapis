@@ -95,9 +95,20 @@ export function Contact() {
               </div>
               <div>
                 <h3 className="text-therapy-warm-100 text-sm font-medium mb-1">{t.contact.hours}</h3>
-                <p className="text-white text-lg font-medium">I-V 8.00-20.00</p>
+                <p className="text-white text-lg font-medium">{t.contact.workingHours}</p>
               </div>
             </div>
+          </div>
+        </div>
+
+        <div className="mt-12 pt-8 border-t border-therapy-warm-600/30">
+          <div className="max-w-2xl mx-auto space-y-3 text-center">
+            <p className="text-therapy-warm-200 text-sm md:text-base">
+              {t.contact.sessionDuration}
+            </p>
+            <p className="text-therapy-warm-300 text-xs md:text-sm leading-relaxed">
+              {t.contact.cancellation}
+            </p>
           </div>
         </div>
       </div>
