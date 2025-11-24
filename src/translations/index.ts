@@ -57,14 +57,26 @@ export interface Translations {
   about: {
     title: string;
     paragraphs: string[];
+    values: {
+      professional: {
+        title: string;
+        description: string;
+      };
+      empathy: {
+        title: string;
+        description: string;
+      };
+      experience: {
+        title: string;
+        description: string;
+      };
+    };
     education: {
       title: string;
       items: {
         title: string;
         institution: string;
       }[];
-        title: string;
-        institution: string;
       note: string;
     };
   };
@@ -166,6 +178,20 @@ const translations: Record<Language, Translations> = {
         'Mokydamasis Prancūzijoje, gilindamasis į Lacano psichoanalizę ir Gestalt terapiją tarptautiniuose mokymuose, atradau, kad didžiausi pokyčiai įvyksta tada, kai žmogus tampa sąmoningesnis savo jausmams ir patirtims. Tai leidžia įveikti vidinius blokus ir atrasti daugiau laisvės gyventi.',
         'Kiekviena terapija yra unikali, nes ją kuria abu – tiek jūs, tiek aš. Į mūsų susitikimus ateinu su atvirumu, smalsumu, lankstumu ir pagarba jūsų keliui.'
       ],
+      values: {
+        professional: {
+          title: 'Profesionalus požiūris',
+          description: 'Remiuosi mokslu pagrįstais metodais'
+        },
+        empathy: {
+          title: 'Empatija',
+          description: 'Kuriu saugią ir palaikančią erdvę'
+        },
+        experience: {
+          title: 'Patirtis',
+          description: 'Nuolatinis profesinis tobulėjimas'
+        }
+      },
       education: {
         title: 'Išsilavinimas',
         items: [
@@ -287,12 +313,26 @@ const translations: Record<Language, Translations> = {
       }
     },
     about: {
-      title: 'Apie mane',
+      title: 'About Me',
       paragraphs: [
-        'Kaip terapeutas, dirbu interaktyviai, orientuodamasis į tai, kas vyksta tarp mūsų čia ir dabar. Tikiu, kad terapinis santykis pats savaime yra gydantis – autentiškas ryšys ir atviras dialogas gali atverti kelią pokyčiams.',
-        'Mokydamasis Prancūzijoje, gilindamasis į Lacano psichoanalizę ir Gestalt terapiją tarptautiniuose mokymuose, atradau, kad didžiausi pokyčiai įvyksta tada, kai žmogus tampa sąmoningesnis savo jausmams ir patirtims. Tai leidžia įveikti vidinius blokus ir atrasti daugiau laisvės gyventi.',
-        'Kiekviena terapija yra unikali, nes ją kuria abu – tiek jūs, tiek aš. Į mūsų susitikimus ateinu su atvirumu, smalsumu, lankstumu ir pagarba jūsų keliui.'
+        'As a therapist, I work interactively, focusing on what happens between us here and now. I believe that the therapeutic relationship itself is healing – authentic connection and open dialogue can open the path to change.',
+        'Studying in France, delving into Lacanian psychoanalysis and Gestalt therapy in international trainings, I discovered that the greatest changes occur when a person becomes more conscious of their feelings and experiences. This allows overcoming internal blocks and finding more freedom to live.',
+        'Each therapy is unique because it is created by both of us – you and me. I come to our meetings with openness, curiosity, flexibility, and respect for your journey.'
       ],
+      values: {
+        professional: {
+          title: 'Professional Approach',
+          description: 'Based on evidence-based methods'
+        },
+        empathy: {
+          title: 'Empathy',
+          description: 'Creating a safe and supportive space'
+        },
+        experience: {
+          title: 'Experience',
+          description: 'Continuous professional development'
+        }
+      },
       education: {
         title: 'Education',
         items: [
