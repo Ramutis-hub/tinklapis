@@ -1,5 +1,5 @@
 import React from 'react';
-import { CircleUser as UserCircle, Brain, Users, Leaf, Sparkles, Eye, Heart, HandHeart } from 'lucide-react';
+import { Leaf } from 'lucide-react';
 import { Section } from './ui/Section';
 import { FadeIn } from './ui/animations';
 import { useLanguage } from '../hooks/useLanguage';
@@ -11,19 +11,16 @@ export function Services() {
 
   const services = [
     {
-      icon: UserCircle,
       title: t.services.individual.title,
       description: t.services.individual.description,
       keywords: t.services.individual.keywords
     },
     {
-      icon: Heart,
       title: t.services.trauma.title,
       description: t.services.trauma.description,
       keywords: t.services.trauma.keywords
     },
     {
-      icon: Users,
       title: t.services.couples.title,
       description: t.services.couples.description,
       keywords: t.services.couples.keywords
@@ -48,11 +45,6 @@ export function Services() {
           {services.map((service, index) => (
             <FadeIn key={index} delay={index * 0.2}>
               <div className="card hover-lift h-full flex flex-col">
-                <div className="flex items-center justify-center mb-6 flex-shrink-0">
-                  <div className="bg-therapy-sage-50 w-16 h-16 rounded-sm flex items-center justify-center">
-                    <service.icon className="text-therapy-sage-600" size={32} />
-                  </div>
-                </div>
                 <h3 className="service-title mb-4 text-center flex-shrink-0">
                   {service.title}
                 </h3>
