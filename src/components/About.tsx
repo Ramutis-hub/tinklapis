@@ -10,22 +10,22 @@ export function About() {
             Apie mane
           </h2>
           
-          <div className="space-y-6 text-lacanian-real-200 text-center mb-12">
+          <div className="space-y-6 text-lacanian-real-200 text-justify mb-12">
             <p>
-              Psichologija ir psichoterapija visada buvo neatskiriama mano gyvenimo dalis. 
-              Nuo pat jaunystės jaučiau ypatingą trauką žmogaus vidiniam pasauliui, 
+              Psichologija ir psichoterapija visada buvo neatskiriama mano gyvenimo dalis.
+              Nuo pat jaunystės jaučiau ypatingą trauką žmogaus vidiniam pasauliui,
               santykiams ir jų dinamikai.
             </p>
             <p>
-              Nuo karo pradžios Ukrainoje palaikau artimą kolegialų ryšį su psichoterapeutais 
-              ir treneriais iš Ukrainos. Ši patirtis leido man giliai susipažinti su traumos 
-              tematika, smurto pasekmėmis, netekties išgyvenimais ir karinių konfliktų 
+              Nuo karo pradžios Ukrainoje palaikau artimą kolegialų ryšį su psichoterapeutais
+              ir treneriais iš Ukrainos. Ši patirtis leido man giliai susipažinti su traumos
+              tematika, smurto pasekmėmis, netekties išgyvenimais ir karinių konfliktų
               keliamais skausmais žmogaus gyvenime.
             </p>
             <p>
-              Kaip psichologas ir psichoterapijos praktikas, kuriu saugią erdvę, kurioje 
-              galite tyrinėti savo patirtis, emocijas ir santykius. Tikiu, kad kiekvienas 
-              žmogus savyje turi atsakymus, o mano vaidmuo – padėti juos atrasti per 
+              Kaip psichologas ir psichoterapijos praktikas, kuriu saugią erdvę, kurioje
+              galite tyrinėti savo patirtis, emocijas ir santykius. Tikiu, kad kiekvienas
+              žmogus savyje turi atsakymus, o mano vaidmuo – padėti juos atrasti per
               profesionalų bendradarbiavimą ir abipusį pasitikėjimą.
             </p>
           </div>
