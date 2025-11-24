@@ -3,7 +3,7 @@ import { Brain, Heart, Sparkles } from 'lucide-react';
 
 export function About() {
   return (
-    <section id="apie" className="py-20 bg-lacanian-real-950">
+    <section id="apie" className="py-12 md:py-16 bg-lacanian-real-950">
       <div className="max-w-6xl mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-serif text-lacanian-real-100 text-center mb-8">

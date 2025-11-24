@@ -30,7 +30,7 @@ export function Header() {
       transition={{ duration: 0.6, ease: "easeOut" }}
     >
       <nav className="container mx-auto">
-        <div className="flex justify-between items-center h-16 md:h-20">
+        <div className="flex justify-between items-center h-14 md:h-16">
           <Logo />
 
           <div className="hidden md:flex items-center gap-8">
@@ -41,29 +41,13 @@ export function Header() {
             </motion.div>
             
             {/* Language Switcher - Desktop */}
-            <motion.div className="flex items-center ml-4">
-              <div className="flex bg-therapy-warm-100 rounded-sm overflow-hidden">
-                <button
-                  onClick={() => changeLanguage('lt')}
-                  className={`px-3 py-1 text-sm font-medium transition-colors ${
-                    language === 'lt' 
-                      ? 'bg-therapy-sage-600 text-white' 
-                      : 'text-therapy-warm-700 hover:bg-therapy-warm-200'
-                  }`}
-                >
-                  LT
-                </button>
-                <button
-                  onClick={() => changeLanguage('en')}
-                  className={`px-3 py-1 text-sm font-medium transition-colors ${
-                    language === 'en' 
-                      ? 'bg-therapy-sage-600 text-white' 
-                      : 'text-therapy-warm-700 hover:bg-therapy-warm-200'
-                  }`}
-                >
-                  EN
-                </button>
-              </div>
+            <motion.div className="flex items-center ml-2">
+              <button
+                onClick={() => changeLanguage(language === 'lt' ? 'en' : 'lt')}
+                className="px-2.5 py-1 text-xs font-medium text-therapy-warm-700 hover:text-therapy-sage-700 transition-colors border border-therapy-warm-300 rounded-sm hover:border-therapy-sage-400"
+              >
+                {language === 'lt' ? 'EN' : 'LT'}
+              </button>
             </motion.div>
           </div>
 
@@ -117,37 +101,15 @@ export function Header() {
                   </a>
 
                   <div className="pt-2">
-                    <div className="mb-3">
-                      <span className="text-sm text-therapy-warm-600 font-medium">Kalba / Language</span>
-                    </div>
-                    <div className="flex gap-3">
-                      <button
-                        onClick={() => {
-                          changeLanguage('lt');
-                          setIsMenuOpen(false);
-                        }}
-                        className={`flex-1 px-4 py-2.5 rounded-sm text-sm font-medium transition-colors ${
-                          language === 'lt'
-                            ? 'bg-therapy-sage-600 text-white shadow-sm'
-                            : 'bg-therapy-warm-100 text-therapy-warm-700 hover:bg-therapy-warm-200'
-                        }`}
-                      >
-                        Lietuvių
-                      </button>
-                      <button
-                        onClick={() => {
-                          changeLanguage('en');
-                          setIsMenuOpen(false);
-                        }}
-                        className={`flex-1 px-4 py-2.5 rounded-sm text-sm font-medium transition-colors ${
-                          language === 'en'
-                            ? 'bg-therapy-sage-600 text-white shadow-sm'
-                            : 'bg-therapy-warm-100 text-therapy-warm-700 hover:bg-therapy-warm-200'
-                        }`}
-                      >
-                        English
-                      </button>
-                    </div>
+                    <button
+                      onClick={() => {
+                        changeLanguage(language === 'lt' ? 'en' : 'lt');
+                        setIsMenuOpen(false);
+                      }}
+                      className="w-full px-4 py-2.5 rounded-sm text-sm font-medium transition-colors bg-therapy-warm-100 text-therapy-warm-700 hover:bg-therapy-warm-200 border border-therapy-warm-300"
+                    >
+                      {language === 'lt' ? 'Switch to English' : 'Perjungti į lietuvių'}
+                    </button>
                   </div>
                 </div>
               </div>

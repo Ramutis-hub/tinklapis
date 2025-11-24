@@ -8,7 +8,7 @@ export function Contact() {
   const t = useTranslations(language);
 
   return (
-    <section id="kontaktai" className="py-16 bg-therapy-warm-800 relative overflow-hidden">
+    <section id="kontaktai" className="py-12 md:py-14 bg-therapy-warm-800 relative overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-64 h-64 bg-therapy-sage-300/8 rounded-full blur-3xl"></div>
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-therapy-sage-300/4 rounded-full blur-3xl"></div>
