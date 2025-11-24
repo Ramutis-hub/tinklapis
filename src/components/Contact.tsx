@@ -38,10 +38,10 @@ export function Contact() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start max-w-4xl mx-auto">
           {/* Professional Portrait */}
-          <div className="order-2 lg:order-1">
-            <div className="aspect-[3/4] rounded-lg overflow-hidden shadow-2xl max-w-xs mx-auto">
+          <div className="order-1 lg:order-1">
+            <div className="aspect-[4/5] rounded-lg overflow-hidden shadow-2xl max-w-[280px] mx-auto lg:mx-0">
               <img
                 src="/images/apie mane copy copy copy copy copy.jpg"
                 alt="Psichoterapeutas Ramutis Klimanskis"
@@ -54,7 +54,7 @@ export function Contact() {
           </div>
 
           {/* Contact Information */}
-          <div className="order-1 lg:order-2 space-y-6">
+          <div className="order-2 lg:order-2 space-y-6">
             <div className="flex items-start gap-4 group">
               <div className="flex-shrink-0 mt-1">
                 <Phone className="text-therapy-sage-400 group-hover:text-therapy-sage-300 transition-colors" size={24} />
