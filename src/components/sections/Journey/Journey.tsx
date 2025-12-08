@@ -44,6 +44,9 @@ export function Journey() {
               <div key={index} className="text-sm md:text-base leading-relaxed">
                 <div className="font-medium text-therapy-warm-900 mb-1">{item.title}</div>
                 <div className="text-therapy-sage-600">{item.institution}</div>
+                {item.details && (
+                  <div className="text-therapy-warm-600 text-sm mt-1 italic">{item.details}</div>
+                )}
               </div>
             ))}
           </div>

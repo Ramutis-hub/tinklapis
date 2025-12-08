@@ -195,8 +195,9 @@ const translations: Record<Language, Translations> = {
         title: 'Išsilavinimas',
         items: [
           {
-            title: 'Klinikinės psichologijos magistras (psichoanalitinė specializacija), su pagyrimu',
-            institution: 'Université Côte d\'Azur, Prancūzija'
+            title: 'Klinikinės psichologijos magistras, su pagyrimu',
+            institution: 'Université Côte d\'Azur, Prancūzija',
+            details: 'Mokymai su stipriu Lakaniškos psichoanalitinės teorijos akcentu'
           },
           {
             title: 'Psichologijos bakalauras',
@@ -334,8 +335,9 @@ const translations: Record<Language, Translations> = {
         title: 'Education',
         items: [
           {
-            title: 'Master\'s in Clinical Psychology (psychoanalytic specialization), with honors',
-            institution: 'Université Côte d\'Azur, France'
+            title: 'Master\'s in Clinical Psychology, with honors',
+            institution: 'Université Côte d\'Azur, France',
+            details: 'Training with a strong focus on Lacanian psychoanalytic theory'
           },
           {
             title: 'Bachelor\'s in Psychology',
