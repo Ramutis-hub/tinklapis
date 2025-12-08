@@ -195,7 +195,7 @@ const translations: Record<Language, Translations> = {
         title: 'Išsilavinimas',
         items: [
           {
-            title: 'Klinikinės psichologijos magistras (psichoanalitinė specializacija)',
+            title: 'Klinikinės psichologijos magistras (psichoanalitinė specializacija), su pagyrimu',
             institution: 'Université Côte d\'Azur, Prancūzija'
           },
           {
@@ -334,7 +334,7 @@ const translations: Record<Language, Translations> = {
         title: 'Education',
         items: [
           {
-            title: 'Master\'s in Clinical Psychology (psychoanalytic specialization)',
+            title: 'Master\'s in Clinical Psychology (psychoanalytic specialization), with honors',
             institution: 'Université Côte d\'Azur, France'
           },
           {
