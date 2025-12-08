@@ -123,10 +123,10 @@ const translations: Record<Language, Translations> = {
       subtitle: 'Individuali pagalba, pritaikyta jūsų poreikiams ir situacijai.',
       individual: {
         title: 'Individuali geštalto terapija',
-        description: 'Padeda giliau pažinti save, tyrinėti santykius ir gyvenimo modelius.',
+        description: 'Padeda giliau pažinti save, tyrinėti santykius ir gyvenimo modelius. Darbe daug dėmesio skiriu nesąmoningiems procesams bei vidiniams santykių modeliams.',
         keywords: [
-          'Savęs pažinimas',
-          'Kūno ir emocijų ryšio tyrinėjimas',
+          'Savęs pažinimas ir nesąmoningų procesų tyrinėjimas',
+          'Vidiniai santykių modeliai ir jų transformacija',
           'Gyvenimo krizių įveikimas',
           'LGBT+ identiteto klausimų tyrinėjimas'
         ]
@@ -264,10 +264,10 @@ const translations: Record<Language, Translations> = {
       subtitle: 'Individual support tailored to your needs and situation.',
       individual: {
         title: 'Individual Gestalt Therapy',
-        description: 'Helps you get to know yourself better, explore relationships and life patterns.',
+        description: 'Helps you get to know yourself better, explore relationships and life patterns. In my work, I pay significant attention to unconscious processes and internal relationship patterns.',
         keywords: [
-          'Self-awareness',
-          'Exploring body-emotion connection',
+          'Self-awareness and exploring unconscious processes',
+          'Internal relationship patterns and their transformation',
           'Overcoming life crises',
           'Exploring LGBT+ identity questions'
         ]
