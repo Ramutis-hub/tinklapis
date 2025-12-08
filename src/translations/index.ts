@@ -197,7 +197,7 @@ const translations: Record<Language, Translations> = {
           {
             title: 'Klinikinės psichologijos magistras, su pagyrimu',
             institution: 'Université Côte d\'Azur, Prancūzija',
-            details: 'Mokymai su stipriu Lakaniškos psichoanalitinės teorijos akcentu'
+            details: 'Mokymai su Lakaniškos psichoanalitinės teorijos akcentu'
           },
           {
             title: 'Psichologijos bakalauras',
