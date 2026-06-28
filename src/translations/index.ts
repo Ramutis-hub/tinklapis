@@ -18,23 +18,19 @@ export interface Translations {
   services: {
     title: string;
     subtitle: string;
-    durationLabel: string;
     individual: {
       title: string;
       description: string;
-      duration: string;
       keywords: string[];
     };
     trauma: {
       title: string;
       description: string;
-      duration: string;
       keywords: string[];
     };
     couples: {
       title: string;
       description: string;
-      duration: string;
       keywords: string[];
     };
   };
@@ -116,7 +112,7 @@ const translations: Record<Language, Translations> = {
     hero: {
       title: 'Ramutis Klimanskis',
       subtitle: 'Klinikinis psichologas, psichoterapeutas',
-      description: 'Specializuojuosi porų terapijoje, dirbu ir individualiai. Padedu poroms atstatyti ryšį, o žmonėms giliau pažinti save ir savo santykių modelius. Terapijoje man svarbiausia – įsiklausymas, pagarba ir tikras dialogas.',
+      description: 'Padedu žmonėms, kurie susiduria su nerimu, santykių sunkumais ar nori geriau suprasti save. Terapijoje man svarbiausia – įsiklausymas, pagarba ir tikras dialogas.',
       cta: 'Registruotis konsultacijai',
       aboutButton: 'Apie mane',
       quote: '„Klausytis – tai ne tik girdėti žodžius, bet ir tai, kas slepiasi už jų."',
@@ -124,12 +120,10 @@ const translations: Record<Language, Translations> = {
     },
     services: {
       title: 'Teikiamos paslaugos',
-      subtitle: 'Specializuojuosi porų terapijoje, kartu dirbu ir individualiai – kiekvienam pagal jo poreikius.',
-      durationLabel: 'Trukmė',
+      subtitle: 'Individuali pagalba, pritaikyta jūsų poreikiams ir situacijai.',
       individual: {
         title: 'Individuali geštalto terapija',
         description: 'Padeda giliau pažinti save, tyrinėti santykius ir gyvenimo modelius. Darbe daug dėmesio skiriu nesąmoningiems procesams bei vidiniams santykių modeliams.',
-        duration: '50 min.',
         keywords: [
           'Savęs pažinimas ir nesąmoningų procesų tyrinėjimas',
           'Vidiniai santykių modeliai ir jų transformacija',
@@ -140,7 +134,6 @@ const translations: Record<Language, Translations> = {
       trauma: {
         title: 'Traumų terapija',
         description: 'Saugios erdvės sukūrimas trauminiams išgyvenimams apdoroti ir integruoti.',
-        duration: '50 min.',
         keywords: [
           'Darbas su netektimis, smurtu, karo patirtimis',
           'Emocijų reguliacija ir saugaus ryšio kūrimas',
@@ -148,14 +141,12 @@ const translations: Record<Language, Translations> = {
         ]
       },
       couples: {
-        title: 'Porų terapija',
-        description: 'Specializacija, kuriai skiriu ypatingą dėmesį. Padedu poroms suprasti jų santykio dinamiką, atstatyti ryšį ir kurti gilesnį artimumą.',
-        duration: '60 min.',
+        title: 'Porų konsultacijos',
+        description: 'Pagalba sprendžiant santykių sunkumus ir atkuriant artimumą.',
         keywords: [
-          'Santykio dinamikos tyrinėjimas ir supratimas',
-          'Konfliktų transformacija į dialogą',
-          'Pasitikėjimo ir emocinio saugumo atkūrimas',
-          'Psichoanalitinis požiūris į poros santykį'
+          'Konfliktų sprendimas',
+          'Sveikų ribų nustatymas',
+          'Pasitikėjimo ir artumo stiprinimas'
         ]
       }
     },
@@ -262,7 +253,7 @@ const translations: Record<Language, Translations> = {
     hero: {
       title: 'Ramutis Klimanskis',
       subtitle: 'Clinical Psychologist, Psychotherapist',
-      description: 'I specialize in couples therapy and also work individually. I help couples restore connection, and individuals better understand themselves and their relationship patterns. In therapy, what matters most to me is listening, respect, and genuine dialogue.',
+      description: 'I help people who face anxiety, relationship difficulties, or want to better understand themselves. In therapy, what matters most to me is listening, respect, and genuine dialogue.',
       cta: 'Book a consultation',
       aboutButton: 'About me',
       quote: '"To listen is not only to hear words, but also what lies behind them."',
@@ -270,12 +261,10 @@ const translations: Record<Language, Translations> = {
     },
     services: {
       title: 'Services Offered',
-      subtitle: 'I specialize in couples therapy, while also working individually — each person according to their needs.',
-      durationLabel: 'Duration',
+      subtitle: 'Individual support tailored to your needs and situation.',
       individual: {
         title: 'Individual Gestalt Therapy',
         description: 'Helps you get to know yourself better, explore relationships and life patterns. In my work, I pay significant attention to unconscious processes and internal relationship patterns.',
-        duration: '50 min.',
         keywords: [
           'Self-awareness and exploring unconscious processes',
           'Internal relationship patterns and their transformation',
@@ -286,7 +275,6 @@ const translations: Record<Language, Translations> = {
       trauma: {
         title: 'Trauma Therapy',
         description: 'Creating a safe space to process and integrate traumatic experiences.',
-        duration: '50 min.',
         keywords: [
           'Working with loss, violence, war experiences',
           'Emotion regulation and safe attachment',
@@ -294,14 +282,12 @@ const translations: Record<Language, Translations> = {
         ]
       },
       couples: {
-        title: 'Couples Therapy',
-        description: 'My area of special focus. I help couples understand their relationship dynamics, restore connection, and build deeper intimacy.',
-        duration: '60 min.',
+        title: 'Couples Counseling',
+        description: 'Help in resolving relationship difficulties and restoring intimacy.',
         keywords: [
-          'Exploring and understanding relationship dynamics',
-          'Transforming conflict into dialogue',
-          'Restoring trust and emotional safety',
-          'A psychoanalytic approach to the couple relationship'
+          'Conflict resolution',
+          'Setting healthy boundaries',
+          'Strengthening trust and intimacy'
         ]
       }
     },
