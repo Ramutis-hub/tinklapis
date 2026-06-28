@@ -18,19 +18,23 @@ export interface Translations {
   services: {
     title: string;
     subtitle: string;
+    durationLabel: string;
     individual: {
       title: string;
       description: string;
+      duration: string;
       keywords: string[];
     };
     trauma: {
       title: string;
       description: string;
+      duration: string;
       keywords: string[];
     };
     couples: {
       title: string;
       description: string;
+      duration: string;
       keywords: string[];
     };
   };
@@ -121,9 +125,11 @@ const translations: Record<Language, Translations> = {
     services: {
       title: 'Teikiamos paslaugos',
       subtitle: 'Specializuojuosi porų terapijoje, kartu dirbu ir individualiai – kiekvienam pagal jo poreikius.',
+      durationLabel: 'Trukmė',
       individual: {
         title: 'Individuali geštalto terapija',
         description: 'Padeda giliau pažinti save, tyrinėti santykius ir gyvenimo modelius. Darbe daug dėmesio skiriu nesąmoningiems procesams bei vidiniams santykių modeliams.',
+        duration: '60 min.',
         keywords: [
           'Savęs pažinimas ir nesąmoningų procesų tyrinėjimas',
           'Vidiniai santykių modeliai ir jų transformacija',
@@ -134,6 +140,7 @@ const translations: Record<Language, Translations> = {
       trauma: {
         title: 'Traumų terapija',
         description: 'Saugios erdvės sukūrimas trauminiams išgyvenimams apdoroti ir integruoti.',
+        duration: '60 min.',
         keywords: [
           'Darbas su netektimis, smurtu, karo patirtimis',
           'Emocijų reguliacija ir saugaus ryšio kūrimas',
@@ -143,6 +150,7 @@ const translations: Record<Language, Translations> = {
       couples: {
         title: 'Porų terapija',
         description: 'Specializacija, kuriai skiriu ypatingą dėmesį. Padedu poroms suprasti jų santykio dinamiką, atstatyti ryšį ir kurti gilesnį artimumą.',
+        duration: '60 min.',
         keywords: [
           'Santykio dinamikos tyrinėjimas ir supratimas',
           'Konfliktų transformacija į dialogą',
@@ -263,9 +271,11 @@ const translations: Record<Language, Translations> = {
     services: {
       title: 'Services Offered',
       subtitle: 'I specialize in couples therapy, while also working individually — each person according to their needs.',
+      durationLabel: 'Duration',
       individual: {
         title: 'Individual Gestalt Therapy',
         description: 'Helps you get to know yourself better, explore relationships and life patterns. In my work, I pay significant attention to unconscious processes and internal relationship patterns.',
+        duration: '60 min.',
         keywords: [
           'Self-awareness and exploring unconscious processes',
           'Internal relationship patterns and their transformation',
@@ -276,6 +286,7 @@ const translations: Record<Language, Translations> = {
       trauma: {
         title: 'Trauma Therapy',
         description: 'Creating a safe space to process and integrate traumatic experiences.',
+        duration: '60 min.',
         keywords: [
           'Working with loss, violence, war experiences',
           'Emotion regulation and safe attachment',
@@ -285,6 +296,7 @@ const translations: Record<Language, Translations> = {
       couples: {
         title: 'Couples Therapy',
         description: 'My area of special focus. I help couples understand their relationship dynamics, restore connection, and build deeper intimacy.',
+        duration: '60 min.',
         keywords: [
           'Exploring and understanding relationship dynamics',
           'Transforming conflict into dialogue',

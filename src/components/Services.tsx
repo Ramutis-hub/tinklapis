@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, User, Shield, Sparkles } from 'lucide-react';
+import { Heart, User, Shield, Sparkles, Clock } from 'lucide-react';
 import { Section } from './ui/Section';
 import { FadeIn } from './ui/animations';
 import { useLanguage } from '../hooks/useLanguage';
@@ -15,6 +15,7 @@ export function Services() {
   const individualService = {
     title: t.services.individual.title,
     description: t.services.individual.description,
+    duration: t.services.individual.duration,
     keywords: t.services.individual.keywords,
     icon: User,
     featured: false
@@ -23,6 +24,7 @@ export function Services() {
   const couplesService = {
     title: t.services.couples.title,
     description: t.services.couples.description,
+    duration: t.services.couples.duration,
     keywords: t.services.couples.keywords,
     icon: Heart,
     featured: true
@@ -31,6 +33,7 @@ export function Services() {
   const traumaService = {
     title: t.services.trauma.title,
     description: t.services.trauma.description,
+    duration: t.services.trauma.duration,
     keywords: t.services.trauma.keywords,
     icon: Shield,
     featured: false
@@ -97,6 +100,17 @@ export function Services() {
                       >
                         {service.description}
                       </p>
+
+                      <div
+                        className={`inline-flex items-center gap-2 mt-4 px-4 py-1.5 rounded-full text-sm font-medium ${
+                          isFeatured
+                            ? 'bg-therapy-sage-100 text-therapy-sage-800'
+                            : 'bg-therapy-warm-100 text-therapy-warm-800'
+                        }`}
+                      >
+                        <Clock size={15} strokeWidth={2} />
+                        <span>{t.services.durationLabel}: {service.duration}</span>
+                      </div>
                     </div>
 
                     <ul className={`grid gap-3 max-w-2xl mx-auto ${
