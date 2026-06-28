@@ -78,6 +78,14 @@ export interface Translations {
       note: string;
     };
   };
+  themes: {
+    title: string;
+    intro: string;
+    items: {
+      label: string;
+      text: string;
+    }[];
+  };
   contact: {
     title: string;
     subtitle: string;
@@ -240,6 +248,48 @@ const translations: Record<Language, Translations> = {
         note: 'Nuolat gilinuosi tarptautiniuose mokymuose ir bendradarbiauju su kolegomis iš įvairių šalių',
       },
     },
+    themes: {
+      title: 'Temos, su kuriomis dirbu',
+      intro: 'Žemiau – temos, kurios dažniausiai iškyla terapijoje. Tai ne išsamus sąrašas ir ne diagnozių katalogas, o orientyras – kad galėtumėte pajusti, ar tai, ką nesite, turi vietos šioje erdvėje.',
+      items: [
+        {
+          label: 'Santykių sunkumai ir pasikartojantys konfliktai',
+          text: 'Kai ginčai kartojasi pagal tą patį scenarijų, kai vienas jaučiasi negirdimas, kitas – nevertinamas, kai artumas tampa sunkus arba lyg ir nebeįmanomas.',
+        },
+        {
+          label: 'Artumas, seksualumas ir kūniškumas',
+          text: 'Sunkumas leistis į artumą, poreikių ir troškimų tyrinėjimas, gėda, kūno įtampa, santykis su savojo kūno patirtimi.',
+        },
+        {
+          label: 'Ribos, savivertė ir savęs priežiūra',
+          text: 'Sunkumas pasakyti „ne", nuolatinis kaltės jausmas, tendencija rūpintis kitais ignoruojant savo poreikius, vidinis spaudimas būti „pakankamai geram".',
+        },
+        {
+          label: 'Netektys, išsiskyrimai ir gedėjimas',
+          text: 'Santykių pabaiga, artimojo netektis, sunkiai įvardijamas gedėjimas ar jausmas, kad išeiti iš skausmo neįmanoma.',
+        },
+        {
+          label: 'Trauminės patirtys ir jų poveikis santykiams',
+          text: 'Ankstesnės patirtys, kurios palieka pėdsaką – kaip mes artėjame, kaip ginamės, kaip pasitikime ar nepasitikime.',
+        },
+        {
+          label: 'Psichosomatiniai simptomai ir emocinis stresas',
+          text: 'Kai kūnas kalba tai, ko dar nesame pasakę: lėtinė įtampa, nemiga, nuovargis, skausmai be aiškios medicininės priežasties.',
+        },
+        {
+          label: 'Ankstyvosios patirtys ir „vidinio vaiko" tema',
+          text: 'Kaip vaikystės aplinka, tėvų santykiai ar ankstyvosios žaizdos formuoja mūsų elgesį ir santykius suaugus.',
+        },
+        {
+          label: 'Tapatumas, priklausymas ir savęs priėmimas',
+          text: 'Klausimas „kas aš esu" – kai jis kyla iš tikros abejonės, o ne iš retorikos. Gyvenimo prasmė, vieta pasaulyje, santykis su savimi.',
+        },
+        {
+          label: 'LGBTIQA+ patirtys, santykiai ir savęs priėmimas',
+          text: 'Atvira, pagarbi erdvė tyrinėti savęs priėmimą, artimumo modelius, santykius ir bet ką, kas svarbu – be vertinimo ir be prielaidų.',
+        },
+      ],
+    },
     contact: {
       title: 'Kontaktai',
       subtitle:
@@ -401,6 +451,48 @@ const translations: Record<Language, Translations> = {
         ],
         note: 'Continuously deepening knowledge through international trainings and collaborating with colleagues from various countries',
       },
+    },
+    themes: {
+      title: 'Topics I work with',
+      intro: 'Below are themes that often arise in therapy. This is not an exhaustive list or a catalogue of diagnoses — it is an orientation, to help you sense whether what you are carrying has a place here.',
+      items: [
+        {
+          label: 'Relationship difficulties and recurring conflicts',
+          text: 'When arguments follow the same pattern, when one person feels unheard and the other unvalued, when closeness becomes difficult or seems impossible.',
+        },
+        {
+          label: 'Intimacy, sexuality and embodiment',
+          text: 'Difficulty allowing closeness, exploring needs and desires, shame, bodily tension, the relationship with one\'s own bodily experience.',
+        },
+        {
+          label: 'Boundaries, self-worth and self-care',
+          text: 'Difficulty saying no, persistent guilt, a tendency to care for others while ignoring one\'s own needs, inner pressure to be "good enough".',
+        },
+        {
+          label: 'Loss, separation and grief',
+          text: 'The end of a relationship, the loss of someone close, grief that is hard to name or a sense that moving through pain is impossible.',
+        },
+        {
+          label: 'Traumatic experiences and their effect on relationships',
+          text: 'Earlier experiences that leave a mark — shaping how we approach others, how we protect ourselves, how we trust or cannot trust.',
+        },
+        {
+          label: 'Psychosomatic symptoms and emotional stress',
+          text: 'When the body speaks what has not yet been said: chronic tension, insomnia, fatigue, pain without a clear medical cause.',
+        },
+        {
+          label: 'Early experiences and the "inner child" theme',
+          text: 'How a childhood environment, parental relationships or early wounds shape our behaviour and relationships as adults.',
+        },
+        {
+          label: 'Identity, belonging and self-acceptance',
+          text: 'The question "who am I" — when it arises from genuine uncertainty. Meaning in life, one\'s place in the world, the relationship with oneself.',
+        },
+        {
+          label: 'LGBTIQA+ experiences, relationships and self-acceptance',
+          text: 'An open, respectful space to explore self-acceptance, patterns of intimacy, relationships and anything that matters — without judgment and without assumptions.',
+        },
+      ],
     },
     contact: {
       title: 'Contact',

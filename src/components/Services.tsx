@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Section } from './ui/Section';
 import { FadeIn } from './ui/animations';
 import { useLanguage } from '../hooks/useLanguage';
@@ -161,6 +161,41 @@ export function Services() {
           </FadeIn>
         </div>
       </Section>
+      {/* Themes block */}
+      <section className="py-14 md:py-20 bg-therapy-warm-50/60 border-t border-therapy-warm-200/60">
+        <div className="max-w-3xl mx-auto px-6">
+          <FadeIn>
+            <div className="text-center mb-8 md:mb-10">
+              <h2 className="text-xl md:text-2xl font-serif text-therapy-warm-800 mb-4 font-normal">
+                {t.themes.title}
+              </h2>
+              <p className="text-sm md:text-base text-therapy-warm-600 leading-relaxed max-w-xl mx-auto">
+                {t.themes.intro}
+              </p>
+            </div>
+          </FadeIn>
+
+          <div className="grid sm:grid-cols-2 gap-4 md:gap-5">
+            {t.themes.items.map((item, i) => (
+              <motion.div
+                key={i}
+                className="p-5 bg-white rounded-sm border border-therapy-warm-200 hover:border-therapy-sage-300 transition-colors duration-200"
+                initial={{ opacity: 0, y: 16 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.4, delay: i * 0.06 }}
+                viewport={{ once: true }}
+              >
+                <p className="text-sm font-medium text-therapy-warm-900 mb-1.5 leading-snug">
+                  {item.label}
+                </p>
+                <p className="text-sm text-therapy-warm-600 leading-relaxed">
+                  {item.text}
+                </p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
     </>
   );
 }
