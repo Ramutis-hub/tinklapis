@@ -12,9 +12,7 @@ export function Header() {
   const t = useTranslations(language);
 
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20);
-    };
+    const handleScroll = () => setIsScrolled(window.scrollY > 20);
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
@@ -30,8 +28,8 @@ export function Header() {
   return (
     <motion.header
       className={`sticky top-0 z-50 safe-area-inset transition-all duration-300
-        ${isScrolled ? 'bg-therapy-warm-50/95 shadow-sm' : 'bg-transparent'}
-        backdrop-blur-sm border-b border-therapy-warm-200/80`}
+        ${isScrolled ? 'bg-therapy-warm-50/96 shadow-sm' : 'bg-transparent'}
+        backdrop-blur-sm border-b border-therapy-warm-200/70`}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6, ease: 'easeOut' }}
@@ -48,7 +46,6 @@ export function Header() {
                 </a>
               ))}
             </div>
-
             <button
               onClick={() => changeLanguage(language === 'lt' ? 'en' : 'lt')}
               className="px-3 py-1.5 text-xs font-semibold tracking-wider text-therapy-warm-700 hover:text-therapy-sage-700 transition-colors border border-therapy-warm-300 rounded hover:border-therapy-sage-400 hover:bg-therapy-warm-100 uppercase"

@@ -10,7 +10,7 @@ function TopicList({ topics }: { topics: string[] }) {
     <ul className="space-y-2 mt-4">
       {topics.map((topic, i) => (
         <li key={i} className="flex items-start gap-2.5 text-sm md:text-base text-therapy-warm-700">
-          <span className="mt-1.5 w-1 h-1 rounded-full bg-therapy-sage-500 flex-shrink-0" />
+          <span className="mt-[7px] w-1 h-1 rounded-full bg-therapy-sage-500 flex-shrink-0" />
           {topic}
         </li>
       ))}
@@ -25,10 +25,10 @@ export function Services() {
   return (
     <>
       {/* Intro block */}
-      <section className="py-14 md:py-20 bg-therapy-sage-50/40 border-y border-therapy-warm-200/60">
-        <div className="max-w-3xl mx-auto px-6 text-center">
+      <section className="py-16 md:py-24 bg-therapy-sage-50/40 border-y border-therapy-warm-200/60">
+        <div className="max-w-2xl mx-auto px-6 text-center">
           <FadeIn>
-            <h2 className="text-xl md:text-2xl font-serif text-therapy-warm-800 mb-5 font-normal leading-snug">
+            <h2 className="text-xl md:text-2xl lg:text-[1.6rem] font-serif text-therapy-warm-800 mb-6 font-normal leading-snug">
               {t.introBlock.title}
             </h2>
             <p className="text-base md:text-lg text-therapy-warm-700 leading-relaxed">
@@ -43,7 +43,7 @@ export function Services() {
         <div className="max-w-3xl mx-auto">
           <FadeIn>
             <span className="text-xs tracking-[0.15em] uppercase text-therapy-sage-600 font-medium mb-4 block">
-              {language === 'lt' ? 'Porų terapija Vilniuje' : 'Couples therapy Vilnius'}
+              {language === 'lt' ? 'Porų terapija Vilniuje' : 'Couples therapy · Vilnius'}
             </span>
             <h2 className="section-title">{t.services.couples.title}</h2>
           </FadeIn>
@@ -58,15 +58,15 @@ export function Services() {
           </FadeIn>
           <FadeIn delay={0.25}>
             <div className="mt-8 p-6 bg-therapy-warm-50 rounded-sm border border-therapy-warm-200">
-              <h3 className="text-sm font-semibold uppercase tracking-wider text-therapy-warm-600 mb-1">
+              <h3 className="text-xs font-semibold uppercase tracking-wider text-therapy-warm-500 mb-0.5">
                 {language === 'lt' ? 'Dažniausios temos' : 'Common themes'}
               </h3>
               <TopicList topics={t.services.couples.topics} />
             </div>
           </FadeIn>
           <FadeIn delay={0.35}>
-            <div className="mt-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-              <p className="text-sm text-therapy-warm-500 italic">{t.services.couples.duration}</p>
+            <div className="mt-7 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+              <p className="text-sm text-therapy-warm-400 italic">{t.services.couples.duration}</p>
               <a
                 href="#kontaktai"
                 className="inline-flex items-center justify-center bg-therapy-sage-600 text-white px-6 py-3 hover:bg-therapy-sage-700 transition-all duration-300 font-medium rounded-sm text-sm"
@@ -83,7 +83,7 @@ export function Services() {
         <div className="max-w-3xl mx-auto">
           <FadeIn>
             <span className="text-xs tracking-[0.15em] uppercase text-therapy-sage-600 font-medium mb-4 block">
-              {language === 'lt' ? 'Individuali psichoterapija Vilniuje' : 'Individual psychotherapy Vilnius'}
+              {language === 'lt' ? 'Individuali psichoterapija Vilniuje' : 'Individual psychotherapy · Vilnius'}
             </span>
             <h2 className="section-title">{t.services.individual.title}</h2>
           </FadeIn>
@@ -98,15 +98,15 @@ export function Services() {
           </FadeIn>
           <FadeIn delay={0.25}>
             <div className="mt-8 p-6 bg-white rounded-sm border border-therapy-warm-200">
-              <h3 className="text-sm font-semibold uppercase tracking-wider text-therapy-warm-600 mb-1">
+              <h3 className="text-xs font-semibold uppercase tracking-wider text-therapy-warm-500 mb-0.5">
                 {language === 'lt' ? 'Dažniausios temos' : 'Common themes'}
               </h3>
               <TopicList topics={t.services.individual.topics} />
             </div>
           </FadeIn>
           <FadeIn delay={0.35}>
-            <div className="mt-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-              <p className="text-sm text-therapy-warm-500 italic">{t.services.individual.duration}</p>
+            <div className="mt-7 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+              <p className="text-sm text-therapy-warm-400 italic">{t.services.individual.duration}</p>
               <a
                 href="#kontaktai"
                 className="inline-flex items-center justify-center bg-therapy-sage-600 text-white px-6 py-3 hover:bg-therapy-sage-700 transition-all duration-300 font-medium rounded-sm text-sm"
@@ -118,12 +118,12 @@ export function Services() {
         </div>
       </Section>
 
-      {/* Sexuality & intimacy */}
+      {/* Intimacy & sexuality */}
       <Section id="seksualumas" background="light" className="bg-white">
         <div className="max-w-3xl mx-auto">
           <FadeIn>
             <span className="text-xs tracking-[0.15em] uppercase text-therapy-sage-600 font-medium mb-4 block">
-              {language === 'lt' ? 'Seksualumo ir artumo temos' : 'Sexuality and intimacy'}
+              {language === 'lt' ? 'Artumas ir seksualumas' : 'Intimacy & sexuality'}
             </span>
             <h2 className="section-title">{t.services.sexuality.title}</h2>
           </FadeIn>
@@ -138,19 +138,19 @@ export function Services() {
           </FadeIn>
           <FadeIn delay={0.25}>
             <div className="mt-8 p-6 bg-therapy-warm-50 rounded-sm border border-therapy-warm-200">
-              <h3 className="text-sm font-semibold uppercase tracking-wider text-therapy-warm-600 mb-1">
+              <h3 className="text-xs font-semibold uppercase tracking-wider text-therapy-warm-500 mb-0.5">
                 {language === 'lt' ? 'Galima tyrinėti' : 'Topics to explore'}
               </h3>
               <TopicList topics={t.services.sexuality.topics} />
             </div>
           </FadeIn>
           <FadeIn delay={0.35}>
-            <p className="mt-6 text-base md:text-lg text-therapy-warm-700 leading-relaxed italic border-l-2 border-therapy-sage-300 pl-5">
+            <p className="mt-7 text-base md:text-lg text-therapy-warm-600 leading-relaxed italic border-l-2 border-therapy-sage-200 pl-5">
               {t.services.sexuality.note}
             </p>
           </FadeIn>
           <FadeIn delay={0.45}>
-            <div className="mt-6">
+            <div className="mt-7">
               <a
                 href="#kontaktai"
                 className="inline-flex items-center justify-center bg-therapy-sage-600 text-white px-6 py-3 hover:bg-therapy-sage-700 transition-all duration-300 font-medium rounded-sm text-sm"
@@ -161,39 +161,37 @@ export function Services() {
           </FadeIn>
         </div>
       </Section>
-      {/* Themes block */}
+
+      {/* Secondary themes block – minimal tags */}
       <section className="py-14 md:py-20 bg-therapy-warm-50/60 border-t border-therapy-warm-200/60">
         <div className="max-w-3xl mx-auto px-6">
           <FadeIn>
-            <div className="text-center mb-8 md:mb-10">
-              <h2 className="text-xl md:text-2xl font-serif text-therapy-warm-800 mb-4 font-normal">
+            <div className="text-center mb-8">
+              <h2 className="text-lg md:text-xl font-serif text-therapy-warm-700 mb-3 font-normal">
                 {t.themes.title}
               </h2>
-              <p className="text-sm md:text-base text-therapy-warm-600 leading-relaxed max-w-xl mx-auto">
+              <p className="text-sm md:text-base text-therapy-warm-500 leading-relaxed max-w-xl mx-auto">
                 {t.themes.intro}
               </p>
             </div>
           </FadeIn>
 
-          <div className="grid sm:grid-cols-2 gap-4 md:gap-5">
+          <motion.div
+            className="flex flex-wrap justify-center gap-2.5"
+            initial={{ opacity: 0, y: 12 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
             {t.themes.items.map((item, i) => (
-              <motion.div
+              <span
                 key={i}
-                className="p-5 bg-white rounded-sm border border-therapy-warm-200 hover:border-therapy-sage-300 transition-colors duration-200"
-                initial={{ opacity: 0, y: 16 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.4, delay: i * 0.06 }}
-                viewport={{ once: true }}
+                className="px-4 py-2 bg-white border border-therapy-warm-200 text-therapy-warm-700 text-sm rounded-sm hover:border-therapy-sage-300 hover:text-therapy-sage-700 transition-colors duration-200 cursor-default"
               >
-                <p className="text-sm font-medium text-therapy-warm-900 mb-1.5 leading-snug">
-                  {item.label}
-                </p>
-                <p className="text-sm text-therapy-warm-600 leading-relaxed">
-                  {item.text}
-                </p>
-              </motion.div>
+                {item.label}
+              </span>
             ))}
-          </div>
+          </motion.div>
         </div>
       </section>
     </>

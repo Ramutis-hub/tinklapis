@@ -15,6 +15,7 @@ export interface Translations {
     description: string;
     cta: string;
     ctaCouples: string;
+    ctaIndividual: string;
     quote: string;
     quoteAuthor: string;
   };
@@ -49,18 +50,9 @@ export interface Translations {
     subtitle: string;
     sessionInfo: string;
     steps: {
-      first: {
-        title: string;
-        description: string;
-      };
-      safe: {
-        title: string;
-        description: string;
-      };
-      integration: {
-        title: string;
-        description: string;
-      };
+      first: { title: string; description: string };
+      safe: { title: string; description: string };
+      integration: { title: string; description: string };
     };
   };
   about: {
@@ -70,21 +62,14 @@ export interface Translations {
     approach: string;
     education: {
       title: string;
-      items: {
-        title: string;
-        institution: string;
-        details?: string;
-      }[];
+      items: { title: string; institution: string; details?: string }[];
       note: string;
     };
   };
   themes: {
     title: string;
     intro: string;
-    items: {
-      label: string;
-      text: string;
-    }[];
+    items: { label: string }[];
   };
   contact: {
     title: string;
@@ -101,6 +86,7 @@ export interface Translations {
     cancellationPolicy: string;
     paymentNote: string;
     cta: string;
+    ctaContact: string;
   };
   footer: {
     quote: string;
@@ -113,19 +99,20 @@ const translations: Record<Language, Translations> = {
   lt: {
     nav: {
       couples: 'Porų terapija',
-      individual: 'Individuali terapija',
-      sexuality: 'Seksualumas ir artumas',
+      individual: 'Individuali psichoterapija',
+      sexuality: 'Artumas ir seksualumas',
       about: 'Apie mane',
       contact: 'Kontaktai',
     },
     hero: {
       title: 'Psichoterapija poroms ir individualiai',
-      subtitle: 'Ramutis Klimanskis · psichoterapeutas Vilniuje',
+      subtitle: 'Ramutis Klimanskis – psichoterapeutas Vilniuje ir online',
       intro: 'Porų terapija · Individuali psichoterapija · Santykių sunkumai · Seksualumo ir artumo temos',
       description:
-        'Padedu žmonėms ir poroms tyrinėti tai, kas vyksta santykyje: konfliktus, nutolimą, artumo baimę, pasikartojančius emocinius ciklus, seksualumo temas ir sunkumus būti išgirstam.\n\nTerapijoje kviečiu ne ieškoti greitų atsakymų, o sustoti prie to, kas kartojasi: kaip mes ginamės, kaip trokštame artumo, kaip prarandame ryšį ir kaip galime jį atkurti.\n\nMano darbe svarbios Gestalt terapijos, dialogo, lauko teorijos, psichoanalitinio mąstymo ir emociškai fokusuotos terapijos / EFT perspektyvos.',
+        'Padedu žmonėms ir poroms tyrinėti tai, kas vyksta santykyje: konfliktus, nutolimą, artumo baimę, pasikartojančius emocinius ciklus, seksualumo temas ir sunkumus būti išgirstam.\n\nTerapijoje kviečiu ne ieškoti greitų atsakymų, o sustoti prie to, kas kartojasi: kaip mes ginamės, kaip trokštame artumo, kaip prarandame ryšį ir kaip galime jį atkurti.\n\nDirbu su poromis ir individualiai. Mano darbe svarbios Gestalt terapijos, dialogo, lauko teorijos, psichoanalitinio mąstymo ir emociškai fokusuotos terapijos / EFT perspektyvos.',
       cta: 'Registruotis konsultacijai',
-      ctaCouples: 'Sužinoti apie porų terapiją',
+      ctaCouples: 'Porų terapija',
+      ctaIndividual: 'Individuali terapija',
       quote: '„Klausytis – tai ne tik girdėti žodžius, bet ir tai, kas slepiasi už jų."',
       quoteAuthor: '— J. Lacan',
     },
@@ -139,7 +126,7 @@ const translations: Record<Language, Translations> = {
       couples: {
         title: 'Porų terapija',
         description:
-          'Porų terapija gali būti naudinga, kai santykyje daugėja konfliktų, tylos, atsitraukimo, pykčio ar jausmo, kad vienas kito nebepasiekiate.\n\nTerapijoje padedu tyrinėti ne tik ginčo turinį, bet ir gilesnį emocinį ciklą: kas vyksta tarp jūsų, kai vienas puola, kitas atsitraukia; kai vienas ilgisi artumo, o kitas jaučiasi spaudžiamas; kai abu nori ryšio, bet neberanda kelio vienas pas kitą.\n\nDirbu tiek su poromis, tiek individualiai.',
+          'Porų terapija gali būti naudinga, kai santykyje daugėja konfliktų, tylos, atsitraukimo, pykčio ar jausmo, kad vienas kito nebepasiekiate.\n\nTerapijoje padedu tyrinėti ne tik ginčo turinį, bet ir gilesnį emocinį ciklą: kas vyksta tarp jūsų, kai vienas puola, kitas atsitraukia; kai vienas ilgisi artumo, o kitas jaučiasi spaudžiamas; kai abu nori ryšio, bet neberanda kelio vienas pas kitą.',
         topics: [
           'Pasikartojantys konfliktai',
           'Emocinis ar fizinis nutolimas',
@@ -154,21 +141,21 @@ const translations: Record<Language, Translations> = {
       individual: {
         title: 'Individuali psichoterapija',
         description:
-          'Individuali terapija yra erdvė tyrinėti savo vidinį gyvenimą, santykių modelius, emocinius sunkumus ir pasikartojančias situacijas.\n\nĮ terapiją galima ateiti ne tik tada, kai „viskas blogai". Kartais žmogus ateina, nes jaučia, kad gyvenime kažkas nebeatitinka jo paties: santykiai neteikia gyvumo, darbe sunku jausti prasmę, kūne daug įtampos, o viduje kartojasi nerimas, kaltė, gėda ar tuštuma.',
+          'Individuali psichoterapija yra erdvė tyrinėti savo vidinį gyvenimą, santykių modelius, emocinius sunkumus ir pasikartojančias situacijas.\n\nĮ terapiją galima ateiti ne tik tada, kai „viskas blogai". Kartais žmogus ateina, nes jaučia, kad gyvenime kažkas nebeatitinka jo paties: santykiai neteikia gyvumo, darbe sunku jausti prasmę, kūne daug įtampos, o viduje kartojasi nerimas, kaltė, gėda ar tuštuma.',
         topics: [
           'Nerimas, įtampa, vidinis spaudimas',
           'Santykių sunkumai',
           'Vienišumas, atstūmimas, pavydas, gėda',
           'Priklausomybės ir kompulsyvūs elgesio modeliai',
-          'Savivertės ir tapatumo klausimai',
+          'Ribos ir savęs vertinimas',
           'Seksualumo, kūniškumo ir artumo tyrinėjimas',
-          'Gyvenimo krizės, netektys, pokyčiai',
+          'Netektys, gedėjimas ir gyvenimo pokyčiai',
           'Sunkumas jausti, pasirinkti ar būti savimi',
         ],
         duration: 'Sesija – 50 minučių',
       },
       sexuality: {
-        title: 'Seksualumas ir artumas',
+        title: 'Artumas ir seksualumas',
         description:
           'Seksualumas terapijoje nėra tik apie techniką, funkciją ar „problemą". Dažnai tai jautri santykio su savimi, kūnu, gėda, troškimu, ribomis ir kitu žmogumi sritis.\n\nPorose seksualumo tema dažnai susijusi su emociniu saugumu: ar galiu būti matomas, ar galiu kalbėti apie savo poreikius, ar galiu būti priimtas su savo pažeidžiamumu.\n\nIndividualioje terapijoje seksualumas gali atsiverti kaip santykio su kūnu, artumo baimės, kaltės, ankstesnių patirčių ar vidinių konfliktų tema.',
         topics: [
@@ -180,7 +167,7 @@ const translations: Record<Language, Translations> = {
           'Ankstesnių patirčių įtaka dabartiniam santykiui',
           'Pavydas, fantazijos, ribos, ištikimybės klausimai',
         ],
-        note: 'Terapijoje šią sritį tyrinėjame pagarbiai, be spaudimo ir be vertinimo.',
+        note: 'Ši tema terapijoje tyrinėjama pagarbiai, be spaudimo ir be vertinimo.',
       },
     },
     process: {
@@ -190,18 +177,15 @@ const translations: Record<Language, Translations> = {
       steps: {
         first: {
           title: 'Pirmasis susitikimas',
-          description:
-            'Susipažįstame ir aptariame jūsų situaciją. Tyrinėjame, kas jus atvedė į terapiją ir kokių lūkesčių turite. Neskubame.',
+          description: 'Susipažįstame ir aptariame jūsų situaciją. Tyrinėjame, kas jus atvedė į terapiją ir kokių lūkesčių turite. Neskubame.',
         },
         safe: {
           title: 'Saugus dialogas',
-          description:
-            'Kuriame pasitikėjimu grįstą terapinį santykį. Dėmesys tam, kas vyksta čia ir dabar – tarp mūsų, kūne, jausmuose.',
+          description: 'Kuriame pasitikėjimu grįstą terapinį santykį. Dėmesys tam, kas vyksta čia ir dabar – tarp mūsų, kūne, jausmuose.',
         },
         integration: {
           title: 'Patirties integracija',
-          description:
-            'Terapijos metu atrandate naujas prasmes, giliau suprantate pasikartojančius ciklus ir atgaunate vidinę erdvę rinktis.',
+          description: 'Terapijos metu atrandate naujas prasmes, giliau suprantate pasikartojančius ciklus ir atgaunate vidinę erdvę rinktis.',
         },
       },
     },
@@ -215,7 +199,7 @@ const translations: Record<Language, Translations> = {
       ],
       approachTitle: 'Apie mano darbo kryptį',
       approach:
-        'Mano terapinis darbas remiasi dialogu, gyvu susitikimu ir dėmesiu tam, kas vyksta čia ir dabar – tarp terapeuto ir kliento, tarp partnerių, tarp žmogaus ir jo paties patirties.\n\nStudijuoju ir gilinuosi į Gestalt psichoterapiją, psichoanalitinį mąstymą, porų terapiją ir emociškai fokusuotą terapiją / EFT. EFT man svarbi kaip kryptis, padedanti porose matyti prisirišimo poreikius, emocinius ciklus ir saugaus ryšio atkūrimo galimybę.',
+        'Mano terapinis darbas remiasi dialogu, gyvu susitikimu ir dėmesiu tam, kas vyksta čia ir dabar – tarp terapeuto ir kliento, tarp partnerių, tarp žmogaus ir jo paties patirties.\n\nStudijuoju ir gilinuosi į Gestalt psichoterapiją, psichoanalitinį mąstymą, porų terapiją ir emociškai fokusuotą terapiją / EFT. EFT man artima kaip kryptis, padedanti porose matyti prisirišimo poreikius, emocinius ciklus ir saugaus ryšio atkūrimo galimybę.',
       education: {
         title: 'Išsilavinimas',
         items: [
@@ -224,76 +208,32 @@ const translations: Record<Language, Translations> = {
             institution: 'Université Côte d\'Azur, Prancūzija',
             details: 'Mokymai su Lakaniškos psichoanalitinės teorijos akcentu',
           },
-          {
-            title: 'Psichologijos bakalauras',
-            institution: 'Mykolo Romerio universitetas, Lietuva',
-          },
-          {
-            title: 'Geštalto terapijos mokymai (GATLA programa)',
-            institution: 'Gestalt Associates Training Los Angeles, JAV',
-          },
-          {
-            title: 'Psichoterapijos ir psichodramos studijos',
-            institution: 'Київський інститут гештальту та психодрами, Ukraina',
-          },
-          {
-            title: 'Psichoanalitinė porų terapija',
-            institution: 'Міжнародний інститут глибинної психології, Ukraina',
-          },
-          {
-            title: 'Psichoterapijos studijos',
-            institution: 'Scuola di Psicoterapia Torino – IPSIG, Italija',
-          },
+          { title: 'Psichologijos bakalauras', institution: 'Mykolo Romerio universitetas, Lietuva' },
+          { title: 'Geštalto terapijos mokymai (GATLA programa)', institution: 'Gestalt Associates Training Los Angeles, JAV' },
+          { title: 'Psichoterapijos ir psichodramos studijos', institution: 'Київський інститут гештальту та психодрами, Ukraina' },
+          { title: 'Psichoanalitinė porų terapija', institution: 'Міжнародний інститут глибинної психології, Ukraina' },
+          { title: 'Psichoterapijos studijos', institution: 'Scuola di Psicoterapia Torino – IPSIG, Italija' },
         ],
         note: 'Nuolat gilinuosi tarptautiniuose mokymuose ir bendradarbiauju su kolegomis iš įvairių šalių',
       },
     },
     themes: {
-      title: 'Temos, su kuriomis dirbu',
-      intro: 'Žemiau – temos, kurios dažniausiai iškyla terapijoje. Tai ne išsamus sąrašas ir ne diagnozių katalogas, o orientyras – kad galėtumėte pajusti, ar tai, ką nesite, turi vietos šioje erdvėje.',
+      title: 'Temos, kurios gali atsiverti terapijoje',
+      intro: 'Terapijoje žmogus dažnai ateina ne su viena aiškia problema, o su patirties mazgu, kuriame susipina santykiai, kūnas, savivertė, praeitis ir dabartiniai pasirinkimai.',
       items: [
-        {
-          label: 'Santykių sunkumai ir pasikartojantys konfliktai',
-          text: 'Kai ginčai kartojasi pagal tą patį scenarijų, kai vienas jaučiasi negirdimas, kitas – nevertinamas, kai artumas tampa sunkus arba lyg ir nebeįmanomas.',
-        },
-        {
-          label: 'Artumas, seksualumas ir kūniškumas',
-          text: 'Sunkumas leistis į artumą, poreikių ir troškimų tyrinėjimas, gėda, kūno įtampa, santykis su savojo kūno patirtimi.',
-        },
-        {
-          label: 'Ribos, savivertė ir savęs priežiūra',
-          text: 'Sunkumas pasakyti „ne", nuolatinis kaltės jausmas, tendencija rūpintis kitais ignoruojant savo poreikius, vidinis spaudimas būti „pakankamai geram".',
-        },
-        {
-          label: 'Netektys, išsiskyrimai ir gedėjimas',
-          text: 'Santykių pabaiga, artimojo netektis, sunkiai įvardijamas gedėjimas ar jausmas, kad išeiti iš skausmo neįmanoma.',
-        },
-        {
-          label: 'Trauminės patirtys ir jų poveikis santykiams',
-          text: 'Ankstesnės patirtys, kurios palieka pėdsaką – kaip mes artėjame, kaip ginamės, kaip pasitikime ar nepasitikime.',
-        },
-        {
-          label: 'Psichosomatiniai simptomai ir emocinis stresas',
-          text: 'Kai kūnas kalba tai, ko dar nesame pasakę: lėtinė įtampa, nemiga, nuovargis, skausmai be aiškios medicininės priežasties.',
-        },
-        {
-          label: 'Ankstyvosios patirtys ir „vidinio vaiko" tema',
-          text: 'Kaip vaikystės aplinka, tėvų santykiai ar ankstyvosios žaizdos formuoja mūsų elgesį ir santykius suaugus.',
-        },
-        {
-          label: 'Tapatumas, priklausymas ir savęs priėmimas',
-          text: 'Klausimas „kas aš esu" – kai jis kyla iš tikros abejonės, o ne iš retorikos. Gyvenimo prasmė, vieta pasaulyje, santykis su savimi.',
-        },
-        {
-          label: 'LGBTIQA+ patirtys, santykiai ir savęs priėmimas',
-          text: 'Atvira, pagarbi erdvė tyrinėti savęs priėmimą, artimumo modelius, santykius ir bet ką, kas svarbu – be vertinimo ir be prielaidų.',
-        },
+        { label: 'Santykių sunkumai' },
+        { label: 'Ribos ir savęs vertinimas' },
+        { label: 'Netektys ir gedėjimas' },
+        { label: 'Trauminės patirtys' },
+        { label: 'Psichosomatiniai simptomai ir emocinis stresas' },
+        { label: 'Ankstyvosios patirtys ir „vidinio vaiko" tema' },
+        { label: 'Tapatumo, priklausymo ir savęs priėmimo klausimai' },
+        { label: 'LGBTIQA+ žmonių patirtys, santykiai ir savęs priėmimas' },
       ],
     },
     contact: {
       title: 'Kontaktai',
-      subtitle:
-        'Jeigu jaučiate, kad norėtumėte pradėti terapiją individualiai arba kartu su partneriu / partnere, galite susisiekti dėl pirmos konsultacijos.',
+      subtitle: 'Jeigu jaučiate, kad norėtumėte pradėti terapiją individualiai arba kartu su partneriu / partnere, galite susisiekti dėl pirmos konsultacijos.',
       description: 'Konsultuoju gyvai Vilniuje ir internetu',
       languages: 'Dirbu lietuvių, anglų ir rusų kalbomis',
       lgbtFriendly: 'LGBT+ draugiška erdvė',
@@ -303,10 +243,10 @@ const translations: Record<Language, Translations> = {
       hours: 'Darbo laikas',
       workingHours: 'I–V 8.00–20.00',
       cancellationTitle: 'Atšaukimas ir apmokėjimas',
-      cancellationPolicy:
-        'Prašau pranešti apie atšaukimą ne vėliau kaip prieš 24 valandas iki sesijos. Kai tik įmanoma, stengiuosi būti lankstus ir perkelti susitikimą į tą pačią savaitę. Vėliau nei 24 valandas iki sesijos atšauktos ar praleistos sesijos apmokamos pilna kaina.',
+      cancellationPolicy: 'Prašau pranešti apie atšaukimą ne vėliau kaip prieš 24 valandas iki sesijos. Kai tik įmanoma, stengiuosi būti lankstus ir perkelti susitikimą į tą pačią savaitę. Vėliau nei 24 valandas iki sesijos atšauktos ar praleistos sesijos apmokamos pilna kaina.',
       paymentNote: 'Apmokėjimas atliekamas prieš sesiją arba iš karto po jos.',
       cta: 'Registruotis konsultacijai',
+      ctaContact: 'Susisiekti',
     },
     footer: {
       quote: '„Terapija nėra receptas. Tai kelionė į save."',
@@ -317,19 +257,20 @@ const translations: Record<Language, Translations> = {
   en: {
     nav: {
       couples: 'Couples therapy',
-      individual: 'Individual therapy',
-      sexuality: 'Sexuality & intimacy',
+      individual: 'Individual psychotherapy',
+      sexuality: 'Intimacy & sexuality',
       about: 'About',
       contact: 'Contact',
     },
     hero: {
       title: 'Psychotherapy for couples and individuals',
-      subtitle: 'Ramutis Klimanskis · psychotherapist in Vilnius',
+      subtitle: 'Ramutis Klimanskis – psychotherapist in Vilnius and online',
       intro: 'Couples therapy · Individual psychotherapy · Relationship difficulties · Sexuality and intimacy',
       description:
-        'I help people and couples explore what happens in their relationship: conflicts, distance, fear of intimacy, recurring emotional cycles, sexuality and the difficulty of being heard.\n\nIn therapy, I invite you not to look for quick answers, but to pause at what keeps repeating: how we protect ourselves, how we long for closeness, how we lose connection and how we can restore it.\n\nMy work draws on Gestalt therapy, dialogue, field theory, psychoanalytic thinking and emotionally focused therapy / EFT.',
+        'I help people and couples explore what happens in their relationship: conflicts, distance, fear of intimacy, recurring emotional cycles, sexuality and the difficulty of being heard.\n\nIn therapy, I invite you not to look for quick answers, but to pause at what keeps repeating: how we protect ourselves, how we long for closeness, how we lose connection and how we can restore it.\n\nI work with couples and individually. My work draws on Gestalt therapy, dialogue, field theory, psychoanalytic thinking and emotionally focused therapy / EFT.',
       cta: 'Book a consultation',
-      ctaCouples: 'Learn about couples therapy',
+      ctaCouples: 'Couples therapy',
+      ctaIndividual: 'Individual therapy',
       quote: '"To listen is not only to hear words, but also what lies behind them."',
       quoteAuthor: '— J. Lacan',
     },
@@ -343,7 +284,7 @@ const translations: Record<Language, Translations> = {
       couples: {
         title: 'Couples therapy',
         description:
-          'Couples therapy can be helpful when a relationship is marked by growing conflict, silence, withdrawal, anger or the feeling that you can no longer reach each other.\n\nIn therapy I help explore not just the content of arguments, but the deeper emotional cycle: what happens between you when one pursues and the other withdraws; when one longs for closeness while the other feels pressured; when both want connection but can no longer find the way.\n\nI work with both couples and individuals.',
+          'Couples therapy can be helpful when a relationship is marked by growing conflict, silence, withdrawal, anger or the feeling that you can no longer reach each other.\n\nIn therapy I help explore not just the content of arguments, but the deeper emotional cycle: what happens between you when one pursues and the other withdraws; when one longs for closeness while the other feels pressured; when both want connection but can no longer find the way.',
         topics: [
           'Recurring conflicts',
           'Emotional or physical distance',
@@ -358,21 +299,21 @@ const translations: Record<Language, Translations> = {
       individual: {
         title: 'Individual psychotherapy',
         description:
-          'Individual therapy is a space to explore your inner life, relationship patterns, emotional difficulties and recurring situations.\n\nYou don\'t have to wait until "everything is falling apart". Sometimes people come because something in their life no longer feels right: relationships feel hollow, work feels meaningless, the body holds tension, and inside there is recurring anxiety, guilt, shame or emptiness.',
+          'Individual psychotherapy is a space to explore your inner life, relationship patterns, emotional difficulties and recurring situations.\n\nYou don\'t have to wait until "everything is falling apart". Sometimes people come because something in their life no longer feels right: relationships feel hollow, work feels meaningless, the body holds tension, and inside there is recurring anxiety, guilt, shame or emptiness.',
         topics: [
           'Anxiety, tension, inner pressure',
           'Relationship difficulties',
           'Loneliness, rejection, jealousy, shame',
           'Compulsive patterns and dependencies',
-          'Self-worth and identity questions',
+          'Boundaries and self-worth',
           'Sexuality, embodiment and intimacy',
-          'Life crises, loss, transitions',
+          'Loss, grief and life transitions',
           'Difficulty feeling, choosing or being yourself',
         ],
         duration: 'Session – 50 minutes',
       },
       sexuality: {
-        title: 'Sexuality and intimacy',
+        title: 'Intimacy and sexuality',
         description:
           'Sexuality in therapy is not only about technique, function or a "problem". It is often a tender area of relationship with oneself, the body, shame, desire, boundaries and another person.\n\nIn couples, sexuality is often connected to emotional safety: can I be seen, can I speak about my needs, can I be accepted with my vulnerability.\n\nIn individual therapy, sexuality may open as a theme of relationship with the body, fear of intimacy, guilt, past experiences or inner conflicts.',
         topics: [
@@ -394,18 +335,15 @@ const translations: Record<Language, Translations> = {
       steps: {
         first: {
           title: 'First meeting',
-          description:
-            'We get acquainted and discuss your situation. We explore what brought you to therapy and what you hope for. There is no rush.',
+          description: 'We get acquainted and discuss your situation. We explore what brought you to therapy and what you hope for. There is no rush.',
         },
         safe: {
           title: 'Safe dialogue',
-          description:
-            'We build a trust-based therapeutic relationship. Attention to what is happening here and now – between us, in the body, in feelings.',
+          description: 'We build a trust-based therapeutic relationship. Attention to what is happening here and now – between us, in the body, in feelings.',
         },
         integration: {
           title: 'Experience integration',
-          description:
-            'During therapy you discover new meanings, come to understand recurring cycles more deeply, and regain inner space to make choices.',
+          description: 'During therapy you discover new meanings, come to understand recurring cycles more deeply, and regain inner space to make choices.',
         },
       },
     },
@@ -419,7 +357,7 @@ const translations: Record<Language, Translations> = {
       ],
       approachTitle: 'My approach',
       approach:
-        'My therapeutic work is rooted in dialogue, genuine encounter, and attention to what is happening here and now — between therapist and client, between partners, between a person and their own experience.\n\nI study and deepen my knowledge in Gestalt psychotherapy, psychoanalytic thinking, couples therapy and emotionally focused therapy / EFT. EFT is important to me as a framework for seeing attachment needs, emotional cycles, and the possibility of restoring secure connection in couples.',
+        'My therapeutic work is rooted in dialogue, genuine encounter, and attention to what is happening here and now — between therapist and client, between partners, between a person and their own experience.\n\nI study and deepen my knowledge in Gestalt psychotherapy, psychoanalytic thinking, couples therapy and emotionally focused therapy / EFT. EFT is close to me as a framework for seeing attachment needs, emotional cycles, and the possibility of restoring secure connection in couples.',
       education: {
         title: 'Education',
         items: [
@@ -428,76 +366,32 @@ const translations: Record<Language, Translations> = {
             institution: 'Université Côte d\'Azur, France',
             details: 'Training with a strong focus on Lacanian psychoanalytic theory',
           },
-          {
-            title: 'Bachelor\'s in Psychology',
-            institution: 'Mykolas Romeris University, Lithuania',
-          },
-          {
-            title: 'Gestalt Therapy Training (GATLA programme)',
-            institution: 'Gestalt Associates Training Los Angeles, USA',
-          },
-          {
-            title: 'Psychotherapy and Psychodrama Studies',
-            institution: 'Kyiv Institute of Gestalt and Psychodrama, Ukraine',
-          },
-          {
-            title: 'Psychoanalytic Couples Therapy',
-            institution: 'International Institute of Depth Psychology, Ukraine',
-          },
-          {
-            title: 'Psychotherapy Studies',
-            institution: 'Scuola di Psicoterapia Torino – IPSIG, Italy',
-          },
+          { title: 'Bachelor\'s in Psychology', institution: 'Mykolas Romeris University, Lithuania' },
+          { title: 'Gestalt Therapy Training (GATLA programme)', institution: 'Gestalt Associates Training Los Angeles, USA' },
+          { title: 'Psychotherapy and Psychodrama Studies', institution: 'Kyiv Institute of Gestalt and Psychodrama, Ukraine' },
+          { title: 'Psychoanalytic Couples Therapy', institution: 'International Institute of Depth Psychology, Ukraine' },
+          { title: 'Psychotherapy Studies', institution: 'Scuola di Psicoterapia Torino – IPSIG, Italy' },
         ],
         note: 'Continuously deepening knowledge through international trainings and collaborating with colleagues from various countries',
       },
     },
     themes: {
-      title: 'Topics I work with',
-      intro: 'Below are themes that often arise in therapy. This is not an exhaustive list or a catalogue of diagnoses — it is an orientation, to help you sense whether what you are carrying has a place here.',
+      title: 'Themes that may arise in therapy',
+      intro: 'People often come to therapy not with one clear problem, but with a tangle of experience in which relationships, the body, self-worth, the past and present choices are all intertwined.',
       items: [
-        {
-          label: 'Relationship difficulties and recurring conflicts',
-          text: 'When arguments follow the same pattern, when one person feels unheard and the other unvalued, when closeness becomes difficult or seems impossible.',
-        },
-        {
-          label: 'Intimacy, sexuality and embodiment',
-          text: 'Difficulty allowing closeness, exploring needs and desires, shame, bodily tension, the relationship with one\'s own bodily experience.',
-        },
-        {
-          label: 'Boundaries, self-worth and self-care',
-          text: 'Difficulty saying no, persistent guilt, a tendency to care for others while ignoring one\'s own needs, inner pressure to be "good enough".',
-        },
-        {
-          label: 'Loss, separation and grief',
-          text: 'The end of a relationship, the loss of someone close, grief that is hard to name or a sense that moving through pain is impossible.',
-        },
-        {
-          label: 'Traumatic experiences and their effect on relationships',
-          text: 'Earlier experiences that leave a mark — shaping how we approach others, how we protect ourselves, how we trust or cannot trust.',
-        },
-        {
-          label: 'Psychosomatic symptoms and emotional stress',
-          text: 'When the body speaks what has not yet been said: chronic tension, insomnia, fatigue, pain without a clear medical cause.',
-        },
-        {
-          label: 'Early experiences and the "inner child" theme',
-          text: 'How a childhood environment, parental relationships or early wounds shape our behaviour and relationships as adults.',
-        },
-        {
-          label: 'Identity, belonging and self-acceptance',
-          text: 'The question "who am I" — when it arises from genuine uncertainty. Meaning in life, one\'s place in the world, the relationship with oneself.',
-        },
-        {
-          label: 'LGBTIQA+ experiences, relationships and self-acceptance',
-          text: 'An open, respectful space to explore self-acceptance, patterns of intimacy, relationships and anything that matters — without judgment and without assumptions.',
-        },
+        { label: 'Relationship difficulties' },
+        { label: 'Boundaries and self-worth' },
+        { label: 'Loss and grief' },
+        { label: 'Traumatic experiences' },
+        { label: 'Psychosomatic symptoms and emotional stress' },
+        { label: 'Early experiences and the "inner child" theme' },
+        { label: 'Identity, belonging and self-acceptance' },
+        { label: 'LGBTIQA+ experiences, relationships and self-acceptance' },
       ],
     },
     contact: {
       title: 'Contact',
-      subtitle:
-        'If you feel you would like to start therapy individually or together with your partner, please get in touch to arrange a first consultation.',
+      subtitle: 'If you feel you would like to start therapy individually or together with your partner, please get in touch to arrange a first consultation.',
       description: 'I work in person in Vilnius and online',
       languages: 'I work in Lithuanian, English and Russian',
       lgbtFriendly: 'LGBT+ friendly space',
@@ -507,10 +401,10 @@ const translations: Record<Language, Translations> = {
       hours: 'Working hours',
       workingHours: 'Mon–Fri 8:00–20:00',
       cancellationTitle: 'Cancellation and payment',
-      cancellationPolicy:
-        'Please notify about cancellation at least 24 hours before your session. Whenever possible, I try to be flexible and reschedule within the same week. Sessions cancelled or missed with less than 24 hours notice are charged in full.',
+      cancellationPolicy: 'Please notify about cancellation at least 24 hours before your session. Whenever possible, I try to be flexible and reschedule within the same week. Sessions cancelled or missed with less than 24 hours notice are charged in full.',
       paymentNote: 'Payment is made before the session or immediately after.',
       cta: 'Book a consultation',
+      ctaContact: 'Get in touch',
     },
     footer: {
       quote: '"Therapy is not a prescription. It is a journey to yourself."',
