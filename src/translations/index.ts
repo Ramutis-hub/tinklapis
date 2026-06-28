@@ -112,7 +112,7 @@ const translations: Record<Language, Translations> = {
     hero: {
       title: 'Ramutis Klimanskis',
       subtitle: 'Klinikinis psichologas, psichoterapeutas',
-      description: 'Padedu žmonėms, kurie susiduria su nerimu, santykių sunkumais ar nori geriau suprasti save. Terapijoje man svarbiausia – įsiklausymas, pagarba ir tikras dialogas.',
+      description: 'Specializuojuosi porų terapijoje, dirbu ir individualiai. Padedu poroms atstatyti ryšį, o žmonėms giliau pažinti save ir savo santykių modelius. Terapijoje man svarbiausia – įsiklausymas, pagarba ir tikras dialogas.',
       cta: 'Registruotis konsultacijai',
       aboutButton: 'Apie mane',
       quote: '„Klausytis – tai ne tik girdėti žodžius, bet ir tai, kas slepiasi už jų."',
@@ -120,7 +120,7 @@ const translations: Record<Language, Translations> = {
     },
     services: {
       title: 'Teikiamos paslaugos',
-      subtitle: 'Individuali pagalba, pritaikyta jūsų poreikiams ir situacijai.',
+      subtitle: 'Specializuojuosi porų terapijoje, kartu dirbu ir individualiai – kiekvienam pagal jo poreikius.',
       individual: {
         title: 'Individuali geštalto terapija',
         description: 'Padeda giliau pažinti save, tyrinėti santykius ir gyvenimo modelius. Darbe daug dėmesio skiriu nesąmoningiems procesams bei vidiniams santykių modeliams.',
@@ -141,12 +141,13 @@ const translations: Record<Language, Translations> = {
         ]
       },
       couples: {
-        title: 'Porų konsultacijos',
-        description: 'Pagalba sprendžiant santykių sunkumus ir atkuriant artimumą.',
+        title: 'Porų terapija',
+        description: 'Specializacija, kuriai skiriu ypatingą dėmesį. Padedu poroms suprasti jų santykio dinamiką, atstatyti ryšį ir kurti gilesnį artimumą.',
         keywords: [
-          'Konfliktų sprendimas',
-          'Sveikų ribų nustatymas',
-          'Pasitikėjimo ir artumo stiprinimas'
+          'Santykio dinamikos tyrinėjimas ir supratimas',
+          'Konfliktų transformacija į dialogą',
+          'Pasitikėjimo ir emocinio saugumo atkūrimas',
+          'Psichoanalitinis požiūris į poros santykį'
         ]
       }
     },
@@ -253,7 +254,7 @@ const translations: Record<Language, Translations> = {
     hero: {
       title: 'Ramutis Klimanskis',
       subtitle: 'Clinical Psychologist, Psychotherapist',
-      description: 'I help people who face anxiety, relationship difficulties, or want to better understand themselves. In therapy, what matters most to me is listening, respect, and genuine dialogue.',
+      description: 'I specialize in couples therapy and also work individually. I help couples restore connection, and individuals better understand themselves and their relationship patterns. In therapy, what matters most to me is listening, respect, and genuine dialogue.',
       cta: 'Book a consultation',
       aboutButton: 'About me',
       quote: '"To listen is not only to hear words, but also what lies behind them."',
@@ -261,7 +262,7 @@ const translations: Record<Language, Translations> = {
     },
     services: {
       title: 'Services Offered',
-      subtitle: 'Individual support tailored to your needs and situation.',
+      subtitle: 'I specialize in couples therapy, while also working individually — each person according to their needs.',
       individual: {
         title: 'Individual Gestalt Therapy',
         description: 'Helps you get to know yourself better, explore relationships and life patterns. In my work, I pay significant attention to unconscious processes and internal relationship patterns.',
@@ -282,12 +283,13 @@ const translations: Record<Language, Translations> = {
         ]
       },
       couples: {
-        title: 'Couples Counseling',
-        description: 'Help in resolving relationship difficulties and restoring intimacy.',
+        title: 'Couples Therapy',
+        description: 'My area of special focus. I help couples understand their relationship dynamics, restore connection, and build deeper intimacy.',
         keywords: [
-          'Conflict resolution',
-          'Setting healthy boundaries',
-          'Strengthening trust and intimacy'
+          'Exploring and understanding relationship dynamics',
+          'Transforming conflict into dialogue',
+          'Restoring trust and emotional safety',
+          'A psychoanalytic approach to the couple relationship'
         ]
       }
     },
