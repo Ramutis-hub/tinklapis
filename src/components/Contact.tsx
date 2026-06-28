@@ -38,28 +38,14 @@ export function Contact() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start max-w-4xl mx-auto">
-          {/* Professional Portrait */}
-          <div className="order-1 lg:order-1">
-            <div className="aspect-[4/5] rounded-lg overflow-hidden shadow-2xl max-w-[280px] mx-auto lg:mx-0">
-              <img
-                src="/images/apie mane copy copy copy copy copy.jpg"
-                alt="Psichoterapeutas Ramutis Klimanskis"
-                className="w-full h-full object-cover object-center"
-                style={{
-                  filter: 'brightness(1.05) contrast(0.95) saturate(0.95)',
-                }}
-              />
-            </div>
-          </div>
-
+        <div className="max-w-2xl mx-auto">
           {/* Contact Information */}
-          <div className="order-2 lg:order-2 space-y-6">
-            <div className="flex items-start gap-4 group">
-              <div className="flex-shrink-0 mt-1">
+          <div className="space-y-6">
+            <div className="flex items-center justify-center gap-4 group">
+              <div className="flex-shrink-0">
                 <Phone className="text-therapy-sage-400 group-hover:text-therapy-sage-300 transition-colors" size={24} />
               </div>
-              <div>
+              <div className="text-center">
                 <h3 className="text-therapy-warm-100 text-sm font-medium mb-1">{t.contact.phone}</h3>
                 <a href="tel:+37062176092" className="text-white text-lg font-medium hover:text-therapy-sage-300 transition-colors">
                   +370 621 76092
@@ -67,11 +53,11 @@ export function Contact() {
               </div>
             </div>
 
-            <div className="flex items-start gap-4 group">
-              <div className="flex-shrink-0 mt-1">
+            <div className="flex items-center justify-center gap-4 group">
+              <div className="flex-shrink-0">
                 <Mail className="text-therapy-sage-400 group-hover:text-therapy-sage-300 transition-colors" size={24} />
               </div>
-              <div>
+              <div className="text-center">
                 <h3 className="text-therapy-warm-100 text-sm font-medium mb-1">{t.contact.email}</h3>
                 <a href="mailto:ramutis.klimanskis@gmail.com" className="text-white text-base font-medium hover:text-therapy-sage-300 transition-colors break-all">
                   ramutis.klimanskis@gmail.com
@@ -79,21 +65,21 @@ export function Contact() {
               </div>
             </div>
 
-            <div className="flex items-start gap-4 group">
-              <div className="flex-shrink-0 mt-1">
+            <div className="flex items-center justify-center gap-4 group">
+              <div className="flex-shrink-0">
                 <MapPin className="text-therapy-sage-400 group-hover:text-therapy-sage-300 transition-colors" size={24} />
               </div>
-              <div>
+              <div className="text-center">
                 <h3 className="text-therapy-warm-100 text-sm font-medium mb-1">{t.contact.address}</h3>
                 <p className="text-white text-lg font-medium">Kęstučio g. 17, Vilnius</p>
               </div>
             </div>
 
-            <div className="flex items-start gap-4 group">
-              <div className="flex-shrink-0 mt-1">
+            <div className="flex items-center justify-center gap-4 group">
+              <div className="flex-shrink-0">
                 <Clock className="text-therapy-sage-400 group-hover:text-therapy-sage-300 transition-colors" size={24} />
               </div>
-              <div>
+              <div className="text-center">
                 <h3 className="text-therapy-warm-100 text-sm font-medium mb-1">{t.contact.hours}</h3>
                 <p className="text-white text-lg font-medium">{t.contact.workingHours}</p>
               </div>
