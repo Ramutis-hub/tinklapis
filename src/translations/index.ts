@@ -129,7 +129,7 @@ const translations: Record<Language, Translations> = {
       individual: {
         title: 'Individuali geštalto terapija',
         description: 'Padeda giliau pažinti save, tyrinėti santykius ir gyvenimo modelius. Darbe daug dėmesio skiriu nesąmoningiems procesams bei vidiniams santykių modeliams.',
-        duration: '60 min.',
+        duration: '50 min.',
         keywords: [
           'Savęs pažinimas ir nesąmoningų procesų tyrinėjimas',
           'Vidiniai santykių modeliai ir jų transformacija',
@@ -140,7 +140,7 @@ const translations: Record<Language, Translations> = {
       trauma: {
         title: 'Traumų terapija',
         description: 'Saugios erdvės sukūrimas trauminiams išgyvenimams apdoroti ir integruoti.',
-        duration: '60 min.',
+        duration: '50 min.',
         keywords: [
           'Darbas su netektimis, smurtu, karo patirtimis',
           'Emocijų reguliacija ir saugaus ryšio kūrimas',
@@ -275,7 +275,7 @@ const translations: Record<Language, Translations> = {
       individual: {
         title: 'Individual Gestalt Therapy',
         description: 'Helps you get to know yourself better, explore relationships and life patterns. In my work, I pay significant attention to unconscious processes and internal relationship patterns.',
-        duration: '60 min.',
+        duration: '50 min.',
         keywords: [
           'Self-awareness and exploring unconscious processes',
           'Internal relationship patterns and their transformation',
@@ -286,7 +286,7 @@ const translations: Record<Language, Translations> = {
       trauma: {
         title: 'Trauma Therapy',
         description: 'Creating a safe space to process and integrate traumatic experiences.',
-        duration: '60 min.',
+        duration: '50 min.',
         keywords: [
           'Working with loss, violence, war experiences',
           'Emotion regulation and safe attachment',
