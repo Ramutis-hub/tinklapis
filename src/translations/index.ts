@@ -141,7 +141,7 @@ const translations: Record<Language, Translations> = {
           'Sunkumai kalbėti apie poreikius',
           'Santykio krizės, skyrybų ar apsisprendimo klausimai',
         ],
-        duration: 'Sesija – 80 min (poroms) arba 50 min (individualiai)',
+        duration: 'Sesija – 60 minučių',
       },
       individual: {
         title: 'Individuali psichoterapija',
@@ -162,7 +162,7 @@ const translations: Record<Language, Translations> = {
       sexuality: {
         title: 'Seksualumas ir artumas',
         description:
-          'Seksualumas terapijoje nėra tik apie techniką ar „funkcionavimą". Dažnai tai yra jautri santykio su savimi, kūnu, gėda, troškimu, artumu ir kitu žmogumi sritis.',
+          'Seksualumas terapijoje nėra tik apie techniką, funkciją ar „problemą". Dažnai tai jautri santykio su savimi, kūnu, gėda, troškimu, ribomis ir kitu žmogumi sritis.\n\nPorose seksualumo tema dažnai susijusi su emociniu saugumu: ar galiu būti matomas, ar galiu kalbėti apie savo poreikius, ar galiu būti priimtas su savo pažeidžiamumu.\n\nIndividualioje terapijoje seksualumas gali atsiverti kaip santykio su kūnu, artumo baimės, kaltės, ankstesnių patirčių ar vidinių konfliktų tema.',
         topics: [
           'Sumažėjęs ar pasikeitęs seksualinis noras',
           'Gėda, kaltė ar įtampa dėl seksualumo',
@@ -172,7 +172,7 @@ const translations: Record<Language, Translations> = {
           'Ankstesnių patirčių įtaka dabartiniam santykiui',
           'Pavydas, fantazijos, ribos, ištikimybės klausimai',
         ],
-        note: 'Ši tema terapijoje tyrinėjama pagarbiai, be spaudimo ir be vertinimo. Man svarbu padėti žmogui ar porai suprasti, kokią prasmę seksualumas turi jų santykyje ir vidiniame gyvenime.',
+        note: 'Terapijoje šią sritį tyrinėjame pagarbiai, be spaudimo ir be vertinimo.',
       },
     },
     process: {
@@ -303,7 +303,7 @@ const translations: Record<Language, Translations> = {
           'Difficulty expressing needs',
           'Relationship crises, separation or decision-making',
         ],
-        duration: 'Session – 80 min (couples) or 50 min (individual)',
+        duration: 'Session – 60 minutes',
       },
       individual: {
         title: 'Individual psychotherapy',
@@ -324,7 +324,7 @@ const translations: Record<Language, Translations> = {
       sexuality: {
         title: 'Sexuality and intimacy',
         description:
-          'Sexuality in therapy is not only about technique or "functioning". It is often a tender area of relationship with oneself, the body, shame, desire, closeness and another person.',
+          'Sexuality in therapy is not only about technique, function or a "problem". It is often a tender area of relationship with oneself, the body, shame, desire, boundaries and another person.\n\nIn couples, sexuality is often connected to emotional safety: can I be seen, can I speak about my needs, can I be accepted with my vulnerability.\n\nIn individual therapy, sexuality may open as a theme of relationship with the body, fear of intimacy, guilt, past experiences or inner conflicts.',
         topics: [
           'Reduced or changed sexual desire',
           'Shame, guilt or tension around sexuality',
@@ -334,7 +334,7 @@ const translations: Record<Language, Translations> = {
           'How past experiences shape current relationships',
           'Jealousy, fantasy, boundaries, fidelity questions',
         ],
-        note: 'This topic is explored in therapy with respect, without pressure and without judgment. I want to help the person or couple understand what meaning sexuality holds in their relationship and inner life.',
+        note: 'This area is explored in therapy with respect, without pressure and without judgment.',
       },
     },
     process: {

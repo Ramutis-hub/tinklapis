@@ -128,9 +128,13 @@ export function Services() {
             <h2 className="section-title">{t.services.sexuality.title}</h2>
           </FadeIn>
           <FadeIn delay={0.15}>
-            <p className="text-base md:text-lg text-therapy-warm-700 leading-relaxed">
-              {t.services.sexuality.description}
-            </p>
+            <div className="space-y-4">
+              {t.services.sexuality.description.split('\n\n').map((para, i) => (
+                <p key={i} className="text-base md:text-lg text-therapy-warm-700 leading-relaxed">
+                  {para}
+                </p>
+              ))}
+            </div>
           </FadeIn>
           <FadeIn delay={0.25}>
             <div className="mt-8 p-6 bg-therapy-warm-50 rounded-sm border border-therapy-warm-200">
