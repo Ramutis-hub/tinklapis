@@ -4,6 +4,7 @@ import { Hero } from './components/sections/Hero';
 import { Process } from './components/sections/Process';
 import { Journey } from './components/sections/Journey/Journey';
 import { Services } from './components/Services';
+import { Themes } from './components/Themes';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { useLanguage } from './hooks/useLanguage';
@@ -18,6 +19,7 @@ export function App() {
         <Hero key={`hero-${language}`} />
         <Services key={`services-${language}`} />
         <Process key={`process-${language}`} />
+        <Themes key={`themes-${language}`} />
         <Journey key={`journey-${language}`} />
         <Contact key={`contact-${language}`} />
       </main>
