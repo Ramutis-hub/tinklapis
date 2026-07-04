@@ -109,7 +109,7 @@ const translations: Record<Language, Translations> = {
       subtitle: 'Ramutis Klimanskis – psichoterapeutas Vilniuje ir online',
       intro: 'Porų terapija · Individuali psichoterapija · Santykių sunkumai · Seksualumo ir artumo temos',
       description:
-        'Padedu žmonėms ir poroms tyrinėti tai, kas vyksta santykyje: konfliktus, nutolimą, artumo baimę, pasikartojančius emocinius ciklus, seksualumo temas ir sunkumus būti išgirstam.\n\nTerapijoje kviečiu ne ieškoti greitų atsakymų, o sustoti prie to, kas kartojasi: kaip mes ginamės, kaip trokštame artumo, kaip prarandame ryšį ir kaip galime jį atkurti.\n\nDirbu su poromis ir individualiai. Mano darbe svarbios Gestalt terapijos, dialogo, lauko teorijos, psichoanalitinio mąstymo ir emociškai fokusuotos terapijos / EFT perspektyvos.',
+        'Padedu žmonėms ir poroms tyrinėti tai, kas vyksta santykyje: konfliktus, nutolimą, artumo baimę, pasikartojančius emocinius ciklus, seksualumo temas ir sunkumus būti išgirstam.\n\nTerapijoje kviečiu ne ieškoti greitų atsakymų, o sustoti prie to, kas kartojasi: kaip mes ginamės, kaip trokštame artumo, kaip prarandame ryšį ir kaip galime jį atkurti.\n\nDirbu su poromis ir individualiai. Mano darbe svarbios Geštalto terapijos, dialogo, lauko teorijos, psichoanalitinio mąstymo ir emociškai fokusuotos terapijos / EFT perspektyvos.',
       cta: 'Registruotis konsultacijai',
       ctaCouples: 'Porų terapija',
       ctaIndividual: 'Individuali terapija',
@@ -117,7 +117,7 @@ const translations: Record<Language, Translations> = {
       quoteAuthor: '— J. Lacan',
     },
     introBlock: {
-      title: 'Kai ryšys tampa sunkus, terapijoje galima pradėti jį girdėti iš naujo.',
+      title: 'Kai ryšys tampa sunkus, terapijoje galima pradėti jį kurti iš naujo.',
       text: 'Kartais poros ateina ne todėl, kad meilė baigėsi, o todėl, kad nebežino, kaip vienas kitą pasiekti. Išoriškai tai gali atrodyti kaip konfliktai dėl buities, vaikų, pinigų, seksualumo ar dėmesio. Tačiau po tais ginčais dažnai slypi jautresni klausimai: ar aš tau dar svarbus? Ar tu mane matai? Ar galiu prie tavęs būti savimi?',
     },
     services: {
@@ -172,12 +172,12 @@ const translations: Record<Language, Translations> = {
     },
     process: {
       title: 'Kaip vyksta terapija?',
-      subtitle: 'Kiekvienas susitikimas yra kitoks, nes jį kuria du žmonės. Paprastai susitinkame kartą per savaitę.',
+      subtitle: 'Kiekvienas susitikimas yra unikalus, nes jį kuria du žmonės. Paprastai susitinkame kartą per savaitę.',
       sessionInfo: '',
       steps: {
         first: {
           title: 'Pirmasis susitikimas',
-          description: 'Susipažįstame ir aptariame jūsų situaciją. Tyrinėjame, kas jus atvedė į terapiją ir kokių lūkesčių turite. Neskubame.',
+          description: 'Susipažįstame ir aptariame jūsų situaciją. Tyrinėjame, kas jus atvedė į terapiją ir kokių lūkesčių turite.',
         },
         safe: {
           title: 'Saugus dialogas',
@@ -192,14 +192,14 @@ const translations: Record<Language, Translations> = {
     about: {
       title: 'Apie mane',
       paragraphs: [
-        'Kaip terapeutas, pirmiausia stengiuosi matyti, kas vyksta tarp mūsų čia ir dabar – tiek pokalbyje, tiek tylos momentuose, tiek tame, kas abiem jaučiasi artima ar nepatogu. Man svarbu, kad mūsų susitikimuose būtų vietos atvirumui ir ramiam tempui, kad galėtumėte būti su tuo, kas jums šiuo metu tikra.',
+        'Kaip terapeutas pirmiausia stengiuosi matyti, kas vyksta tarp mūsų čia ir dabar – tiek pokalbyje, tiek tylos momentuose, tiek tame, kas abiem jaučiasi artima ar nepatogu. Man svarbu, kad mūsų susitikimuose būtų vietos atvirumui ir ramiam tempui, kad galėtumėte būti su tuo, kas jums šiuo metu tikra.',
         'Per savo praktiką vis labiau matau, kad pokytis prasideda tada, kai žmogus ima aiškiau suprasti, kas jį veikia – savo jausmus, įpročius, pasikartojančius elgesio modelius, vidinius konfliktus, gynybas ir tai, kaip esate pratę matyti save.',
         'Į sesijas neateinu su iš anksto paruoštu planu ar atsakymais. Man svarbu sutikti jus ten, kur jūs esate. Kartu tyrinėjame tai, kas kyla – ar tai būtų skausmas, nerimas, pasimetimas, aiškumas ar tiesiog sunkiai įvardijama būsena.',
         'Terapiją matau kaip bendrą procesą. Kiekvienas susitikimas yra kitoks, nes jį kuria du žmonės: jūsų atvirumas ir noras suprasti save susitinka su mano dėmesiu, buvimu ir pagarba jūsų patirčiai.',
       ],
       approachTitle: 'Apie mano darbo kryptį',
       approach:
-        'Mano terapinis darbas remiasi dialogu, gyvu susitikimu ir dėmesiu tam, kas vyksta čia ir dabar – tarp terapeuto ir kliento, tarp partnerių, tarp žmogaus ir jo paties patirties.\n\nStudijuoju ir gilinuosi į Gestalt psichoterapiją, psichoanalitinį mąstymą, porų terapiją ir emociškai fokusuotą terapiją / EFT. EFT man artima kaip kryptis, padedanti porose matyti prisirišimo poreikius, emocinius ciklus ir saugaus ryšio atkūrimo galimybę.',
+        'Mano terapinis darbas remiasi dialogu, gyvu susitikimu ir dėmesiu tam, kas vyksta čia ir dabar – tarp terapeuto ir kliento, tarp partnerių, tarp žmogaus ir jo paties patirties.\n\nStudijuoju ir gilinuosi į Geštalto psichoterapiją, psichoanalitinį mąstymą, porų terapiją ir emociškai fokusuotą terapiją / EFT. EFT man artima kaip kryptis, padedanti porose matyti prisirišimo poreikius, emocinius ciklus ir saugaus ryšio atkūrimo galimybę.',
       education: {
         title: 'Išsilavinimas',
         items: [
@@ -210,8 +210,7 @@ const translations: Record<Language, Translations> = {
           },
           { title: 'Psichologijos bakalauras', institution: 'Mykolo Romerio universitetas, Lietuva' },
           { title: 'Geštalto terapijos mokymai (GATLA programa)', institution: 'Gestalt Associates Training Los Angeles, JAV' },
-          { title: 'Psichoterapijos ir psichodramos studijos', institution: 'Київський інститут гештальту та психодрами, Ukraina' },
-          { title: 'Psichoanalitinė porų terapija', institution: 'Міжнародний інститут глибинної психології, Ukraina' },
+          { title: 'Psichoterapijos ir psichodramos studijos', institution: 'Київський інститут гештальту та психодрами, Ukraina' },          { title: 'Psichoanalitinė porų terapija', institution: 'Міжнародний інститут глибинної психології, Ukraina' },
           { title: 'Psichoterapijos studijos', institution: 'Scuola di Psicoterapia Torino – IPSIG, Italija' },
         ],
         note: 'Nuolat gilinuosi tarptautiniuose mokymuose ir bendradarbiauju su kolegomis iš įvairių šalių',
@@ -275,7 +274,7 @@ const translations: Record<Language, Translations> = {
       quoteAuthor: '— J. Lacan',
     },
     introBlock: {
-      title: 'When connection becomes difficult, therapy can help you hear it again.',
+      title: 'When connection becomes difficult, therapy can be a place to begin building it again.',
       text: 'Couples sometimes come not because love has ended, but because they no longer know how to reach each other. On the surface it may look like conflicts about daily life, children, money, sexuality or attention. But beneath those arguments often lie more tender questions: am I still important to you? Do you see me? Can I be myself with you?',
     },
     services: {
@@ -330,12 +329,12 @@ const translations: Record<Language, Translations> = {
     },
     process: {
       title: 'How does therapy work?',
-      subtitle: 'Each session is unique because it is shaped by two people. We usually meet once a week.',
+      subtitle: 'Each session is unique, shaped by two people. We usually meet once a week.',
       sessionInfo: '',
       steps: {
         first: {
           title: 'First meeting',
-          description: 'We get acquainted and discuss your situation. We explore what brought you to therapy and what you hope for. There is no rush.',
+          description: 'We get acquainted and discuss your situation. We explore what brought you to therapy and what you hope for.',
         },
         safe: {
           title: 'Safe dialogue',

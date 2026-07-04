@@ -16,9 +16,9 @@ export function App() {
       <Header key={`header-${language}`} />
       <main key={`main-${language}`}>
         <Hero key={`hero-${language}`} />
+        <Services key={`services-${language}`} />
         <Process key={`process-${language}`} />
         <Journey key={`journey-${language}`} />
-        <Services key={`services-${language}`} />
         <Contact key={`contact-${language}`} />
       </main>
       <Footer key={`footer-${language}`} />

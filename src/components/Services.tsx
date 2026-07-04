@@ -24,20 +24,6 @@ export function Services() {
 
   return (
     <>
-      {/* Intro block */}
-      <section className="py-16 md:py-24 bg-therapy-sage-50/40 border-y border-therapy-warm-200/60">
-        <div className="max-w-2xl mx-auto px-6 text-center">
-          <FadeIn>
-            <h2 className="text-xl md:text-2xl lg:text-[1.6rem] font-serif text-therapy-warm-800 mb-6 font-normal leading-snug">
-              {t.introBlock.title}
-            </h2>
-            <p className="text-base md:text-lg text-therapy-warm-700 leading-relaxed">
-              {t.introBlock.text}
-            </p>
-          </FadeIn>
-        </div>
-      </section>
-
       {/* Couples therapy */}
       <Section id="poru-terapija" background="light" className="bg-white">
         <div className="max-w-3xl mx-auto">
@@ -77,6 +63,20 @@ export function Services() {
           </FadeIn>
         </div>
       </Section>
+
+      {/* Intro block – between couples and individual */}
+      <section className="py-16 md:py-24 bg-therapy-sage-50/40 border-y border-therapy-warm-200/60">
+        <div className="max-w-2xl mx-auto px-6 text-center">
+          <FadeIn>
+            <h2 className="text-xl md:text-2xl lg:text-[1.6rem] font-serif text-therapy-warm-800 mb-6 font-normal leading-snug">
+              {t.introBlock.title}
+            </h2>
+            <p className="text-base md:text-lg text-therapy-warm-700 leading-relaxed">
+              {t.introBlock.text}
+            </p>
+          </FadeIn>
+        </div>
+      </section>
 
       {/* Individual therapy */}
       <Section id="individuali-terapija" background="light" className="bg-therapy-warm-50/50">
