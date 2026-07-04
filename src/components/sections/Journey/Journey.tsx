@@ -29,34 +29,16 @@ export function Journey() {
           </motion.div>
         </div>
 
-        {/* Photo (mobile only) – between About and Approach */}
+        {/* Approach box with photo inside */}
         <motion.div
-          className="mb-10 md:hidden"
-          initial={{ opacity: 0, y: 16 }}
+          className="mb-12 md:mb-16 p-6 md:p-8 bg-therapy-warm-50 rounded-sm border border-therapy-warm-200"
+          initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <div className="aspect-[4/3] rounded-sm overflow-hidden max-w-sm mx-auto"
-            style={{ boxShadow: '0 6px 30px -6px rgba(74,65,55,0.15)' }}>
-            <img
-              src="/images/instagram copy copy.jpg"
-              alt="Ramutis Klimanskis"
-              className="w-full h-full object-cover object-center"
-            />
-          </div>
-        </motion.div>
-
-        {/* Approach + Photo (desktop: side by side) */}
-        <div className="mb-12 md:mb-16">
-          <div className="md:grid md:grid-cols-[1fr_280px] md:gap-8 items-start">
-            <motion.div
-              className="p-6 md:p-8 bg-therapy-warm-50 rounded-sm border border-therapy-warm-200"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              viewport={{ once: true }}
-            >
+          <div className="md:flex md:gap-7 md:items-start">
+            <div className="flex-1 min-w-0">
               <h3 className="text-xl md:text-2xl font-serif text-therapy-warm-800 mb-5 font-normal">
                 {t.about.approachTitle}
               </h3>
@@ -67,27 +49,21 @@ export function Journey() {
                   </p>
                 ))}
               </div>
-            </motion.div>
+            </div>
 
-            {/* Photo (desktop only) – beside Approach */}
-            <motion.div
-              className="hidden md:block"
-              initial={{ opacity: 0, x: 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.6, delay: 0.15 }}
-              viewport={{ once: true }}
-            >
-              <div className="aspect-[3/4] rounded-sm overflow-hidden w-full"
-                style={{ boxShadow: '0 6px 30px -6px rgba(74,65,55,0.15)' }}>
+            {/* Photo inside the box */}
+            <div className="mt-7 md:mt-0 md:flex-shrink-0 md:w-52">
+              <div className="aspect-[3/4] rounded-sm overflow-hidden"
+                style={{ boxShadow: '0 4px 20px -4px rgba(74,65,55,0.14)' }}>
                 <img
                   src="/images/instagram copy copy.jpg"
                   alt="Ramutis Klimanskis"
                   className="w-full h-full object-cover object-center"
                 />
               </div>
-            </motion.div>
+            </div>
           </div>
-        </div>
+        </motion.div>
 
         {/* Education */}
         <motion.div
