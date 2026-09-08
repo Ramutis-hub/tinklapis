@@ -37,6 +37,8 @@ export interface Translations {
       description: string;
       topics: string[];
       duration: string;
+      accessibilityTitle: string;
+      accessibilityText: string;
     };
     sexuality: {
       title: string;
@@ -153,6 +155,9 @@ const translations: Record<Language, Translations> = {
           'Sunkumas jausti, pasirinkti ar būti savimi',
         ],
         duration: 'Sesija – 50 minučių',
+        accessibilityTitle: 'Terapijos prieinamumas',
+        accessibilityText:
+          'Savo praktikoje turiu keletą vietų individualiai terapijai už mažesnę kainą studentams ir žmonėms, kuriems šiuo metu įprasta terapijos kaina būtų sunkiai prieinama. Jei tai Jums aktualu, galite apie tai parašyti kreipdamiesi dėl konsultacijos.',
       },
       sexuality: {
         title: 'Artumas ir seksualumas',
@@ -310,6 +315,9 @@ const translations: Record<Language, Translations> = {
           'Difficulty feeling, choosing or being yourself',
         ],
         duration: 'Session – 50 minutes',
+        accessibilityTitle: 'Therapy accessibility',
+        accessibilityText:
+          'In my practice I reserve a few spots for individual therapy at a reduced rate for students and those for whom the standard fee would be difficult to afford. If this is relevant to you, feel free to mention it when reaching out for a consultation.',
       },
       sexuality: {
         title: 'Intimacy and sexuality',

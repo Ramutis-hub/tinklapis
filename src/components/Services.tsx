@@ -105,8 +105,20 @@ export function Services() {
             </div>
           </FadeIn>
           <FadeIn delay={0.35}>
-            <div className="mt-7 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-              <p className="text-sm text-therapy-warm-400 italic">{t.services.individual.duration}</p>
+            <p className="mt-7 text-sm text-therapy-warm-400 italic">{t.services.individual.duration}</p>
+          </FadeIn>
+          <FadeIn delay={0.4}>
+            <div className="mt-6 p-5 bg-therapy-sage-50 rounded-sm border border-therapy-sage-200">
+              <h3 className="text-sm font-semibold text-therapy-sage-700 mb-2">
+                {t.services.individual.accessibilityTitle}
+              </h3>
+              <p className="text-sm md:text-base text-therapy-warm-700 leading-relaxed">
+                {t.services.individual.accessibilityText}
+              </p>
+            </div>
+          </FadeIn>
+          <FadeIn delay={0.45}>
+            <div className="mt-7">
               <a
                 href="#kontaktai"
                 className="inline-flex items-center justify-center bg-therapy-sage-600 text-white px-6 py-3 hover:bg-therapy-sage-700 transition-all duration-300 font-medium rounded-sm text-sm"
