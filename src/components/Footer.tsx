@@ -37,7 +37,7 @@ export function Footer() {
             </div>
             <div className="flex flex-col">
               <Link to="/" className="text-base md:text-lg font-serif text-therapy-warm-100 font-medium tracking-wide">
-                {language === 'lt' ? 'Dialogo Erdvė' : 'Dialogue Space'}
+                Dialogo Erdvė
               </Link>
               <span className="text-xs md:text-sm text-therapy-warm-300 tracking-wider">
                 {language === 'lt' ? 'Psichoterapija' : 'Psychotherapy'} · Ramutis Klimanskis

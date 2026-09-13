@@ -24,7 +24,7 @@ export function AuthorBio({ isEnglish = false }: AuthorBioProps) {
           </p>
           <p className="text-sm text-therapy-warm-600 mb-4 leading-relaxed">
             {isEnglish
-              ? 'Clinical psychologist, psychotherapist. I work individually and with couples in Vilnius and online.'
+              ? 'Clinical psychologist and psychotherapist. I work with individuals and couples in Vilnius and online.'
               : 'Klinikinis psichologas, psichoterapeutas. Dirbu individualiai ir su poromis Vilniuje bei nuotoliu.'}
           </p>
           <div className="flex flex-wrap gap-3">

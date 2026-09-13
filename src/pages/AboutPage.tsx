@@ -4,10 +4,12 @@ import { FadeIn } from '../components/ui/animations';
 import { CTASection } from '../components/shared/CTASection';
 import { useLanguage } from '../hooks/useLanguage';
 import { useTranslations } from '../translations';
+import { useDocumentMeta } from '../hooks/useDocumentMeta';
 
 export function AboutPage() {
   const { language } = useLanguage();
   const t = useTranslations(language);
+  useDocumentMeta('about', language);
 
   return (
     <div className="bg-white">

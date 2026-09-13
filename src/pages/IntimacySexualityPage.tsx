@@ -5,10 +5,12 @@ import { ArticleCard } from '../components/shared/ArticleCard';
 import { getArticlesForSexualityPage } from '../content';
 import { useLanguage } from '../hooks/useLanguage';
 import { useTranslations } from '../translations';
+import { useDocumentMeta } from '../hooks/useDocumentMeta';
 
 export function IntimacySexualityPage() {
   const { language } = useLanguage();
   const t = useTranslations(language);
+  useDocumentMeta('sexuality', language);
   const articles = getArticlesForSexualityPage();
 
   const aspects = [
@@ -49,7 +51,7 @@ export function IntimacySexualityPage() {
         <div className="max-w-3xl mx-auto px-6">
           <FadeIn>
             <h2 className="text-xl md:text-2xl font-serif text-therapy-warm-800 font-normal mb-6">
-              {language === 'lt' ? 'Seksualumas terapijoje dažnai susijęs ne tik su seksualiniu elgesiu' : 'Sexuality in therapy is often connected not only to sexual behavior'}
+              {language === 'lt' ? 'Seksualumas terapijoje dažnai susijęs ne tik su seksualiniu elgesiu' : 'Sexuality in therapy is often connected not only to sexual behaviour'}
             </h2>
             <ul className="space-y-3">
               {aspects.map((aspect, i) => (
@@ -68,7 +70,7 @@ export function IntimacySexualityPage() {
         <div className="max-w-3xl mx-auto px-6">
           <FadeIn>
             <h2 className="text-xl md:text-2xl font-serif text-therapy-warm-800 font-normal mb-4">
-              {language === 'lt' ? 'Galima tyrinėti' : 'Topics to explore'}
+              {language === 'lt' ? 'Galima tyrinėti' : 'Areas we may explore'}
             </h2>
             <ul className="space-y-2.5 mt-4">
               {t.services.sexuality.topics.map((topic, i) => (
@@ -90,7 +92,7 @@ export function IntimacySexualityPage() {
         <div className="max-w-4xl mx-auto px-6">
           <FadeIn>
             <h2 className="text-lg md:text-xl font-serif text-therapy-warm-700 font-normal mb-6">
-              {language === 'lt' ? 'Susiję tekstai' : 'Related texts'}
+              {language === 'lt' ? 'Susiję tekstai' : 'Related writing'}
             </h2>
           </FadeIn>
           <div className="grid md:grid-cols-2 gap-5">

@@ -27,7 +27,7 @@ export function Logo() {
         </div>
         <div className="flex flex-col leading-tight">
           <span className="text-base font-serif text-therapy-warm-800 font-medium tracking-wide">
-            {language === 'lt' ? 'Dialogo Erdvė' : 'Dialogue Space'}
+            Dialogo Erdvė
           </span>
           <span className="text-[10px] text-therapy-warm-600 tracking-wider">
             {language === 'lt' ? 'Psichoterapija' : 'Psychotherapy'} · Ramutis Klimanskis

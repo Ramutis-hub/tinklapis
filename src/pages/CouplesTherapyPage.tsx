@@ -6,15 +6,17 @@ import { ArticleCard } from '../components/shared/ArticleCard';
 import { getArticlesForCouplesPage } from '../content';
 import { useLanguage } from '../hooks/useLanguage';
 import { useTranslations } from '../translations';
+import { useDocumentMeta } from '../hooks/useDocumentMeta';
 
 export function CouplesTherapyPage() {
   const { language } = useLanguage();
   const t = useTranslations(language);
+  useDocumentMeta('couples', language);
   const articles = getArticlesForCouplesPage();
 
   const topics = [
     language === 'lt' ? 'Emocinis atitolimas' : 'Emotional distance',
-    language === 'lt' ? 'Pasikartojantys konfliktai' : 'Recurring conflicts',
+    language === 'lt' ? 'Pasikartojantys konfliktai' : 'Recurring conflict',
     language === 'lt' ? 'Sunkumas susikalbėti' : 'Difficulty communicating',
     language === 'lt' ? 'Neištikimybė' : 'Infidelity',
     language === 'lt' ? 'Pasitikėjimo praradimas' : 'Loss of trust',
@@ -50,7 +52,7 @@ export function CouplesTherapyPage() {
         <div className="max-w-3xl mx-auto px-6">
           <FadeIn>
             <h2 className="text-xl md:text-2xl font-serif text-therapy-warm-800 font-normal mb-6">
-              {language === 'lt' ? 'Kada poros kreipiasi į terapiją?' : 'When couples seek therapy'}
+              {language === 'lt' ? 'Kada poros kreipiasi į terapiją?' : 'Common reasons couples seek therapy'}
             </h2>
             <ul className="space-y-3">
               {topics.map((topic, i) => (
@@ -98,7 +100,7 @@ export function CouplesTherapyPage() {
               <p>
                 {language === 'lt'
                   ? 'Kiekviena pora į terapiją atsineša savą istoriją, sunkumus ir būdą būti kartu. Todėl nėra vienos schemos, kuri tiktų visiems. Terapijoje tyrinėjame ne tik tai, ką kiekvienas jaučiate atskirai, bet ir tai, kas vyksta tarp jūsų: kaip bandote pasiekti vienas kitą, kur prarandate ryšį ir kokie pasikartojantys ciklai jus įtraukia.'
-                  : 'Every couple brings their own story, difficulties and way of being together to therapy. There is no single template that fits everyone. In therapy we explore not only what each of you feels separately, but also what happens between you: how you try to reach each other, where you lose connection, and what recurring cycles draw you in.'}
+                  : 'Every couple brings their own history, difficulties and way of being together into therapy. There is therefore no single formula that fits everyone. In therapy, we explore not only what each of you feels individually, but also what happens between you: how you try to reach one another, where connection gets lost, and which recurring cycles pull you both in.'}
               </p>
               <p>
                 {language === 'lt'
@@ -111,7 +113,7 @@ export function CouplesTherapyPage() {
               <p>
                 {language === 'lt'
                   ? 'Konsultuoju gyvai Vilniuje ir internetu. Dirbu lietuvių, anglų ir rusų kalbomis.'
-                  : 'I work in person in Vilnius and online. I work in Lithuanian, English and Russian.'}
+                  : 'I offer sessions in person in Vilnius and online. I work in Lithuanian, English and Russian.'}
               </p>
             </div>
             <div className="mt-8 space-y-8">
@@ -121,21 +123,21 @@ export function CouplesTherapyPage() {
                   description:
                     language === 'lt'
                       ? 'Susipažįstame ir kalbamės apie tai, kas jus atvedė į terapiją. Bandome suprasti, kaip kiekvienas matote santykio sunkumus, kas šiuo metu skaudžiausia ir ko tikitės iš terapijos.'
-                      : 'We get acquainted and talk about what brought you to therapy. We try to understand how each of you sees the relationship\u2019s difficulties, what is most painful right now, and what you hope for from therapy.',
+                      : 'We get to know one another and talk about what has brought you to therapy. We begin to understand how each of you sees the difficulties in the relationship, what feels most painful at the moment, and what you hope for from therapy.',
                 },
                 {
                   title: language === 'lt' ? 'Santykio ciklo supratimas' : 'Understanding the relationship cycle',
                   description:
                     language === 'lt'
                       ? 'Pamažu tyrinėjame, kas vyksta tarp jūsų konfliktų ar atitolimo metu. Kas nutinka vienam, kai kitas atsitraukia, kritikuoja, ginasi ar užsisklendžia? Dažnai pora pradeda matyti ne tik vienas kito reakcijas, bet ir pasikartojantį ratą, į kurį abu patenka.'
-                      : 'Gradually we explore what happens between you during conflicts or distance. What happens to one when the other withdraws, criticizes, defends or shuts down? Often the couple begins to see not only each other\u2019s reactions, but also the recurring cycle they both fall into.',
+                      : 'Gradually, we explore what happens between you during conflict or periods of distance. What happens to one partner when the other withdraws, criticises, becomes defensive or shuts down? Couples often begin to see not only one another\u2019s reactions, but also the recurring cycle that both partners become caught in.',
                 },
                 {
-                  title: language === 'lt' ? 'Naujo ryšio kūrimas' : 'Creating new connection',
+                  title: language === 'lt' ? 'Naujo ryšio kūrimas' : 'Creating a new way of connecting',
                   description:
                     language === 'lt'
                       ? 'Kai ciklas tampa aiškesnis, atsiranda daugiau galimybių išgirsti, kas slypi po pykčiu, kritika ar atsitraukimu. Terapijoje ieškome būdų kalbėti apie jautresnius poreikius, baimes ir ilgesį taip, kad kitas galėtų ne tik išgirsti, bet ir pasilikti santykyje.'
-                      : 'As the cycle becomes clearer, there are more opportunities to hear what lies beneath anger, criticism or withdrawal. In therapy we look for ways to talk about more vulnerable needs, fears and longing so that the other can not only hear, but also stay in the relationship.',
+                      : 'As the cycle becomes clearer, there is more space to hear what lies underneath anger, criticism or withdrawal. In therapy, we look for ways to speak about more vulnerable needs, fears and longings so that the other person can not only hear them, but remain emotionally present.',
                 },
               ].map((step, i) => (
                 <div key={i} className="flex gap-4">
@@ -153,7 +155,7 @@ export function CouplesTherapyPage() {
               <p className="text-base md:text-lg text-therapy-warm-700 leading-relaxed">
                 {language === 'lt'
                   ? 'Tikslas nėra tapti „porai be konfliktų", o kurti santykį, kuriame vis dažniau galima vienas kitą pasiekti net tada, kai sunku.'
-                  : 'The goal is not to become a \u201ccouple without conflicts\u201d, but to build a relationship where you can increasingly reach each other even when it\u2019s hard.'}
+                  : 'The aim is not to become a \u201cconflict-free couple\u201d, but to build a relationship in which you are increasingly able to reach one another even when things are difficult.'}
               </p>
             </div>
             <div className="mt-8 p-5 bg-white rounded-sm border border-therapy-warm-200">
@@ -170,7 +172,7 @@ export function CouplesTherapyPage() {
         <div className="max-w-4xl mx-auto px-6">
           <FadeIn>
             <h2 className="text-lg md:text-xl font-serif text-therapy-warm-700 font-normal mb-6">
-              {language === 'lt' ? 'Tekstai apie porų santykius' : 'Texts about couples relationships'}
+              {language === 'lt' ? 'Tekstai apie porų santykius' : 'Writing about couples relationships'}
             </h2>
           </FadeIn>
           <div className="grid md:grid-cols-2 gap-5">

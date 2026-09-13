@@ -6,10 +6,12 @@ import { ArticleCard } from '../components/shared/ArticleCard';
 import { getFeaturedArticles } from '../content';
 import { useLanguage } from '../hooks/useLanguage';
 import { useTranslations } from '../translations';
+import { useDocumentMeta } from '../hooks/useDocumentMeta';
 
 export function HomePage() {
   const { language } = useLanguage();
   const t = useTranslations(language);
+  useDocumentMeta('home', language);
   const featured = getFeaturedArticles();
 
   const heroParagraphs = t.hero.description.split('\n\n');
@@ -100,7 +102,7 @@ export function HomePage() {
                 title={t.services.couples.title}
                 description={t.services.couples.description.split('\n\n')[0]}
                 linkTo="/poru-terapija"
-                linkLabel={language === 'lt' ? 'Apie porų terapiją' : 'About couples therapy'}
+                linkLabel={language === 'lt' ? 'Apie porų terapiją' : 'About Couples Therapy'}
               />
             </FadeIn>
             <FadeIn delay={0.15}>
@@ -108,7 +110,7 @@ export function HomePage() {
                 title={t.services.individual.title}
                 description={t.services.individual.description.split('\n\n')[0]}
                 linkTo="/individuali-terapija"
-                linkLabel={language === 'lt' ? 'Apie individualią terapiją' : 'About individual therapy'}
+                linkLabel={language === 'lt' ? 'Apie individualią terapiją' : 'About Individual Therapy'}
               />
             </FadeIn>
           </div>
@@ -120,12 +122,12 @@ export function HomePage() {
         <div className="max-w-4xl mx-auto px-6">
           <FadeIn>
             <h2 className="text-lg md:text-xl font-serif text-therapy-warm-800 font-normal mb-3">
-              {language === 'lt' ? 'Apie santykius ir terapiją' : 'On relationships and therapy'}
+              {language === 'lt' ? 'Tekstai apie santykius ir terapiją' : 'Writing on Relationships and Therapy'}
             </h2>
             <p className="text-sm text-therapy-warm-600 leading-relaxed mb-8 md:mb-10 max-w-2xl">
               {language === 'lt'
-                ? 'Kartais klausimai, su kuriais ateiname į terapiją, neturi greitų atsakymų. Čia rašau apie santykius, artumą, neištikimybę, seksualumą, pažeidžiamumą ir tai, kas vyksta tarp žmonių.'
-                : 'Sometimes the questions we bring to therapy don\'t have quick answers. Here I write about relationships, intimacy, infidelity, sexuality, vulnerability and what happens between people.'}
+                ? 'Kartais klausimai, su kuriais ateiname į terapiją, neturi greitų atsakymų. Čia dalijuosi mintimis apie santykius, artumą, neištikimybę, seksualumą, pažeidžiamumą ir tai, kas vyksta tarp žmonių.'
+                : 'Some of the questions we bring to therapy do not have quick answers. Here I share reflections on relationships, intimacy, infidelity, sexuality, vulnerability, and what happens between people.'}
             </p>
           </FadeIn>
           <div className="grid md:grid-cols-3 gap-6 md:gap-8">
@@ -140,7 +142,7 @@ export function HomePage() {
               to="/tekstai"
               className="inline-flex items-center text-sm font-medium text-therapy-sage-600 hover:text-therapy-sage-700 transition-colors"
             >
-              {language === 'lt' ? 'Visi tekstai' : 'All texts'}
+              {language === 'lt' ? 'Visi tekstai' : 'View all writing'}
               <span className="ml-1.5">→</span>
             </Link>
           </div>

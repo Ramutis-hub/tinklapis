@@ -26,8 +26,8 @@ export function Header() {
 
   const navLinks = [
     { to: '/poru-terapija', label: language === 'lt' ? 'Porų terapija' : 'Couples therapy' },
-    { to: '/individuali-terapija', label: language === 'lt' ? 'Individuali terapija' : 'Individual therapy' },
-    { to: '/tekstai', label: language === 'lt' ? 'Tekstai' : 'Texts' },
+    { to: '/individuali-terapija', label: language === 'lt' ? 'Individuali terapija' : 'Individual Therapy' },
+    { to: '/tekstai', label: language === 'lt' ? 'Tekstai' : 'Writing' },
     { to: '/apie-mane', label: t.nav.about },
     { to: '/kontaktai', label: t.nav.contact },
   ];

@@ -3,10 +3,12 @@ import { Phone, Mail, Clock, MapPin } from 'lucide-react';
 import { FadeIn } from '../components/ui/animations';
 import { useLanguage } from '../hooks/useLanguage';
 import { useTranslations } from '../translations';
+import { useDocumentMeta } from '../hooks/useDocumentMeta';
 
 export function ContactPage() {
   const { language } = useLanguage();
   const t = useTranslations(language);
+  useDocumentMeta('contact', language);
 
   return (
     <div className="bg-therapy-warm-800 relative overflow-hidden min-h-screen">

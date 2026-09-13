@@ -23,7 +23,7 @@ export function ArticleLayout({ article, language }: ArticleLayoutProps) {
           className="inline-flex items-center gap-2 text-sm text-therapy-warm-500 hover:text-therapy-sage-600 transition-colors mb-8"
         >
           <ArrowLeft size={16} />
-          {lang === 'en' ? 'All texts' : 'Visi tekstai'}
+          {lang === 'en' ? 'View all writing' : 'Visi tekstai'}
         </Link>
 
         <div className="mb-3">

@@ -5,24 +5,23 @@ import { ArticleCard } from '../components/shared/ArticleCard';
 import { getArticlesForIndividualPage } from '../content';
 import { useLanguage } from '../hooks/useLanguage';
 import { useTranslations } from '../translations';
+import { useDocumentMeta } from '../hooks/useDocumentMeta';
 
 export function IndividualTherapyPage() {
   const { language } = useLanguage();
   const t = useTranslations(language);
+  useDocumentMeta('individual', language);
   const articles = getArticlesForIndividualPage();
 
   const topics = [
-    language === 'lt' ? 'Pasikartojantys santykių būdai' : 'Recurring relationship patterns',
-    language === 'lt' ? 'Nerimas' : 'Anxiety',
-    language === 'lt' ? 'Vienišumas' : 'Loneliness',
-    language === 'lt' ? 'Gyvenimo krypties klausimai' : 'Questions about life direction',
-    language === 'lt' ? 'Santykių krizės' : 'Relationship crises',
-    language === 'lt' ? 'Savivertė' : 'Self-worth',
-    language === 'lt' ? 'Gėda' : 'Shame',
-    language === 'lt' ? 'Kaltė' : 'Guilt',
-    language === 'lt' ? 'Netektis' : 'Loss',
-    language === 'lt' ? 'Artumo sunkumai' : 'Intimacy difficulties',
-    language === 'lt' ? 'Savo norų ir ribų pajautimas' : 'Sense of own desires and boundaries',
+    language === 'lt' ? 'Nerimas, įtampa, vidinis spaudimas' : 'Anxiety, tension and inner pressure',
+    language === 'lt' ? 'Santykių sunkumai' : 'Relationship difficulties',
+    language === 'lt' ? 'Vienišumas, atstūmimas, pavydas, gėda' : 'Loneliness, rejection, jealousy and shame',
+    language === 'lt' ? 'Priklausomybės ir kompulsyvūs elgesio modeliai' : 'Addiction and compulsive patterns of behaviour',
+    language === 'lt' ? 'Ribos ir savęs vertinimas' : 'Boundaries and self-worth',
+    language === 'lt' ? 'Seksualumo, kūniškumo ir artumo tyrinėjimas' : 'Exploring sexuality, embodiment and intimacy',
+    language === 'lt' ? 'Netektys, gedėjimas ir gyvenimo pokyčiai' : 'Loss, grief and life transitions',
+    language === 'lt' ? 'Sunkumas jausti, pasirinkti ar būti savimi' : 'Difficulty feeling, making choices or being yourself',
   ];
 
   return (
@@ -59,7 +58,7 @@ export function IndividualTherapyPage() {
         <div className="max-w-3xl mx-auto px-6">
           <FadeIn>
             <h2 className="text-xl md:text-2xl font-serif text-therapy-warm-800 font-normal mb-6">
-              {language === 'lt' ? 'Galiu padėti tyrinėti' : 'I can help explore'}
+              {language === 'lt' ? 'Dažniausios temos' : 'Common themes'}
             </h2>
             <ul className="space-y-3">
               {topics.map((topic, i) => (
@@ -120,7 +119,7 @@ export function IndividualTherapyPage() {
         <div className="max-w-4xl mx-auto px-6">
           <FadeIn>
             <h2 className="text-lg md:text-xl font-serif text-therapy-warm-700 font-normal mb-6">
-              {language === 'lt' ? 'Tekstai apie terapiją ir žmogaus patirtį' : 'Texts about therapy and human experience'}
+              {language === 'lt' ? 'Tekstai apie terapiją ir žmogaus patirtį' : 'Writing about therapy and human experience'}
             </h2>
           </FadeIn>
           <div className="grid md:grid-cols-2 gap-5">

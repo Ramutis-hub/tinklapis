@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../hooks/useLanguage';
+import { useDocumentMeta } from '../hooks/useDocumentMeta';
 
 export function NotFoundPage() {
   const { language } = useLanguage();
+  useDocumentMeta('notFound', language);
 
   return (
     <div className="min-h-[60vh] flex items-center justify-center bg-therapy-warm-50">

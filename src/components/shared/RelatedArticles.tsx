@@ -19,7 +19,7 @@ export function RelatedArticles({ article, language }: RelatedArticlesProps) {
     <section className="bg-therapy-warm-50/60 border-t border-therapy-warm-200/60 py-12 md:py-16">
       <div className="max-w-[44rem] mx-auto px-6">
         <h2 className="text-lg md:text-xl font-serif text-therapy-warm-700 font-normal mb-6">
-          {lang === 'en' ? 'Related texts' : 'Susiję tekstai'}
+          {lang === 'en' ? 'Related writing' : 'Susiję tekstai'}
         </h2>
         <div className="space-y-4">
           {related.map((rel) => (

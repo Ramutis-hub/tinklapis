@@ -5,6 +5,7 @@ import { ArticleCard } from '../components/shared/ArticleCard';
 import { articles, CATEGORY_LABELS } from '../content';
 import type { ArticleCategory } from '../content';
 import { useLanguage } from '../hooks/useLanguage';
+import { useDocumentMeta } from '../hooks/useDocumentMeta';
 
 type FilterKey = 'visi' | ArticleCategory;
 
@@ -34,6 +35,7 @@ const CATEGORY_BY_SLUG: Record<string, ArticleCategory> = Object.entries(SLUG_BY
 
 export function ArticlesListPage() {
   const { language } = useLanguage();
+  useDocumentMeta('writing', language);
   const [searchParams, setSearchParams] = useSearchParams();
 
   const activeFilter: FilterKey = useMemo(() => {
@@ -74,12 +76,12 @@ export function ArticlesListPage() {
       <div className="max-w-4xl mx-auto px-6 pt-16 md:pt-24 pb-10 md:pb-14">
         <FadeIn>
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-serif text-therapy-warm-800 font-normal leading-tight mb-4">
-            {language === 'lt' ? 'Tekstai' : 'Texts'}
+            {language === 'lt' ? 'Tekstai' : 'Writing'}
           </h1>
           <p className="text-base md:text-lg text-therapy-warm-600 leading-relaxed max-w-2xl">
             {language === 'lt'
               ? 'Mintys apie santykius, psichoterapiją, artumą ir žmogaus patirtį.'
-              : 'Thoughts on relationships, psychotherapy, intimacy and human experience.'}
+              : 'Reflections on relationships, psychotherapy, intimacy and human experience.'}
           </p>
         </FadeIn>
       </div>
