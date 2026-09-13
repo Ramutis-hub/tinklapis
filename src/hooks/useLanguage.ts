@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 
 export type Language = 'lt' | 'en';
 
@@ -12,11 +12,10 @@ export function useLanguage() {
     }
   }, []);
 
-  const changeLanguage = (newLanguage: Language) => {
+  const changeLanguage = useCallback((newLanguage: Language) => {
     setLanguage(newLanguage);
     localStorage.setItem('therapy-language', newLanguage);
-    window.location.reload();
-  };
+  }, []);
 
   return { language, changeLanguage };
 }

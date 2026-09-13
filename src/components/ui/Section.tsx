@@ -14,8 +14,8 @@ export function Section({
   background = 'light'
 }: SectionProps) {
   const backgrounds = {
-    light: 'bg-lacanian-symbolic-50',
-    dark: 'bg-lacanian-real-950'
+    light: 'bg-therapy-warm-50',
+    dark: 'bg-therapy-warm-900'
   };
 
   return (
