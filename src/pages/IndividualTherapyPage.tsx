@@ -47,8 +47,8 @@ export function IndividualTherapyPage() {
         <FadeIn delay={0.25}>
           <p className="mt-6 text-base md:text-lg text-therapy-warm-700 leading-relaxed italic border-l-2 border-therapy-sage-200 pl-5">
             {language === 'lt'
-              ? 'Terapijoje nesiekiu tapti žmogumi, kuris geriau už klientą žino, kaip jam reikia gyventi.'
-              : 'In therapy I do not aim to become the person who knows better than the client how they should live.'}
+              ? 'Terapijoje nesiekiu pateikti paruoštų atsakymų. Man svarbiau kartu tyrinėti, kas vyksta jūsų patirtyje, ir ieškoti daugiau erdvės jūsų pačių pasirinkimams.'
+              : 'In therapy, I do not aim to provide ready-made answers. What matters more to me is exploring together what is happening in your experience and creating more space for your own choices.'}
           </p>
         </FadeIn>
       </div>
@@ -159,22 +159,18 @@ export function IndividualTherapyPage() {
                 ? [
                     'Paprastai susitinkame kartą per savaitę.',
                     'Individuali sesija trunka 50 minučių.',
-                    'Konsultuoju gyvai Vilniuje ir nuotoliu.',
-                    'Dirbu lietuvių, anglų ir rusų kalbomis.',
-                    'Terapijos trukmė nėra nustatoma iš anksto. Ją aptariame pagal jūsų situaciją, poreikius ir tai, kaip vystosi terapinis procesas.',
-                    'Namų darbų paprastai neskiriu. Terapijos pagrindas yra tai, ką tyrinėjame ir patiriame susitikimų metu.',
+                    'Konsultuoju gyvai Vilniuje ir nuotoliu, lietuvių, anglų ir rusų kalbomis.',
+                    'Terapijos trukmės iš anksto nenustatome. Ją aptariame eigoje, atsižvelgdami į jūsų situaciją, poreikius ir tai, kaip vystosi terapinis procesas.',
                     'Tai, kuo dalijatės terapijoje, yra konfidencialu.',
-                    'Jei terapijos metu kyla abejonių dėl mūsų darbo ar jaučiate, kad kažkas netinka, apie tai galima atvirai kalbėti.',
+                    'Jei terapijos metu kyla abejonių, nepatogumo ar jausmas, kad kažkas mūsų darbe netinka, kviečiu apie tai kalbėti. Kartais būtent tokie momentai tampa svarbia terapinio proceso dalimi.',
                   ]
                 : [
                     'We usually meet once a week.',
                     'Individual sessions last 50 minutes.',
-                    'I offer sessions in person in Vilnius and online.',
-                    'I work in Lithuanian, English and Russian.',
-                    'The length of therapy is not determined in advance. We discuss it according to your situation, your needs, and how the therapeutic process develops.',
-                    'I do not usually set homework. The main work of therapy takes place through what we explore and experience during our sessions.',
+                    'I offer sessions in person in Vilnius and online, in Lithuanian, English and Russian.',
+                    'The length of therapy is not determined in advance. We discuss it as the work develops, taking into account your situation, your needs and the therapeutic process.',
                     'What you share in therapy is confidential.',
-                    'If doubts arise about our work, or if something does not feel right, it is possible to talk about this openly in therapy.',
+                    'If doubts, discomfort or a sense that something in our work does not feel right arise during therapy, I invite you to talk about it. Sometimes these moments themselves become an important part of the therapeutic process.',
                   ]
               ).map((item, i) => (
                 <li key={i} className="flex items-start gap-2.5 text-sm md:text-base text-therapy-warm-700 leading-relaxed">
