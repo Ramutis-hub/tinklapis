@@ -109,13 +109,13 @@ const translations: Record<Language, Translations> = {
     hero: {
       title: 'Psichoterapija poroms ir individualiai',
       subtitle: 'Ramutis Klimanskis – psichoterapeutas Vilniuje ir online',
-      intro: 'Porų terapija · Individuali psichoterapija · Santykių sunkumai · Seksualumo ir artomo temos',
+      intro: 'Porų terapija · Individuali psichoterapija · Santykių sunkumai · Seksualumo ir artumo temos',
       description:
         'Padedu žmonėms ir poroms tyrinėti tai, kas vyksta santykyje: konfliktus, nutolimą, artumo baimę, pasikartojančius emocinius ciklus, seksualumo temas ir sunkumus būti išgirstam.\n\nTerapijoje kviečiu ne ieškoti greitų atsakymų, o sustoti prie to, kas kartojasi: kaip mes ginamės, kaip trokštame artumo, kaip prarandame ryšį ir kaip galime jį atkurti.\n\nDirbu su poromis ir individualiai. Mano darbe svarbios Geštalto terapijos, dialogo, lauko teorijos, psichoanalitinio mąstymo ir emociškai fokusuotos terapijos / EFT perspektyvos.',
       cta: 'Registruotis konsultacijai',
       ctaCouples: 'Porų terapija',
       ctaIndividual: 'Individuali terapija',
-      quote: '„Klausytis – tai ne tik girdėti žodžius, bet ir tai, kas slepiasi už jų."',
+      quote: '„Klausytis – tai ne tik girdėti žodžius, bet ir tai, kas slepiasi už jų.”',
       quoteAuthor: '— J. Lacan',
     },
     introBlock: {
@@ -134,7 +134,7 @@ const translations: Record<Language, Translations> = {
           'Emocinis ar fizinis nutolimas',
           'Pasitikėjimo sunkumai',
           'Neištikimybės, pavydo ar nesaugumo temos',
-          'Seksualumo, noro ir artimo klausimai',
+          'Seksualumo, noro ir artumo klausimai',
           'Sunkumai kalbėti apie poreikius',
           'Santykio krizės, skyrybų ar apsisprendimo klausimai',
         ],
@@ -143,14 +143,14 @@ const translations: Record<Language, Translations> = {
       individual: {
         title: 'Individuali psichoterapija',
         description:
-          'Individuali psichoterapija yra erdvė tyrinėti savo vidinį gyvenimą, santykių modelius, emocinius sunkumus ir pasikartojančias situacijas.\n\nĮ terapiją galima ateiti ne tik tada, kai „viskas blogai". Kartais žmogus ateina, nes jaučia, kad gyvenime kažkas nebeatitinka jo paties: santykiai neteikia gyvumo, darbe sunku jausti prasmę, kūne daug įtampos, o viduje kartojasi nerimas, kaltė, gėda ar tuštuma.',
+          'Individuali psichoterapija yra erdvė tyrinėti savo vidinį gyvenimą, santykių modelius, emocinius sunkumus ir pasikartojančias situacijas.\n\nĮ terapiją galima ateiti ne tik tada, kai „viskas blogai”. Kartais žmogus ateina, nes jaučia, kad gyvenime kažkas nebeatitinka jo paties: santykiai neteikia gyvumo, darbe sunku jausti prasmę, kūne daug įtampos, o viduje kartojasi nerimas, kaltė, gėda ar tuštuma.',
         topics: [
           'Nerimas, įtampa, vidinis spaudimas',
           'Santykių sunkumai',
           'Vienišumas, atstūmimas, pavydas, gėda',
           'Priklausomybės ir kompulsyvūs elgesio modeliai',
           'Ribos ir savęs vertinimas',
-          'Seksualumo, kūniškumo ir artimo tyrinėjimas',
+          'Seksualumo, kūniškumo ir artumo tyrinėjimas',
           'Netektys, gedėjimas ir gyvenimo pokyčiai',
           'Sunkumas jausti, pasirinkti ar būti savimi',
         ],
@@ -162,13 +162,13 @@ const translations: Record<Language, Translations> = {
       sexuality: {
         title: 'Artumas ir seksualumas',
         description:
-          'Seksualumas terapijoje nėra tik apie techniką, funkciją ar „problemą". Dažnai tai jautri santykio su savimi, kūnu, gėda, troškimu, ribomis ir kitu žmogumi sritis.\n\nPorose seksualumo tema dažnai susijusi su emociniu saugumu: ar galiu būti matomas, ar galiu kalbėti apie savo poreikius, ar galiu būti priimtas su savo pažeidžiamumu.\n\nIndividualioje terapijoje seksualumas gali atsiverti kaip santykio su kūnu, artumo baimės, kaltės, ankstesnių patirčių ar vidinių konfliktų tema.',
+          'Seksualumas terapijoje nėra tik apie techniką, funkciją ar „problemą”. Dažnai tai jautri santykio su savimi, kūnu, gėda, troškimu, ribomis ir kitu žmogumi sritis.\n\nPorose seksualumo tema dažnai susijusi su emociniu saugumu: ar galiu būti matomas, ar galiu kalbėti apie savo poreikius, ar galiu būti priimtas su savo pažeidžiamumu.\n\nIndividualioje terapijoje seksualumas gali atsiverti kaip santykio su kūnu, artumo baimės, kaltės, ankstesnių patirčių ar vidinių konfliktų tema.',
         topics: [
           'Sumažėjęs ar pasikeitęs seksualinis noras',
           'Gėda, kaltė ar įtampa dėl seksualumo',
           'Sunkumas kalbėti apie poreikius',
           'Skirtingas partnerių noras poroje',
-          'Seksualumo ir emocinio artimo ryšys',
+          'Seksualumo ir emocinio artumo ryšys',
           'Ankstesnių patirčių įtaka dabartiniam santykiui',
           'Pavydas, fantazijos, ribos, ištikimybės klausimai',
         ],
@@ -231,7 +231,7 @@ const translations: Record<Language, Translations> = {
         { label: 'Netektys ir gedėjimas' },
         { label: 'Trauminės patirtys' },
         { label: 'Psichosomatiniai simptomai ir emocinis stresas' },
-        { label: 'Ankstyvosios patirtys ir „vidinio vaiko" tema' },
+        { label: 'Ankstyvosios patirtys ir „vidinio vaiko” tema' },
         { label: 'Tapatumo, priklausymo ir savęs priėmimo klausimai' },
         { label: 'LGBTIQA+ žmonių patirtys, santykiai ir savęs priėmimas' },
       ],
@@ -254,7 +254,7 @@ const translations: Record<Language, Translations> = {
       ctaContact: 'Susisiekti',
     },
     footer: {
-      quote: '„Terapija nėra receptas. Tai kelionė į save."',
+      quote: '„Terapija nėra receptas. Tai kelionė į save.”',
       copyright: `© ${new Date().getFullYear()} Ramutis Klimanskis`,
       rights: 'Psichoterapija · Vilnius',
     },

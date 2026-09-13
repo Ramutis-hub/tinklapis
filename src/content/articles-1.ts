@@ -31,7 +31,7 @@ export const article1: Article = {
       en: 'I think that is why infidelity in a couple hurts so deeply. Not only because a line was crossed, but because the person who was closest to me, my safe place, becomes someone I now have to protect myself from.',
     },
     {
-      lt: 'Ir tada prasideda dalykai, kuriuos dažnai matau porų terapijoje. Vienas nori žinoti, klausia, grįžta prie to paties, kartais tikrina telefoną, kartais nori detalių, kartais pyksta dėl to, kas jau buvo aptarta kelis kartus. Kitam tuo metu darosi vis sunkiau. Jis jaučia kaltę, gėdą, spaudimą ir ima gintis: „Aš jau viską pasakiau", „Kiek dar mes apie tai kalbėsime?", „Jeigu nusprendei likti, turime judėti toliau." Arba tiesiog užsidaro.',
+      lt: 'Ir tada prasideda dalykai, kuriuos dažnai matau porų terapijoje. Vienas nori žinoti, klausia, grįžta prie to paties, kartais tikrina telefoną, kartais nori detalių, kartais pyksta dėl to, kas jau buvo aptarta kelis kartus. Kitam tuo metu darosi vis sunkiau. Jis jaučia kaltę, gėdą, spaudimą ir ima gintis: „Aš jau viską pasakiau”, „Kiek dar mes apie tai kalbėsime?”, „Jeigu nusprendei likti, turime judėti toliau.” Arba tiesiog užsidaro.',
       en: 'And then things begin that I often see in couples therapy. One wants to know, asks, returns to the same thing, sometimes checks the phone, sometimes wants details, sometimes gets angry about something already discussed several times. For the other it becomes increasingly difficult. They feel guilt, shame, pressure and start defending: "I already told you everything," "How long are we going to keep talking about this?", "If you decided to stay, we need to move on." Or they simply shut down.',
     },
     {
@@ -39,15 +39,15 @@ export const article1: Article = {
       en: 'And a very painful cycle emerges: the more one seeks safety, the more the other withdraws, and the more they withdraw, the more the first one feels their fear was justified — see, you are again not here when I need you most.',
     },
     {
-      lt: 'Terapijoje man dažnai svarbu šitą ratą sulėtinti. Ne skubėti aiškintis, kas teisus, ne skubėti prie „atleidimo" ar klausimo „ar jūs dar būsite kartu". Kartais iki visų šitų klausimų dar reikia prieiti.',
+      lt: 'Terapijoje man dažnai svarbu šitą ratą sulėtinti. Ne skubėti aiškintis, kas teisus, ne skubėti prie „atleidimo” ar klausimo „ar jūs dar būsite kartu”. Kartais iki visų šitų klausimų dar reikia prieiti.',
       en: 'In therapy it is often important for me to slow down this cycle. Not to rush to figure out who is right, not to rush toward "forgiveness" or the question "will you still be together." Sometimes you have to get to these questions first.',
     },
     {
-      lt: 'Pirmiausia pabandyti suprasti, kas iš tikrųjų vyksta tarp dviejų žmonių. Nes po pykčiu dažnai būna kažkas daug trapesnio: „Aš maniau, kad esu tau ypatingas", „Bijau, kad daugiau niekada negalėsiu tavimi patikėti", „Aš nebežinau, kokia mano vieta tavo gyvenime", „Bijau, kad pasirinkęs tave dar kartą, vėl būsiu sužeistas."',
+      lt: 'Pirmiausia pabandyti suprasti, kas iš tikrųjų vyksta tarp dviejų žmonių. Nes po pykčiu dažnai būna kažkas daug trapesnio: „Aš maniau, kad esu tau ypatingas”, „Bijau, kad daugiau niekada negalėsiu tavimi patikėti”, „Aš nebežinau, kokia mano vieta tavo gyvenime”, „Bijau, kad pasirinkęs tave dar kartą, vėl būsiu sužeistas.”',
       en: 'First, try to understand what is actually happening between two people. Because beneath the anger there is often something much more fragile: "I thought I was special to you," "I am afraid I will never be able to trust you again," "I no longer know what my place is in your life," "I am afraid that choosing you again, I will be hurt again."',
     },
     {
-      lt: 'O kitoje pusėje, po gynyba, kartais būna visai ne abejingumas, o daug gėdos: „Man sunku matyti, ką tau padariau", „Aš nežinau, kaip būti su tavo skausmu", „Bijau, kad nuo šiol visą laiką būsiu tik tas žmogus, kuris išdavė."',
+      lt: 'O kitoje pusėje, po gynyba, kartais būna visai ne abejingumas, o daug gėdos: „Man sunku matyti, ką tau padariau”, „Aš nežinau, kaip būti su tavo skausmu”, „Bijau, kad nuo šiol visą laiką būsiu tik tas žmogus, kuris išdavė.”',
       en: 'And on the other side, beneath the defense, sometimes it is not indifference at all, but a lot of shame: "It is hard for me to see what I did to you," "I don\'t know how to be with your pain," "I am afraid that from now on I will always be just the person who betrayed."',
     },
     {
@@ -55,7 +55,7 @@ export const article1: Article = {
       en: 'I think one of the most important moments in therapy is when a couple, even briefly, stops fighting about facts and begins to hear what actually happened to each of them.',
     },
     {
-      lt: 'Čia „atsiprašau" dažnai neužtenka. Ne todėl, kad atsiprašymas nesvarbus, bet todėl, kad žmogui, kuris buvo sužeistas, reikia ne tik žodžių. Reikia naujos patirties su tuo pačiu žmogumi: kad aš galiu pasakyti, kur man skauda, ir tu nepabėgi; kad man nereikia greičiau „susitvarkyti", kad tau būtų lengviau; kad tu gali išbūti su tuo, ką padarei, nesigindamas ir nepaversdamas visko savo kaltės ar gėdos istorija.',
+      lt: 'Čia „atsiprašau” dažnai neužtenka. Ne todėl, kad atsiprašymas nesvarbus, bet todėl, kad žmogui, kuris buvo sužeistas, reikia ne tik žodžių. Reikia naujos patirties su tuo pačiu žmogumi: kad aš galiu pasakyti, kur man skauda, ir tu nepabėgi; kad man nereikia greičiau „susitvarkyti”, kad tau būtų lengviau; kad tu gali išbūti su tuo, ką padarei, nesigindamas ir nepaversdamas visko savo kaltės ar gėdos istorija.',
       en: 'Here "I\'m sorry" is often not enough. Not because an apology doesn\'t matter, but because the person who was hurt needs more than words. They need a new experience with the same person: that I can say where it hurts and you don\'t run away; that I don\'t need to "get over it" quickly to make it easier for you; that you can stay with what you did, without defending yourself and without turning it all into your own story of guilt or shame.',
     },
     {
@@ -67,7 +67,7 @@ export const article1: Article = {
       en: 'This is not an attempt to justify the infidelity. Responsibility for the infidelity belongs to the one who chose to act that way. But understanding what was happening in the relationship is not the same as justifying what was done.',
     },
     {
-      lt: 'Jeigu pora nusprendžia likti kartu, man atrodo, neužtenka tiesiog „grįžti į normalų gyvenimą". Ir gal net nėra kur grįžti. Tai, kas įvyko, jau yra jų istorijos dalis.',
+      lt: 'Jeigu pora nusprendžia likti kartu, man atrodo, neužtenka tiesiog „grįžti į normalų gyvenimą”. Ir gal net nėra kur grįžti. Tai, kas įvyko, jau yra jų istorijos dalis.',
       en: 'If a couple decides to stay together, I think it is not enough to simply "return to normal life." And maybe there is nowhere to return to. What happened is already part of their story.',
     },
     {
@@ -75,7 +75,7 @@ export const article1: Article = {
       en: 'Sometimes a different kind of relationship has to be created: more open, perhaps less polite, one where it is possible to talk about anger, loneliness, sexual distance or fear much earlier, before all of it starts living somewhere beyond the relationship\'s boundaries.',
     },
     {
-      lt: 'Ir tada klausimas jau nebe tik „ar galiu tau atleisti?". Kartais svarbesnis tampa kitas: ar mes galime sukurti tokį santykį, kuriame vėl būtų galima rizikuoti artumu?',
+      lt: 'Ir tada klausimas jau nebe tik „ar galiu tau atleisti?”. Kartais svarbesnis tampa kitas: ar mes galime sukurti tokį santykį, kuriame vėl būtų galima rizikuoti artumu?',
       en: 'And then the question is no longer just "can I forgive you?" Sometimes a different one becomes more important: can we create a relationship in which it would again be possible to risk intimacy?',
     },
     {
@@ -104,7 +104,7 @@ export const article2: Article = {
   publishedAt: '2025-02-01',
   content: [
     {
-      lt: 'Kartais terapijoje žmogus pasako: „Jaučiu frustraciją. Vaikštau pas tave, o po paskutinio susitikimo pradėjau jausti daugiau nerimo. Ypač apie pinigus. Atrodo, prieš tai apie tai tiek negalvojau, o dabar terapija tuos klausimus iškėlė ir nebegaliu taip ramiai su tuo būti. Net pradėjau domėtis, ar normalu po terapijos jaustis blogiau nei prieš ją."',
+      lt: 'Kartais terapijoje žmogus pasako: „Jaučiu frustraciją. Vaikštau pas tave, o po paskutinio susitikimo pradėjau jausti daugiau nerimo. Ypač apie pinigus. Atrodo, prieš tai apie tai tiek negalvojau, o dabar terapija tuos klausimus iškėlė ir nebegaliu taip ramiai su tuo būti. Net pradėjau domėtis, ar normalu po terapijos jaustis blogiau nei prieš ją.”',
       en: 'Sometimes in therapy a person says: "I feel frustrated. I\'ve been coming to you, and after the last session I started feeling more anxiety. Especially about money. It seems I didn\'t think about it so much before, and now therapy has raised these questions and I can no longer be so at peace with it. I even started wondering whether it\'s normal to feel worse after therapy than before it."',
     },
     {
@@ -132,7 +132,7 @@ export const article2: Article = {
       en: 'We also often answer children very quickly about love, God, death, life. Even though we ourselves probably don\'t know much.',
     },
     {
-      lt: 'Ketverių metų vaikas klausia: „Iš kur aš atsiradau?" Biologija duoda vieną atsakymą, religija kitą. Bet ar klausimas tuo tikrai baigiasi?',
+      lt: 'Ketverių metų vaikas klausia: „Iš kur aš atsiradau?” Biologija duoda vieną atsakymą, religija kitą. Bet ar klausimas tuo tikrai baigiasi?',
       en: 'A four-year-old asks: "Where did I come from?" Biology gives one answer, religion another. But does the question really end there?',
     },
     {
@@ -152,7 +152,7 @@ export const article2: Article = {
       en: 'I return to the person talking about money and anxiety. I say to him something like:',
     },
     {
-      lt: '„Tu daugiau nei dvidešimt metų gyvenai tam tikru būdu. O dabar staiga aiškiau pamatai, kad ten, kur esi, yra nemažai nerimo. Ar nori, kad jis tiesiog dingtų? Net jeigu kišenėje nėra pinigų? Kad galėtum ramiai sėdėti po medžiu ir nieko dėl to nejausti? O gal dalis šito nerimo kažką tau sako ir gal net stumia kažką keisti, kurti, prisiimti daugiau atsakomybės už savo gyvenimą?"',
+      lt: '„Tu daugiau nei dvidešimt metų gyvenai tam tikru būdu. O dabar staiga aiškiau pamatai, kad ten, kur esi, yra nemažai nerimo. Ar nori, kad jis tiesiog dingtų? Net jeigu kišenėje nėra pinigų? Kad galėtum ramiai sėdėti po medžiu ir nieko dėl to nejausti? O gal dalis šito nerimo kažką tau sako ir gal net stumia kažką keisti, kurti, prisiimti daugiau atsakomybės už savo gyvenimą?”',
       en: '"You have been living a certain way for more than twenty years. And now you suddenly see more clearly that where you are, there is a fair amount of anxiety. Do you want it to just disappear? Even if there is no money in your pocket? To be able to sit calmly under a tree and feel nothing about it? Or maybe part of this anxiety is telling you something and maybe even pushing you to change something, to create, to take more responsibility for your life?"',
     },
     {
@@ -164,7 +164,7 @@ export const article2: Article = {
       en: 'We get used to a lot: to fatigue, to lack of sleep, to working to exhaustion, to tension, to relationships where we give too much of ourselves. To a life in which there is less and less of us — after a while it becomes the norm.',
     },
     {
-      lt: 'Dabartinė visuomenė pilna perdegimo, depresijos, miego deprivacijos, net atsipalaidavimas dažnai tampa ne poilsiu, o būdu save trumpam pamiršti. „Išsitaškyti", atsijungti, negalvoti, kad tik nereikėtų susitikti su tuo, kas laukia viduje.',
+      lt: 'Dabartinė visuomenė pilna perdegimo, depresijos, miego deprivacijos, net atsipalaidavimas dažnai tampa ne poilsiu, o būdu save trumpam pamiršti. „Išsitaškyti”, atsijungti, negalvoti, kad tik nereikėtų susitikti su tuo, kas laukia viduje.',
       en: 'Current society is full of burnout, depression, sleep deprivation — even relaxation often becomes not rest, but a way to briefly forget yourself. "Blow off steam," disconnect, don\'t think, just so you don\'t have to meet what is waiting inside.',
     },
     {
@@ -176,7 +176,7 @@ export const article2: Article = {
       en: 'A living life probably begins more when you stop running from yourself. When you can admit to yourself that something no longer works, that it hurts, that you are tired.',
     },
     {
-      lt: 'Kartais pamatai, jog tai, kas ilgai atrodė normalu, iš tikrųjų jau seniai vargina. Jog beveik nebesiilgi, kad darbas užima per daug vietos, kad bandydamas prisitaikyti prie kitų kažkur pameti save.',
+      lt: 'Kartais pamatai, jog tai, kas ilgai atrodė normalu, iš tikrųjų jau seniai vargina. Jog beveik nebesiilgisi, kad darbas užima per daug vietos, kad bandydamas prisitaikyti prie kitų kažkur pameti save.',
       en: 'Sometimes you notice that what long seemed normal has actually been wearing you down for a long time. That you barely long for anything, that work takes up too much space, that trying to adapt to others you lose yourself somewhere.',
     },
     {
@@ -253,7 +253,7 @@ export const article3: Article = {
       en: 'We live in a culture where a quick and effective solution has become almost a value in itself. If something doesn\'t work, you need a method. If you feel anxious, you need a technique. If you don\'t know what you want, you need a questionnaire, a course or a five-step system.',
     },
     {
-      lt: 'Internetas pilnas turinio apie tai, kaip per savaitę atpažinti savo poreikius, per mėnesį pakeisti santykius ar per vieną intensyvią dieną patirti „visišką transformaciją".',
+      lt: 'Internetas pilnas turinio apie tai, kaip per savaitę atpažinti savo poreikius, per mėnesį pakeisti santykius ar per vieną intensyvią dieną patirti „visišką transformaciją”.',
       en: 'The internet is full of content about how to identify your needs in a week, change your relationship in a month, or experience "total transformation" in one intensive day.',
     },
     {
@@ -261,7 +261,7 @@ export const article3: Article = {
       en: 'I\'m not saying advice is bad. Sometimes a concrete suggestion genuinely helps a person, especially in crisis.',
     },
     {
-      lt: 'Bet man įdomu, kas nutinka, kai psichologinę pagalbą pradedame vertinti pagal tą pačią logiką kaip ir kitus produktus: kiek greitai suveiks, kiek sesijų reikės, kada turėsiu rezultatą ir kada problema bus „sutvarkyta".',
+      lt: 'Bet man įdomu, kas nutinka, kai psichologinę pagalbą pradedame vertinti pagal tą pačią logiką kaip ir kitus produktus: kiek greitai suveiks, kiek sesijų reikės, kada turėsiu rezultatą ir kada problema bus „sutvarkyta”.',
       en: 'But I am interested in what happens when we start valuing psychological help by the same logic as other products: how quickly it works, how many sessions it will take, when I will have a result, and when the problem will be "fixed."',
     },
     {
@@ -281,7 +281,7 @@ export const article3: Article = {
       en: 'Therapy suggests looking at it also as something that says something about the person: about their history, relationships, repetitions, conflicts, and what they cannot yet fully name.',
     },
     {
-      lt: 'Čia man įdomi ir Jacques\'o Lacano mintis apie tai, kaip apskritai susiformuoja tai, ką vadiname savo „aš".',
+      lt: 'Čia man įdomi ir Jacques\'o Lacano mintis apie tai, kaip apskritai susiformuoja tai, ką vadiname savo „aš”.',
       en: 'Here I also find interesting Jacques Lacan\'s idea about how what we call our "I" is formed in the first place.',
     },
     {
@@ -297,7 +297,7 @@ export const article3: Article = {
       en: 'Later, school, relationships, profession, culture and society are added to this.',
     },
     {
-      lt: 'Todėl iš pirmo žvilgsnio labai paprastas klausimas „ko aš noriu?" kartais pasirodo esantis visai nepaprastas.',
+      lt: 'Todėl iš pirmo žvilgsnio labai paprastas klausimas „ko aš noriu?” kartais pasirodo esantis visai nepaprastas.',
       en: 'Therefore the seemingly simple question "what do I want?" sometimes turns out to be quite extraordinary.',
     },
     {
@@ -317,7 +317,7 @@ export const article3: Article = {
       en: 'This is important to me in therapy too.',
     },
     {
-      lt: 'Žmogus gali ateiti ieškodamas atsakymo į klausimą „ką man daryti?", bet po kurio laiko gali paaiškėti, kad daug įdomesnis klausimas yra, kodėl jis taip stipriai nori, kad kažkas kitas žinotų atsakymą už jį.',
+      lt: 'Žmogus gali ateiti ieškodamas atsakymo į klausimą „ką man daryti?”, bet po kurio laiko gali paaiškėti, kad daug įdomesnis klausimas yra, kodėl jis taip stipriai nori, kad kažkas kitas žinotų atsakymą už jį.',
       en: 'A person may come seeking an answer to "what should I do?", but over time it may turn out that a much more interesting question is why they so strongly want someone else to know the answer for them.',
     },
     {
@@ -345,7 +345,7 @@ export const article3: Article = {
       en: 'So probably what I can offer in therapy is not a quick answer.',
     },
     {
-      lt: 'Greičiau tai vieta, kurioje galima kurį laiką neskubėti atsakyti ir pradėti tyrinėti, kodėl tam tikri dalykai gyvenime kartojasi, kieno balsu kalbu sakydamas „aš privalau", ko bijau netekti, jei pasirinksiu kitaip, ir ko iš tikrųjų noriu tada, kai bent trumpam nustoju ieškoti žmogaus, kuris tai pasakytų už mane.',
+      lt: 'Greičiau tai vieta, kurioje galima kurį laiką neskubėti atsakyti ir pradėti tyrinėti, kodėl tam tikri dalykai gyvenime kartojasi, kieno balsu kalbu sakydamas „aš privalau”, ko bijau netekti, jei pasirinksiu kitaip, ir ko iš tikrųjų noriu tada, kai bent trumpam nustoju ieškoti žmogaus, kuris tai pasakytų už mane.',
       en: 'Rather, it is a place where you can, for a while, not rush to answer, and begin to explore why certain things repeat in life, in whose voice I speak saying "I must," what I am afraid of losing if I choose differently, and what I truly want when I stop, even briefly, looking for a person to say it for me.',
     },
   ],

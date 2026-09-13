@@ -31,7 +31,7 @@ export const article9: Article = {
       en: 'People often come to therapy with difficulties creating close relationships: to trust, to open up, to stay in love, to remain in connection even when it hurts. We all long for closeness, but we often hide behind armor that protects us from possible rejection, hurt, or disappointment.',
     },
     {
-      lt: 'Dažnai girdžiu: „Aš nerodau kitiems, kad esu pažeidžiamas, nes mane įskaudins." „Aš nebūnu atviras, nes tuo gali pasinaudoti." „Jeigu parodysiu, kad man skauda, būsiu silpnas."',
+      lt: 'Dažnai girdžiu: „Aš nerodau kitiems, kad esu pažeidžiamas, nes mane įskaudins.” „Aš nebūnu atviras, nes tuo gali pasinaudoti.” „Jeigu parodysiu, kad man skauda, būsiu silpnas.”',
       en: 'I often hear: "I don\'t show others that I am vulnerable, because I will be hurt." "I am not open, because it can be used against me." "If I show that it hurts, I will be weak."',
     },
     {
@@ -39,19 +39,19 @@ export const article9: Article = {
       en: 'And yet connection requires sincerity. Paradoxical as it may sound, it is precisely in our fragility that we can come closer to the other. Not behind a mask, not in coldness, not in constant defense, but where a real person gradually appears.',
     },
     {
-      lt: 'Byung-Chul Han knygoje „Eroso agonija" kalba apie tai, kad tikras susitikimas su Kitu nyksta tada, kai kitą pradedame matyti tik per savo poreikius, patogumą ar naudą. O gyvas ryšys prasideda ten, kur kitas nėra tik pritaikomas sau, bet sutinkamas kaip Kitas.',
+      lt: 'Byung-Chul Han knygoje „Eroso agonija” kalba apie tai, kad tikras susitikimas su Kitu nyksta tada, kai kitą pradedame matyti tik per savo poreikius, patogumą ar naudą. O gyvas ryšys prasideda ten, kur kitas nėra tik pritaikomas sau, bet sutinkamas kaip Kitas.',
       en: 'Byung-Chul Han in his book "The Agony of Eros" speaks about how a true meeting with the Other disappears when we begin to see the other only through our needs, convenience, or benefit. And a living connection begins where the other is not just used for oneself, but is met as the Other.',
     },
     {
-      lt: 'Terapinis santykis ypatingas tuo, kad jame žmogus gali po truputį patirti: „Aš galiu būti atviras ir nebūti pasmerktas." „Aš galiu kalbėti apie tai, kas man skauda, ir nebūti atstumtas." „Aš galiu būti pažeidžiamas ir vis tiek likti ryšyje."',
+      lt: 'Terapinis santykis ypatingas tuo, kad jame žmogus gali po truputį patirti: „Aš galiu būti atviras ir nebūti pasmerktas.” „Aš galiu kalbėti apie tai, kas man skauda, ir nebūti atstumtas.” „Aš galiu būti pažeidžiamas ir vis tiek likti ryšyje.”',
       en: 'The therapeutic relationship is special in that within it a person can gradually experience: "I can be open and not be condemned." "I can talk about what hurts me and not be rejected." "I can be vulnerable and still remain in connection."',
     },
     {
-      lt: 'Kartais klientai sako: „Aš noriu būti toks atviras ne tik čia, su tavimi, bet ir išėjęs – su savo mylimu žmogumi, draugu, artimaisiais."',
+      lt: 'Kartais klientai sako: „Aš noriu būti toks atviras ne tik čia, su tavimi, bet ir išėjęs – su savo mylimu žmogumi, draugu, artimaisiais.”',
       en: 'Sometimes clients say: "I want to be this open not only here, with you, but also outside — with my loved one, friend, family."',
     },
     {
-      lt: 'Tada klausiu: „O kas tau čia padeda būti atviram?" Ir dažnai atsakymas labai paprastas: „Mane girdi." „Manęs nevertina." „Aš galiu būti toks, koks esu."',
+      lt: 'Tada klausiu: „O kas tau čia padeda būti atviram?” Ir dažnai atsakymas labai paprastas: „Mane girdi.” „Manęs nevertina.” „Aš galiu būti toks, koks esu.”',
       en: 'Then I ask: "And what helps you be open here?" And often the answer is very simple: "I am heard." "I am not judged." "I can be the way I am."',
     },
     {
@@ -63,7 +63,7 @@ export const article9: Article = {
       en: 'In therapy we learn not only to talk about emotions, but also to be in relationship with them. To notice what is happening beneath our defenses, beneath the desire to withdraw, beneath the armor we have long held as our protection.',
     },
     {
-      lt: 'Galbūt klausimas yra ne tik: „Kaip man būti stipriam?" Bet ir: „Kur galiu būti pakankamai saugus, kad parodyčiau savo trapumą?" „Su kuo galiu būti ne tobulas, o tikras?" „Kada jaučiuosi matomas, girdimas ir priimamas?"',
+      lt: 'Galbūt klausimas yra ne tik: „Kaip man būti stipriam?” Bet ir: „Kur galiu būti pakankamai saugus, kad parodyčiau savo trapumą?” „Su kuo galiu būti ne tobulas, o tikras?” „Kada jaučiuosi matomas, girdimas ir priimamas?”',
       en: 'Maybe the question is not only: "How can I be strong?" But also: "Where can I be safe enough to show my fragility?" "With whom can I be not perfect, but real?" "When do I feel seen, heard, and accepted?"',
     },
     {
@@ -100,7 +100,7 @@ export const article10: Article = {
       en: 'In the modern world we talk a lot about autonomy, boundaries, self-knowledge, power dynamics, and conflict resolution. All of this is important. But sometimes it seems that the topic of love, tenderness, and living mutual meeting remains somewhere on the margins.',
     },
     {
-      lt: 'Mes ilgimės ryšio, bet gyvename kultūroje, kurioje vis daugiau svorio įgyja individualizmas. Tarsi žmogus turėtų pirmiausia „susitvarkyti save", tapti visiškai savarankiškas, nepriklausomas, aiškiai žinantis savo ribas. Bet kur tada lieka vietos santykiui, kuris ne riboja, o maitina?',
+      lt: 'Mes ilgimės ryšio, bet gyvename kultūroje, kurioje vis daugiau svorio įgyja individualizmas. Tarsi žmogus turėtų pirmiausia „susitvarkyti save”, tapti visiškai savarankiškas, nepriklausomas, aiškiai žinantis savo ribas. Bet kur tada lieka vietos santykiui, kuris ne riboja, o maitina?',
       en: 'We long for connection, but we live in a culture where individualism carries ever more weight. As if a person should first "sort themselves out," become completely self-reliant, independent, clearly knowing their boundaries. But where then is room for a relationship that doesn\'t limit, but nourishes?',
     },
     {
@@ -112,7 +112,7 @@ export const article10: Article = {
       en: 'Adult attachment differs from a child\'s bond with their parents. It is more based on an inner sense of the other person, sexual and emotional closeness, mutual care, and the choice to be there for each other.',
     },
     {
-      lt: 'Porų terapijoje svarbu ne tik išmokti „teisingai konfliktuoti". Kartais daug svarbiau atrasti atsakymą į klausimą: ar mes dar galime vienas kitą pasiekti? Ar tarp mūsų dar yra vietos švelnumui, ilgesiui, meilei ir gyvam susitikimui?',
+      lt: 'Porų terapijoje svarbu ne tik išmokti „teisingai konfliktuoti”. Kartais daug svarbiau atrasti atsakymą į klausimą: ar mes dar galime vienas kitą pasiekti? Ar tarp mūsų dar yra vietos švelnumui, ilgesiui, meilei ir gyvam susitikimui?',
       en: 'In couples therapy it is important not only to learn to "conflict correctly." Sometimes it is much more important to find an answer to the question: can we still reach each other? Is there still room between us for tenderness, longing, love, and a living meeting?',
     },
     {
@@ -157,11 +157,11 @@ export const article11: Article = {
       en: 'I recently came across an idea from Brigitte Martel that stayed with me. She writes that healthy sexuality is not built only on attraction or passion, but on the movement between three important experiences: tenderness, closeness, and aggression.',
     },
     {
-      lt: 'Švelnumas – tai gebėjimas duoti ir priimti rūpestį, šilumą ir prisilietimą. Artumas – leisti kitam žmogui priartėti neprarandant savęs. O agresija čia nėra smurtas. Tai gyvybinė energija, kuri padeda mums judėti kito link, išreikšti savo troškimą, užimti vietą, pasakyti „taip" ir pasakyti „ne".',
+      lt: 'Švelnumas – tai gebėjimas duoti ir priimti rūpestį, šilumą ir prisilietimą. Artumas – leisti kitam žmogui priartėti neprarandant savęs. O agresija čia nėra smurtas. Tai gyvybinė energija, kuri padeda mums judėti kito link, išreikšti savo troškimą, užimti vietą, pasakyti „taip” ir pasakyti „ne”.',
       en: 'Tenderness is being able to give and receive softness, care, affection. Closeness is letting another person come near without losing yourself. And aggression is not violence, but the life energy that helps us move toward another person, express desire, take space, say yes, say no.',
     },
     {
-      lt: 'Man atrodo, kad daug žmonių nuo šios savo dalies atsiskiria labai anksti. Jie išmoksta, kad troškimas yra egoistiškas, pavojingas, gėdingas ar tiesiog „per daug". Ir pamažu seksualumas gali tapti tuo, ką slepiame, kontroliuojame ir labai atsargiai dozuojame.',
+      lt: 'Man atrodo, kad daug žmonių nuo šios savo dalies atsiskiria labai anksti. Jie išmoksta, kad troškimas yra egoistiškas, pavojingas, gėdingas ar tiesiog „per daug”. Ir pamažu seksualumas gali tapti tuo, ką slepiame, kontroliuojame ir labai atsargiai dozuojame.',
       en: 'I think many people become disconnected from this part of themselves very early. They learn that desire is selfish, dangerous, shameful, or "too much." And little by little, sexuality can become something hidden, careful, muted.',
     },
     {

@@ -21,7 +21,7 @@ export function CouplesTherapyPage() {
     language === 'lt' ? 'Neištikimybė' : 'Infidelity',
     language === 'lt' ? 'Pasitikėjimo praradimas' : 'Loss of trust',
     language === 'lt' ? 'Seksualinio ir emocinio artumo sunkumai' : 'Sexual and emotional intimacy difficulties',
-    language === 'lt' ? 'Gyvenimas tarsi „kartu, bet atskirai"' : 'Living "together but apart"',
+    language === 'lt' ? 'Gyvenimas tarsi „kartu, bet atskirai”' : 'Living "together but apart"',
     language === 'lt' ? 'Skyrybų ar santykių tęstinumo klausimas' : 'Questions about separation or continuing',
   ];
 
@@ -81,7 +81,7 @@ export function CouplesTherapyPage() {
               </p>
               <p>
                 {language === 'lt'
-                  ? 'Terapijos tikslas nėra nustatyti, kuris iš partnerių „kaltas". Jis yra padėti pamatyti, kas vyksta tarp jų ir kas slypi po jų reakcijomis.'
+                  ? 'Terapijos tikslas nėra nustatyti, kuris iš partnerių „kaltas”. Jis yra padėti pamatyti, kas vyksta tarp jų ir kas slypi po jų reakcijomis.'
                   : 'The goal of therapy is not to determine which partner is "at fault". It is to help see what happens between them and what lies beneath their reactions.'}
               </p>
             </div>
@@ -154,7 +154,7 @@ export function CouplesTherapyPage() {
             <div className="mt-8">
               <p className="text-base md:text-lg text-therapy-warm-700 leading-relaxed">
                 {language === 'lt'
-                  ? 'Tikslas nėra tapti „porai be konfliktų", o kurti santykį, kuriame vis dažniau galima vienas kitą pasiekti net tada, kai sunku.'
+                  ? 'Tikslas nėra tapti „porai be konfliktų”, o kurti santykį, kuriame vis dažniau galima vienas kitą pasiekti net tada, kai sunku.'
                   : 'The aim is not to become a \u201cconflict-free couple\u201d, but to build a relationship in which you are increasingly able to reach one another even when things are difficult.'}
               </p>
             </div>

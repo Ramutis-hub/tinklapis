@@ -23,7 +23,7 @@ export const article6: Article = {
       en: 'In general, what does pleasure mean to us?',
     },
     {
-      lt: 'Žiniasklaidoje mirga straipsniai, teigiantys, kad mylėtis sveika, kad tai mažina infarkto riziką, palaiko sveikatingumą ir yra tiesiog „reikalinga santykiams". Kita vertus, kaip retai galima rasti tekstų, kuriuose apie seksualumą kalbama kaip apie vieną giliausių poros meilės išraiškų, kaip apie artumo sąjungą.',
+      lt: 'Žiniasklaidoje mirga straipsniai, teigiantys, kad mylėtis sveika, kad tai mažina infarkto riziką, palaiko sveikatingumą ir yra tiesiog „reikalinga santykiams”. Kita vertus, kaip retai galima rasti tekstų, kuriuose apie seksualumą kalbama kaip apie vieną giliausių poros meilės išraiškų, kaip apie artumo sąjungą.',
       en: 'The media is full of articles claiming that making love is healthy, that it reduces the risk of heart attack, maintains wellness, and is simply "necessary for relationships." On the other hand, how rarely can you find texts where sexuality is spoken of as one of the deepest expressions of a couple\'s love, as a union of intimacy.',
     },
     {
@@ -43,7 +43,7 @@ export const article6: Article = {
       en: 'In therapy I notice two tendencies. Some people avoid sexuality topics altogether or speak about them with great shame. Others, on the contrary, speak very openly, but in that demonstrative openness, shame is also felt.',
     },
     {
-      lt: 'Vyrauja jausmas, kad visuomenė mus įrėmina: „kalbėk daugiau, žinok daugiau, daryk geriau". Tačiau žodžių daug, o tikrosios, saugios išraiškos retai kada lieka.',
+      lt: 'Vyrauja jausmas, kad visuomenė mus įrėmina: „kalbėk daugiau, žinok daugiau, daryk geriau”. Tačiau žodžių daug, o tikrosios, saugios išraiškos retai kada lieka.',
       en: 'A feeling prevails that society frames us: "talk more, know more, do better." But there are many words, while true, safe expression rarely remains.',
     },
     {
@@ -55,7 +55,7 @@ export const article6: Article = {
       en: 'How we make love often reflects how we feel in the relationship. And how we feel in the relationship inevitably affects our sexuality. Therefore healthy sexuality is inseparable from emotional attachment and closeness.',
     },
     {
-      lt: 'Kai santykiuose trūksta saugumo, intymumas gali virsti įrankiu įtikti, išvengti atstūmimo ar pasipuikuoti, o tai sukelia tik dar daugiau nerimo dėl savo kūno ir „pasirodymo".',
+      lt: 'Kai santykiuose trūksta saugumo, intymumas gali virsti įrankiu įtikti, išvengti atstūmimo ar pasipuikuoti, o tai sukelia tik dar daugiau nerimo dėl savo kūno ir „pasirodymo”.',
       en: 'When safety is lacking in a relationship, intimacy can become a tool to please, to avoid rejection, or to show off, which only causes even more anxiety about one\'s body and "performance."',
     },
     {
@@ -84,7 +84,7 @@ export const article7: Article = {
   publishedAt: '2025-04-15',
   content: [
     {
-      lt: '„Dažnai neįvertiname to, ką turime, kol to neprarandame."',
+      lt: '„Dažnai neįvertiname to, ką turime, kol to neprarandame.”',
       en: '"We often fail to appreciate what we have until we lose it."',
     },
     {
@@ -124,7 +124,7 @@ export const article7: Article = {
       en: 'I smile and say:',
     },
     {
-      lt: '„Žinai, man gera tai girdėti. Jaučiu šilumą krūtinėje, kai tu kalbi apie šiuos mažus džiaugsmus. Norisi kartu juos išgyventi."',
+      lt: '„Žinai, man gera tai girdėti. Jaučiu šilumą krūtinėje, kai tu kalbi apie šiuos mažus džiaugsmus. Norisi kartu juos išgyventi.”',
       en: '"You know, it feels good to hear this. I feel warmth in my chest when you talk about these small joys. I want to live them together with you."',
     },
     {
@@ -132,7 +132,7 @@ export const article7: Article = {
       en: 'She hears. Her face relaxes even more. And then I think again how good it is for a person to be heard. As if heard joy gets more space. As if it becomes more real when it can be witnessed by another.',
     },
     {
-      lt: 'Sue Johnson, emocijų terapijos kūrėja, yra sakiusi, kad žmonės yra „wired for connection" – sukurti ryšiui. Tokiais momentais tai nebe teorija. Tai vyksta čia pat, tarp dviejų žmonių.',
+      lt: 'Sue Johnson, emocijų terapijos kūrėja, yra sakiusi, kad žmonės yra „wired for connection” – sukurti ryšiui. Tokiais momentais tai nebe teorija. Tai vyksta čia pat, tarp dviejų žmonių.',
       en: 'Sue Johnson, the creator of emotionally focused therapy, has said that people are "wired for connection." In such moments this is no longer theory. It is happening right here, between two people.',
     },
     {
@@ -148,7 +148,7 @@ export const article7: Article = {
       en: 'I feel how my body resonates with that warmth. I say:',
     },
     {
-      lt: '„Jaučiu tokį šviesų, gražų jausmą girdėdamas apie tokį palaikantį ryšį. Gera žinoti, kad tavo gyvenime yra žmogus, su kuriuo yra tiek meilės, palaikymo."',
+      lt: '„Jaučiu tokį šviesų, gražų jausmą girdėdamas apie tokį palaikantį ryšį. Gera žinoti, kad tavo gyvenime yra žmogus, su kuriuo yra tiek meilės, palaikymo.”',
       en: '"I feel such a bright, beautiful feeling hearing about such a supportive connection. It is good to know that in your life there is a person with whom there is so much love, so much support."',
     },
     {
@@ -176,7 +176,7 @@ export const article7: Article = {
       en: 'The client quietly says:',
     },
     {
-      lt: '„O aš jam dar niekada tiesiai nepasakiau, kiek jis man svarbus."',
+      lt: '„O aš jam dar niekada tiesiai nepasakiau, kiek jis man svarbus.”',
       en: '"And I have never directly told him how much he means to me."',
     },
     {
@@ -184,7 +184,7 @@ export const article7: Article = {
       en: 'I invite her to try saying it now:',
     },
     {
-      lt: '„Tu man svarbus. Aš dėkinga, kad esi mano gyvenime."',
+      lt: '„Tu man svarbus. Aš dėkinga, kad esi mano gyvenime.”',
       en: '"You are important to me. I am grateful that you are in my life."',
     },
     {
@@ -196,7 +196,7 @@ export const article7: Article = {
       en: 'The session touched me. Taking my phone in my hands, I wrote:',
     },
     {
-      lt: '„Myliu tave. Ir vertinu, kad esi mano gyvenime."',
+      lt: '„Myliu tave. Ir vertinu, kad esi mano gyvenime.”',
       en: '"I love you. And I value that you are in my life."',
     },
   ],
@@ -237,11 +237,11 @@ export const article8: Article = {
       en: 'As if it is not enough that it hurts. You also have to prove that you loved enough, tried enough, were good enough.',
     },
     {
-      lt: 'Aplinka, norėdama padėti, kartais skuba pasakyti: „būk stiprus", „laikas gydo", „žiūrėk pozityviai", „reikia gyventi toliau", „viskas vyksta dėl priežasties". Bet tokie žodžiai dažnai nepalengvina gedėjimo – jie nutildo tai, kas dar nori būti išsakyta.',
+      lt: 'Aplinka, norėdama padėti, kartais skuba pasakyti: „būk stiprus”, „laikas gydo”, „žiūrėk pozityviai”, „reikia gyventi toliau”, „viskas vyksta dėl priežasties”. Bet tokie žodžiai dažnai nepalengvina gedėjimo – jie nutildo tai, kas dar nori būti išsakyta.',
       en: 'The environment, wanting to help, sometimes rushes to say: "be strong," "time heals," "look on the bright side," "you need to go on living," "everything happens for a reason." But such words often don\'t ease grief — they silence what still wants to be expressed.',
     },
     {
-      lt: 'Sielvartui dažnai reikia ne paaiškinimų, ne patarimų ir ne bandymo parodyti „šviesiąją pusę". Jam reikia erdvės ištarti:',
+      lt: 'Sielvartui dažnai reikia ne paaiškinimų, ne patarimų ir ne bandymo parodyti „šviesiąją pusę”. Jam reikia erdvės ištarti:',
       en: 'Grief often needs not explanations, not advice, and not an attempt to show the "bright side." It needs space to say:',
     },
     {
@@ -257,15 +257,15 @@ export const article8: Article = {
       en: 'Sometimes what helps most is not perfect words, but simple presence:',
     },
     {
-      lt: '„Aš nežinau, ką dabar pasakyti, bet galiu būti su tavimi."',
+      lt: '„Aš nežinau, ką dabar pasakyti, bet galiu būti su tavimi.”',
       en: '"I don\'t know what to say right now, but I can be with you."',
     },
     {
-      lt: '„Gali nekalbėti – aš pabūsiu kartu."',
+      lt: '„Gali nekalbėti – aš pabūsiu kartu.”',
       en: '"You don\'t have to talk — I\'ll stay with you."',
     },
     {
-      lt: '„Tavo gedėjimas neturi termino."',
+      lt: '„Tavo gedėjimas neturi termino.”',
       en: '"Your grief has no deadline."',
     },
     {

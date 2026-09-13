@@ -8,14 +8,14 @@ export const article4: Article = {
   },
   category: 'Psichoterapija',
   excerpt: {
-    lt: 'Dabartinėje psichologinėje kultūroje kartais matau du kraštutinumus. Vienas – esu stiprus, nepriklausomas. Kitas – mano „vidinis vaikas" toks gležnas. O kur tarp jų yra suaugęs žmogus?',
+    lt: 'Dabartinėje psichologinėje kultūroje kartais matau du kraštutinumus. Vienas – esu stiprus, nepriklausomas. Kitas – mano „vidinis vaikas” toks gležnas. O kur tarp jų yra suaugęs žmogus?',
     en: 'In current psychological culture I sometimes see two extremes. One — I am strong, independent. The other — my "inner child" is so fragile. Where between them is the grown-up person?',
   },
   relatedSlugs: ['kai-norisi-kad-kas-nors-pasakytu-kaip-gyventi', 'meile-ir-savipakankamumo-iliuzija', 'kai-rysys-gydo'],
   publishedAt: '2025-03-01',
   content: [
     {
-      lt: 'Dabartinėje psichologinėje kultūroje kartais matau du kraštutinumus. Viename jų esu stiprus, nepriklausomas, žinau, ką darau, man kitas nereikalingas, viską galiu išspręsti pats. Kitame – mano „vidinis vaikas" toks gležnas ir pažeidžiamas, kad šalia turi būti labai jautrus žmogus, kuris manęs neužgautų, nesukeltų per daug nepatogumo ar neprisiliestų prie to, kas manyje skauda.',
+      lt: 'Dabartinėje psichologinėje kultūroje kartais matau du kraštutinumus. Viename jų esu stiprus, nepriklausomas, žinau, ką darau, man kitas nereikalingas, viską galiu išspręsti pats. Kitame – mano „vidinis vaikas” toks gležnas ir pažeidžiamas, kad šalia turi būti labai jautrus žmogus, kuris manęs neužgautų, nesukeltų per daug nepatogumo ar neprisiliestų prie to, kas manyje skauda.',
       en: 'In current psychological culture I sometimes see two extremes. In one I am strong, independent, I know what I am doing, I don\'t need anyone, I can solve everything myself. In the other my "inner child" is so fragile and vulnerable that beside me there must be a very sensitive person who would not hurt me, would not cause too much discomfort, or touch what is sore in me.',
     },
     {
@@ -35,7 +35,7 @@ export const article4: Article = {
       en: 'My friend asked him something like:',
     },
     {
-      lt: '„Bet tu jau suaugęs. Ką jis tau gali padaryti? Užgauti? Įskaudinti? Kaip tu galėsi susitikti su juo kaip su kitu žmogumi, jeigu taip bijai būti jo paliestas?"',
+      lt: '„Bet tu jau suaugęs. Ką jis tau gali padaryti? Užgauti? Įskaudinti? Kaip tu galėsi susitikti su juo kaip su kitu žmogumi, jeigu taip bijai būti jo paliestas?”',
       en: '"But you are already a grown-up. What can he do to you? Hurt you? Wound you? How will you meet him as another person if you are so afraid of being touched by him?"',
     },
     {
@@ -71,7 +71,7 @@ export const article4: Article = {
       en: 'Maybe this is where the question of courage appears.',
     },
     {
-      lt: 'Ne tokios drąsos, kai bandau būti „kietas" ir įrodyti, kad man niekas nesvarbu. Greičiau gebėjimo pasilikti santykyje žinant, kad ne viską jame kontrolioju.',
+      lt: 'Ne tokios drąsos, kai bandau būti „kietas” ir įrodyti, kad man niekas nesvarbu. Greičiau gebėjimo pasilikti santykyje žinant, kad ne viską jame kontroliuoju.',
       en: 'Not the kind of courage where I try to be "tough" and prove that nothing matters to me. Rather the ability to stay in a relationship knowing that I don\'t control everything in it.',
     },
     {
@@ -83,7 +83,7 @@ export const article4: Article = {
       en: 'Here I also have a certain doubt about some of today\'s very popular psychological concepts.',
     },
     {
-      lt: '„Vidinis vaikas", „trigeriai", „pažeidžiamumas", „saugi erdvė" gali būti labai naudingi žodžiai. Jie padeda pamatyti tai, ko anksčiau savyje gal net nepastebėdavome.',
+      lt: '„Vidinis vaikas”, „trigeriai”, „pažeidžiamumas”, „saugi erdvė” gali būti labai naudingi žodžiai. Jie padeda pamatyti tai, ko anksčiau savyje gal net nepastebėdavome.',
       en: '"Inner child," "triggers," "vulnerability," "safe space" can be very useful words. They help us see what we might not have noticed in ourselves before.',
     },
     {
@@ -95,11 +95,11 @@ export const article4: Article = {
       en: 'In therapy it is therefore important to me not only to help a person feel more. Feelings, body reactions, sensitivity are excellent signals that help understand where I am and what is happening with me.',
     },
     {
-      lt: 'Bet po klausimo „ką aš jaučiu?" man ne mažiau svarbus kitas:',
+      lt: 'Bet po klausimo „ką aš jaučiu?” man ne mažiau svarbus kitas:',
       en: 'But after the question "what do I feel?" another is no less important to me:',
     },
     {
-      lt: '„Ką aš su tuo darysiu?"',
+      lt: '„Ką aš su tuo darysiu?”',
       en: '"What do I do with that?"',
     },
     {
@@ -111,7 +111,7 @@ export const article4: Article = {
       en: 'Here I recall Roberto Resnick\'s thought:',
     },
     {
-      lt: '„Jeigu santykyje iš tikrųjų nepasirodai toks, koks esi, niekada negali sužinoti, ar jūs iš tiesų derate. Santykiai ir santuokos, kuriuose save nuolat kontroliuojame ir pritaikome, turi esminę problemą: jeigu mano santykis veikia tik tada, kai manęs jame iš tikrųjų nėra, tuomet jis praranda pačią savo prasmę."',
+      lt: '„Jeigu santykyje iš tikrųjų nepasirodai toks, koks esi, niekada negali sužinoti, ar jūs iš tiesų derate. Santykiai ir santuokos, kuriuose save nuolat kontroliuojame ir pritaikome, turi esminę problemą: jeigu mano santykis veikia tik tada, kai manęs jame iš tikrųjų nėra, tuomet jis praranda pačią savo prasmę.”',
       en: '"If in a relationship you never truly show yourself as you are, you can never know whether you truly fit. Relationships and marriages where we constantly control and adapt ourselves have a fundamental problem: if my relationship only works when I am not really in it, then it loses its very meaning."',
     },
     {
@@ -148,7 +148,7 @@ export const article5: Article = {
       en: 'Yesterday I listened to Slavoj Žižek, a philosopher whose ideas often stir me, though I don\'t always agree with them. His speech is sharp, sometimes radical, not avoiding uncomfortable formulations. Listening to him I started thinking again about love and the narcissistic society we live in.',
     },
     {
-      lt: 'Žodis „narcisizmas" šiandien mirga spaudoje ir socialiniuose tinkluose: „gyvenu su narcizu", „kaip atpažinti narcizą", „kaip nuo jo apsisaugoti". Tačiau grįžus prie Freudo tekstų narcisizmas pasirodo ne vien kaip diagnozė ar charakterio trūkumas.',
+      lt: 'Žodis „narcisizmas” šiandien mirga spaudoje ir socialiniuose tinkluose: „gyvenu su narcizu”, „kaip atpažinti narcizą”, „kaip nuo jo apsisaugoti”. Tačiau grįžus prie Freudo tekstų narcisizmas pasirodo ne vien kaip diagnozė ar charakterio trūkumas.',
       en: 'The word "narcissism" flashes today in the press and social media: "I live with a narcissist," "how to recognize a narcissist," "how to protect yourself from one." But returning to Freud\'s texts, narcissism appears not only as a diagnosis or character flaw.',
     },
     {
@@ -176,7 +176,7 @@ export const article5: Article = {
       en: 'Žižek has said that it can be dangerous for a loved person to be loved not for who they are, but because they match an ideal. This idea seems especially relevant today.',
     },
     {
-      lt: 'Meilė kartais ima priminti vartojimą: susikuriame savybių sąrašą, ieškome „idealaus atitikmens", o žmogui jo neatitikus grįžtame į „Tinder", „Bumble" ar kitą platformą.',
+      lt: 'Meilė kartais ima priminti vartojimą: susikuriame savybių sąrašą, ieškome „idealaus atitikmens”, o žmogui jo neatitikus grįžtame į „Tinder”, „Bumble” ar kitą platformą.',
       en: 'Love sometimes begins to resemble consumption: we create a list of qualities, look for the "ideal match," and when a person doesn\'t match, we return to "Tinder," "Bumble" or another platform.',
     },
     {
@@ -188,7 +188,7 @@ export const article5: Article = {
       en: 'But do we then actually meet another person? Or are we looking for a mirror that would confirm our own ideal?',
     },
     {
-      lt: 'Žižekas provokuojančiai sako: „Love is an extremely violent act." Meilė yra itin smurtinis aktas.',
+      lt: 'Žižekas provokuojančiai sako: „Love is an extremely violent act.” Meilė yra itin smurtinis aktas.',
       en: 'Žižek provocatively says: "Love is an extremely violent act." Love is an extremely violent act.',
     },
     {
