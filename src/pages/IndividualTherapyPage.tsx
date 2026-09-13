@@ -126,6 +126,18 @@ export function IndividualTherapyPage() {
                       'Not because therapy provides one correct answer, but because you come to know yourself, your needs, your boundaries, and the ways you shape your life and relationships more clearly.',
                     ],
               },
+              {
+                title: language === 'lt' ? 'Terapijos pabaiga' : 'Ending therapy',
+                body: language === 'lt'
+                  ? [
+                      'Apie terapijos pabaigą kalbamės iš anksto. Kartu žiūrime, kas per laiką pasikeitė, ką pavyko geriau suprasti ir kas dar lieka svarbu.',
+                      'Užbaigimas irgi yra terapinio proceso dalis. Jis gali atnešti palengvėjimo, liūdesio, dėkingumo ar kitų jausmų, todėl svarbu palikti vietos ir pačiam atsisveikinimui su terapiniu santykiu.',
+                    ]
+                  : [
+                      'We talk about ending therapy in advance. Together, we look at what has changed over time, what has become clearer, and what still feels important.',
+                      'Ending is also part of the therapeutic process. It can bring relief, sadness, gratitude or other feelings, so it is important to leave space for saying goodbye to the therapeutic relationship itself.',
+                    ],
+              },
             ].map((step, i) => (
               <FadeIn key={i} delay={0.1 * (i + 1)}>
                 <div className="flex gap-4">
