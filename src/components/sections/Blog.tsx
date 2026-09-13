@@ -87,7 +87,7 @@ export function Blog() {
 
         <FadeIn delay={0.6}>
           <div className="text-center mt-12">
-            <button className="inline-flex items-center justify-center gap-2 bg-therapy-sage-600 text-white px-6 py-3 rounded-sm hover:bg-therapy-sage-700 focus:bg-therapy-sage-700 transition-colors duration-200">
+            <button className="inline-flex items-center justify-center gap-2 bg-therapy-warm-900 text-white px-6 py-3 rounded-sm hover:bg-therapy-warm-800 focus:bg-therapy-warm-800 transition-colors duration-200">
               {t.blog.viewAll}
               <ArrowRight size={20} />
             </button>

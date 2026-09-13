@@ -18,7 +18,7 @@ export function NotFoundPage() {
         </p>
         <Link
           to="/"
-          className="inline-flex items-center justify-center bg-therapy-sage-600 text-white px-6 py-3 hover:bg-therapy-sage-700 transition-all duration-300 font-medium rounded-sm text-sm"
+          className="inline-flex items-center justify-center bg-therapy-warm-900 text-white px-6 py-3 hover:bg-therapy-warm-800 transition-all duration-300 font-medium rounded-sm text-sm"
         >
           {language === 'lt' ? 'Į pradžią' : 'Home'}
         </Link>

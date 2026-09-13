@@ -55,7 +55,7 @@ export function Services() {
               <p className="text-sm text-therapy-warm-400 italic">{t.services.couples.duration}</p>
               <a
                 href="#kontaktai"
-                className="inline-flex items-center justify-center bg-therapy-sage-600 text-white px-6 py-3 hover:bg-therapy-sage-700 transition-all duration-300 font-medium rounded-sm text-sm"
+                className="inline-flex items-center justify-center bg-therapy-warm-900 text-white px-6 py-3 hover:bg-therapy-warm-800 transition-all duration-300 font-medium rounded-sm text-sm"
               >
                 {t.contact.cta}
               </a>
@@ -121,7 +121,7 @@ export function Services() {
             <div className="mt-7">
               <a
                 href="#kontaktai"
-                className="inline-flex items-center justify-center bg-therapy-sage-600 text-white px-6 py-3 hover:bg-therapy-sage-700 transition-all duration-300 font-medium rounded-sm text-sm"
+                className="inline-flex items-center justify-center bg-therapy-warm-900 text-white px-6 py-3 hover:bg-therapy-warm-800 transition-all duration-300 font-medium rounded-sm text-sm"
               >
                 {t.contact.cta}
               </a>
@@ -165,7 +165,7 @@ export function Services() {
             <div className="mt-7">
               <a
                 href="#kontaktai"
-                className="inline-flex items-center justify-center bg-therapy-sage-600 text-white px-6 py-3 hover:bg-therapy-sage-700 transition-all duration-300 font-medium rounded-sm text-sm"
+                className="inline-flex items-center justify-center bg-therapy-warm-900 text-white px-6 py-3 hover:bg-therapy-warm-800 transition-all duration-300 font-medium rounded-sm text-sm"
               >
                 {t.contact.cta}
               </a>

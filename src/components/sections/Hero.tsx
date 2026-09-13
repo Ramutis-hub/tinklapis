@@ -69,7 +69,7 @@ export function Hero() {
               <div className="flex flex-col sm:flex-row flex-wrap gap-3 pt-1">
                 <a
                   href="#kontaktai"
-                  className="inline-flex items-center justify-center bg-therapy-sage-600 text-white px-7 py-3.5 hover:bg-therapy-sage-700 transition-all duration-300 font-medium rounded-sm text-sm tracking-wide"
+                  className="inline-flex items-center justify-center bg-therapy-warm-900 text-white px-7 py-3.5 hover:bg-therapy-warm-800 transition-all duration-300 font-medium rounded-sm text-sm tracking-wide"
                 >
                   {t.hero.cta}
                 </a>

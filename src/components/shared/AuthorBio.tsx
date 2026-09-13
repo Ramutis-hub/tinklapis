@@ -36,7 +36,7 @@ export function AuthorBio({ isEnglish = false }: AuthorBioProps) {
             </Link>
             <Link
               to="/kontaktai"
-              className="inline-flex items-center justify-center bg-therapy-sage-600 text-white px-5 py-2.5 hover:bg-therapy-sage-700 transition-all duration-300 font-medium rounded-sm text-sm"
+              className="inline-flex items-center justify-center bg-therapy-warm-900 text-white px-5 py-2.5 hover:bg-therapy-warm-800 transition-all duration-300 font-medium rounded-sm text-sm"
             >
               {isEnglish ? 'Book a consultation' : 'Registruotis konsultacijai'}
             </Link>

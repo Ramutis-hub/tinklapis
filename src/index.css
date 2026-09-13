@@ -54,7 +54,7 @@ body {
 
 @layer components {
   .btn-primary {
-    @apply bg-therapy-sage-600 text-white px-6 md:px-8 py-3 md:py-4 hover:bg-therapy-sage-700 
+    @apply bg-therapy-warm-900 text-white px-6 md:px-8 py-3 md:py-4 hover:bg-therapy-warm-800 
            transition-all duration-300 shadow-sm text-base md:text-lg font-medium rounded-sm;
   }
   

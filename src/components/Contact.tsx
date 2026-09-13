@@ -24,7 +24,7 @@ export function Contact() {
         <div className="flex flex-col sm:flex-row justify-center gap-3 mb-12">
           <a
             href="tel:+37062176092"
-            className="inline-flex items-center justify-center bg-therapy-sage-600 text-white px-8 py-3.5 hover:bg-therapy-sage-500 transition-all duration-300 font-medium rounded-sm text-sm md:text-base"
+            className="inline-flex items-center justify-center bg-therapy-warm-900 text-white px-8 py-3.5 hover:bg-therapy-warm-800 transition-all duration-300 font-medium rounded-sm text-sm md:text-base"
           >
             {t.contact.cta}
           </a>

@@ -16,7 +16,7 @@ export function Button({
   const baseStyles = 'inline-flex items-center justify-center font-medium transition-all duration-300 rounded-sm hover-lift';
   
   const variants = {
-    primary: 'bg-therapy-sage-600 text-white hover:bg-therapy-sage-700 shadow-warm',
+    primary: 'bg-therapy-warm-900 text-white hover:bg-therapy-warm-800 shadow-warm',
     secondary: 'bg-therapy-ocean-100 text-therapy-ocean-800 hover:bg-therapy-ocean-200',
     outline: 'border border-therapy-sand-300 text-therapy-sand-800 hover:bg-therapy-sand-50'
   };
