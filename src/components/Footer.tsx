@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { DialogueLogo } from './ui/icons/DialogueLogo';
 import { useLanguage } from '../hooks/useLanguage';
@@ -35,9 +36,9 @@ export function Footer() {
               />
             </div>
             <div className="flex flex-col">
-              <span className="text-base md:text-lg font-serif text-therapy-warm-100 font-medium tracking-wide">
+              <Link to="/" className="text-base md:text-lg font-serif text-therapy-warm-100 font-medium tracking-wide">
                 {language === 'lt' ? 'Dialogo Erdvė' : 'Dialogue Space'}
-              </span>
+              </Link>
               <span className="text-xs md:text-sm text-therapy-warm-300 tracking-wider">
                 {language === 'lt' ? 'Psichoterapija' : 'Psychotherapy'} · Ramutis Klimanskis
               </span>

@@ -5,26 +5,110 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://ramutisklimanskis.lt</loc>
-    <lastmod>2024-12-14</lastmod>
+    <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://ramutisklimanskis.lt#paslaugos</loc>
-    <lastmod>2024-12-14</lastmod>
+    <loc>https://ramutisklimanskis.lt/poru-terapija</loc>
+    <lastmod>2026-09-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://ramutisklimanskis.lt#apie</loc>
-    <lastmod>2024-12-14</lastmod>
+    <loc>https://ramutisklimanskis.lt/individuali-terapija</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ramutisklimanskis.lt/artumas-ir-seksualumas</loc>
+    <lastmod>2026-09-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ramutisklimanskis.lt#kontaktai</loc>
-    <lastmod>2024-12-14</lastmod>
+    <loc>https://ramutisklimanskis.lt/tekstai</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ramutisklimanskis.lt/apie-mane</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ramutisklimanskis.lt/kontaktai</loc>
+    <lastmod>2026-09-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ramutisklimanskis.lt/tekstai/po-neistikimybes</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ramutisklimanskis.lt/tekstai/ar-terapija-turi-nuraminti</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ramutisklimanskis.lt/tekstai/kai-norisi-kad-kas-nors-pasakytu-kaip-gyventi</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ramutisklimanskis.lt/tekstai/ar-as-esu-suauges</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ramutisklimanskis.lt/tekstai/meile-ir-savipakankamumo-iliuzija</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ramutisklimanskis.lt/tekstai/ar-mums-patogu-kalbeti-apie-seksualuma</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ramutisklimanskis.lt/tekstai/psichoterapeuto-uzrasai</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ramutisklimanskis.lt/tekstai/gedulas-ir-kalte</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ramutisklimanskis.lt/tekstai/kai-rysys-gydo</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ramutisklimanskis.lt/tekstai/kai-artumas-tampa-atrama</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ramutisklimanskis.lt/tekstai/some-reflections-on-sexuality-in-couples</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>
