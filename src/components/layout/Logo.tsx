@@ -12,11 +12,11 @@ export function Logo() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
     >
-      <Link to="/" className="flex flex-col leading-tight">
-        <span className="text-base font-serif text-therapy-warm-800 font-medium tracking-wide">
+      <Link to="/" className="flex flex-col gap-0.5">
+        <span className="text-[15px] sm:text-[16px] font-sans font-semibold uppercase tracking-[0.14em] text-therapy-warm-800 leading-none">
           Ramutis Klimanskis
         </span>
-        <span className="text-[10px] text-therapy-warm-500 tracking-wider hidden sm:inline">
+        <span className="text-[9px] sm:text-[10px] font-sans font-medium uppercase tracking-[0.24em] text-therapy-warm-500 leading-none hidden sm:block">
           {language === 'lt' ? 'Psichoterapija' : 'Psychotherapy'}
         </span>
       </Link>

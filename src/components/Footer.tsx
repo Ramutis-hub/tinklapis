@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { DialogueLogo } from './ui/icons/DialogueLogo';
 import { useLanguage } from '../hooks/useLanguage';
 import { useTranslations } from '../translations';
 
@@ -19,30 +18,17 @@ export function Footer() {
           transition={{ duration: 0.5 }}
         >
           <motion.div
-            className="flex items-center gap-3"
+            className="flex flex-col gap-0.5"
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <div className="relative">
-              <DialogueLogo
-                size={32}
-                className="text-therapy-sage-400 transform transition-transform duration-300 hover:scale-105"
-              />
-              <motion.div
-                className="absolute -inset-2 bg-therapy-sage-600 rounded-full blur-lg opacity-20"
-                animate={{ scale: [1, 1.2, 1] }}
-                transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-              />
-            </div>
-            <div className="flex flex-col">
-              <Link to="/" className="text-base md:text-lg font-serif text-therapy-warm-100 font-medium tracking-wide">
-                Ramutis Klimanskis
-              </Link>
-              <span className="text-xs md:text-sm text-therapy-warm-300 tracking-wider">
-                {language === 'lt' ? 'Psichoterapija' : 'Psychotherapy'} · Dialogo Erdvė
-              </span>
-            </div>
+            <Link to="/" className="text-[14px] font-sans font-semibold uppercase tracking-[0.14em] text-therapy-warm-100 leading-none">
+              Ramutis Klimanskis
+            </Link>
+            <span className="text-[9px] font-sans font-medium uppercase tracking-[0.24em] text-therapy-warm-400 leading-none">
+              {language === 'lt' ? 'Psichoterapija' : 'Psychotherapy'} · Dialogo Erdvė
+            </span>
           </motion.div>
 
           <motion.div
