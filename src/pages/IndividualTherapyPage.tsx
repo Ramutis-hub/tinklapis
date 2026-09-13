@@ -162,7 +162,6 @@ export function IndividualTherapyPage() {
                     'Konsultuoju gyvai Vilniuje ir nuotoliu, lietuvių, anglų ir rusų kalbomis.',
                     'Terapijos trukmės iš anksto nenustatome. Ją aptariame eigoje, atsižvelgdami į jūsų situaciją, poreikius ir tai, kaip vystosi terapinis procesas.',
                     'Tai, kuo dalijatės terapijoje, yra konfidencialu.',
-                    'Jei terapijos metu kyla abejonių, nepatogumo ar jausmas, kad kažkas mūsų darbe netinka, kviečiu apie tai kalbėti. Kartais būtent tokie momentai tampa svarbia terapinio proceso dalimi.',
                   ]
                 : [
                     'We usually meet once a week.',
@@ -170,7 +169,6 @@ export function IndividualTherapyPage() {
                     'I offer sessions in person in Vilnius and online, in Lithuanian, English and Russian.',
                     'The length of therapy is not determined in advance. We discuss it as the work develops, taking into account your situation, your needs and the therapeutic process.',
                     'What you share in therapy is confidential.',
-                    'If doubts, discomfort or a sense that something in our work does not feel right arise during therapy, I invite you to talk about it. Sometimes these moments themselves become an important part of the therapeutic process.',
                   ]
               ).map((item, i) => (
                 <li key={i} className="flex items-start gap-2.5 text-sm md:text-base text-therapy-warm-700 leading-relaxed">
