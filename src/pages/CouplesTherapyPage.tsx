@@ -136,7 +136,7 @@ export function CouplesTherapyPage() {
           <div className="grid md:grid-cols-2 gap-5">
             {articles.map((article, i) => (
               <FadeIn key={article.slug} delay={i * 0.1}>
-                <ArticleCard article={article} compact />
+                <ArticleCard article={article} language={language} compact />
               </FadeIn>
             ))}
           </div>

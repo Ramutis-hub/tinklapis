@@ -15,7 +15,6 @@ const FILTER_ORDER: FilterKey[] = [
   'Psichoterapija',
   'Artumas ir seksualumas',
   'Gedėjimas',
-  'English',
 ];
 
 const QUERY_PARAM = 'kategorija';
@@ -26,7 +25,6 @@ const SLUG_BY_CATEGORY: Record<ArticleCategory, string> = {
   'Psichoterapija': 'psichoterapija',
   'Artumas ir seksualumas': 'artumas-ir-seksualumas',
   'Gedėjimas': 'gedejimas',
-  'English': 'english',
 };
 
 const CATEGORY_BY_SLUG: Record<string, ArticleCategory> = Object.entries(SLUG_BY_CATEGORY).reduce(
@@ -47,12 +45,9 @@ export function ArticlesListPage() {
   }, [searchParams]);
 
   const sortedArticles = useMemo(() => {
-    return [...articles].sort((a, b) => {
-      if (a.language !== b.language) {
-        return a.language === 'lt' ? -1 : 1;
-      }
-      return b.publishedAt.localeCompare(a.publishedAt);
-    });
+    return [...articles].sort((a, b) =>
+      b.publishedAt.localeCompare(a.publishedAt)
+    );
   }, []);
 
   const filteredArticles = useMemo(() => {
@@ -71,7 +66,7 @@ export function ArticlesListPage() {
 
   const filterLabel = (key: FilterKey): string => {
     if (key === 'visi') return language === 'lt' ? 'Visi' : 'All';
-    return CATEGORY_LABELS[key];
+    return CATEGORY_LABELS[key][language];
   };
 
   return (
@@ -124,7 +119,7 @@ export function ArticlesListPage() {
             <div className="grid md:grid-cols-2 gap-6 md:gap-8">
               {filteredArticles.map((article, i) => (
                 <FadeIn key={article.slug} delay={(i % 2) * 0.1}>
-                  <ArticleCard article={article} />
+                  <ArticleCard article={article} language={language} />
                 </FadeIn>
               ))}
             </div>

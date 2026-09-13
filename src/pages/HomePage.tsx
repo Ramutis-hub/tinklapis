@@ -131,7 +131,7 @@ export function HomePage() {
           <div className="grid md:grid-cols-3 gap-6 md:gap-8">
             {featured.map((article, i) => (
               <FadeIn key={article.slug} delay={i * 0.1}>
-                <ArticleCard article={article} />
+                <ArticleCard article={article} language={language} />
               </FadeIn>
             ))}
           </div>

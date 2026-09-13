@@ -3,30 +3,28 @@ export type ArticleCategory =
   | 'Porų terapija'
   | 'Psichoterapija'
   | 'Artumas ir seksualumas'
-  | 'Gedėjimas'
-  | 'English';
+  | 'Gedėjimas';
 
-export interface ArticleParagraph {
-  text: string;
+export interface LocalizedText {
+  lt: string;
+  en: string;
 }
 
 export interface Article {
   slug: string;
-  title: string;
-  subtitle?: string;
+  title: LocalizedText;
+  subtitle?: LocalizedText;
   category: ArticleCategory;
-  language: 'lt' | 'en';
-  excerpt: string;
-  content: string[];
+  excerpt: LocalizedText;
+  content: LocalizedText[];
   relatedSlugs: string[];
   publishedAt: string;
 }
 
-export const CATEGORY_LABELS: Record<ArticleCategory, string> = {
-  'Santykiai': 'Santykiai',
-  'Porų terapija': 'Porų terapija',
-  'Psichoterapija': 'Psichoterapija',
-  'Artumas ir seksualumas': 'Artumas ir seksualumas',
-  'Gedėjimas': 'Gedėjimas',
-  'English': 'English',
+export const CATEGORY_LABELS: Record<ArticleCategory, { lt: string; en: string }> = {
+  'Santykiai': { lt: 'Santykiai', en: 'Relationships' },
+  'Porų terapija': { lt: 'Porų terapija', en: 'Couples therapy' },
+  'Psichoterapija': { lt: 'Psichoterapija', en: 'Psychotherapy' },
+  'Artumas ir seksualumas': { lt: 'Artumas ir seksualumas', en: 'Intimacy & sexuality' },
+  'Gedėjimas': { lt: 'Gedėjimas', en: 'Grief' },
 };
