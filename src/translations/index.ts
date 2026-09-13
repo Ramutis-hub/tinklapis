@@ -111,7 +111,7 @@ const translations: Record<Language, Translations> = {
       subtitle: 'Ramutis Klimanskis – psichoterapeutas Vilniuje ir online',
       intro: 'Porų terapija · Individuali psichoterapija · Santykių sunkumai · Seksualumo ir artumo temos',
       description:
-        'Padedu žmonėms ir poroms tyrinėti tai, kas vyksta santykyje: konfliktus, nutolimą, artumo baimę, pasikartojančius emocinius ciklus, seksualumo temas ir sunkumus būti išgirstam.\n\nTerapijoje kviečiu ne ieškoti greitų atsakymų, o sustoti prie to, kas kartojasi: kaip mes ginamės, kaip trokštame artumo, kaip prarandame ryšį ir kaip galime jį atkurti.\n\nDirbu su poromis ir individualiai. Mano darbe svarbios Geštalto terapijos, dialogo, lauko teorijos, psichoanalitinio mąstymo ir emociškai fokusuotos terapijos / EFT perspektyvos.',
+        'Padedu žmonėms ir poroms tyrinėti tai, kas vyksta santykyje: konfliktus, nutolimą, artumo baimę, pasikartojančius emocinius ciklus, seksualumo temas ir sunkumus būti išgirstam.\n\nTerapijoje kviečiu ne ieškoti greitų atsakymų, o sustoti ties tuo, kas kartojasi: kaip mes ginamės, kaip trokštame artumo, kaip prarandame ryšį ir kaip galime jį atkurti.\n\nDirbu su poromis ir individualiai. Mano darbe svarbios Geštalto terapijos, dialogo, lauko teorijos, psichoanalitinio mąstymo ir emociškai fokusuotos terapijos / EFT perspektyvos.',
       cta: 'Registruotis konsultacijai',
       ctaCouples: 'Porų terapija',
       ctaIndividual: 'Individuali terapija',
@@ -197,10 +197,10 @@ const translations: Record<Language, Translations> = {
     about: {
       title: 'Apie mane',
       paragraphs: [
-        'Kaip terapeutas pirmiausia stengiuosi matyti, kas vyksta tarp mūsų čia ir dabar – tiek pokalbyje, tiek tylos momentuose, tiek tame, kas abiem jaučiasi artima ar nepatogu. Man svarbu, kad mūsų susitikimuose būtų vietos atvirumui ir ramiam tempui, kad galėtumėte būti su tuo, kas jums šiuo metu tikra.',
-        'Per savo praktiką vis labiau matau, kad pokytis prasideda tada, kai žmogus ima aiškiau suprasti, kas jį veikia – savo jausmus, įpročius, pasikartojančius elgesio modelius, vidinius konfliktus, gynybas ir tai, kaip esate pratę matyti save.',
+        'Kaip terapeutas pirmiausia stengiuosi matyti, kas vyksta tarp mūsų čia ir dabar – tiek pokalbyje, tiek tylos momentuose, tiek tame, kas tarp mūsų jaučiasi artima ar nepatogu. Man svarbu, kad mūsų susitikimuose būtų vietos atvirumui ir ramiam tempui, kad galėtumėte būti su tuo, kas jums šiuo metu tikra.',
+        'Savo praktikoje vis labiau matau, kad pokytis prasideda tada, kai žmogus ima aiškiau suprasti savo jausmus, įpročius, pasikartojančius elgesio modelius, vidinius konfliktus, gynybas ir tai, kaip yra pratęs matyti save.',
         'Į sesijas neateinu su iš anksto paruoštu planu ar atsakymais. Man svarbu sutikti jus ten, kur jūs esate. Kartu tyrinėjame tai, kas kyla – ar tai būtų skausmas, nerimas, pasimetimas, aiškumas ar tiesiog sunkiai įvardijama būsena.',
-        'Terapiją matau kaip bendrą procesą. Kiekvienas susitikimas yra kitoks, nes jį kuria du žmonės: jūsų atvirumas ir noras suprasti save susitinka su mano dėmesiu, buvimu ir pagarba jūsų patirčiai.',
+        'Terapiją matau kaip bendrą procesą. Kiekvienas susitikimas yra kitoks, nes jame susitinkame dviese: jūsų atvirumas ir noras suprasti save susitinka su mano dėmesiu, buvimu ir pagarba jūsų patirčiai.',
       ],
       approachTitle: 'Apie mano darbo kryptį',
       approach:
@@ -211,7 +211,7 @@ const translations: Record<Language, Translations> = {
           {
             title: 'Klinikinės psichologijos magistras, su pagyrimu',
             institution: 'Université Côte d\'Azur, Prancūzija',
-            details: 'Mokymai su lakaniškos psichoanalitinės teorijos akcentu',
+            details: 'Mokymai, kuriuose daug dėmesio skirta lakaniškai psichoanalitinei teorijai',
           },
           { title: 'Psichologijos bakalauras', institution: 'Mykolo Romerio universitetas, Lietuva' },
           { title: 'Geštalto terapijos mokymai (GATLA programa)', institution: 'Gestalt Associates Training Los Angeles, JAV' },
