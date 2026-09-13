@@ -37,10 +37,10 @@ export function Footer() {
             </div>
             <div className="flex flex-col">
               <Link to="/" className="text-base md:text-lg font-serif text-therapy-warm-100 font-medium tracking-wide">
-                Dialogo Erdvė
+                Ramutis Klimanskis
               </Link>
               <span className="text-xs md:text-sm text-therapy-warm-300 tracking-wider">
-                {language === 'lt' ? 'Psichoterapija' : 'Psychotherapy'} · Ramutis Klimanskis
+                {language === 'lt' ? 'Psichoterapija' : 'Psychotherapy'} · Dialogo Erdvė
               </span>
             </div>
           </motion.div>
