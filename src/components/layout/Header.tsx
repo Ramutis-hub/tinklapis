@@ -51,13 +51,13 @@ export function Header() {
           </div>
 
           {/* Desktop navigation + actions */}
-          <div className="hidden lg:flex items-center">
-            <div className="flex items-center gap-7 mr-7">
+          <div className="hidden lg:flex h-full items-center">
+            <div className="flex h-full items-center gap-7 mr-7">
               {navLinks.map((link) => (
                 <Link
                   key={link.to}
                   to={link.to}
-                  className={`text-sm transition-colors font-medium ${
+                  className={`inline-flex h-full items-center leading-none text-sm transition-colors font-medium ${
                     isActive(link.to)
                       ? 'text-therapy-sage-700'
                       : 'text-therapy-warm-800 hover:text-therapy-sage-600'
