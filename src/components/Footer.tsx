@@ -18,17 +18,19 @@ export function Footer() {
           transition={{ duration: 0.5 }}
         >
           <motion.div
-            className="flex flex-col gap-[3px]"
+            className="flex items-center"
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <Link to="/" className="text-[13px] font-serif font-medium uppercase tracking-[0.07em] text-therapy-warm-100 leading-none">
-              Ramutis Klimanskis
+            <Link to="/" className="flex flex-col justify-center gap-[3px]">
+              <span className="text-[12.5px] font-serif font-medium uppercase tracking-[0.07em] text-therapy-warm-100 leading-[1.05]">
+                Ramutis Klimanskis
+              </span>
+              <span className="text-[8px] font-sans font-normal uppercase tracking-[0.16em] text-therapy-warm-400 leading-[1.05]">
+                {language === 'lt' ? 'Psichoterapija' : 'Psychotherapy'}
+              </span>
             </Link>
-            <span className="text-[8px] font-sans font-normal uppercase tracking-[0.16em] text-therapy-warm-400 leading-none">
-              {language === 'lt' ? 'Psichoterapija' : 'Psychotherapy'}
-            </span>
           </motion.div>
 
           <motion.div
