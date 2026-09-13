@@ -43,11 +43,15 @@ export function Header() {
       transition={{ duration: 0.6, ease: 'easeOut' }}
     >
       <nav className="container mx-auto px-4 md:px-6">
-        <div className="flex justify-between items-center h-16 md:h-20">
-          <Logo />
+        <div className="flex justify-between items-center h-[72px] md:h-[74px]">
+          {/* Brand area ~26% */}
+          <div className="flex-shrink-0 w-[26%]">
+            <Logo />
+          </div>
 
-          <div className="hidden lg:flex items-center gap-8">
-            <div className="flex items-center gap-7">
+          {/* Navigation + actions ~74% */}
+          <div className="hidden lg:flex items-center justify-end w-[74%]">
+            <div className="flex items-center gap-9 mr-8">
               {navLinks.map((link) => (
                 <Link
                   key={link.to}
@@ -64,13 +68,13 @@ export function Header() {
             </div>
             <Link
               to="/kontaktai"
-              className="inline-flex items-center justify-center bg-therapy-sage-600 text-white px-5 py-2.5 hover:bg-therapy-sage-700 transition-all duration-300 font-medium rounded-sm text-sm"
+              className="inline-flex items-center justify-center bg-therapy-sage-600 text-white px-4 py-2 hover:bg-therapy-sage-700 transition-all duration-300 font-medium rounded-sm text-[0.8rem]"
             >
               {t.contact.cta}
             </Link>
             <button
               onClick={() => changeLanguage(language === 'lt' ? 'en' : 'lt')}
-              className="px-3 py-1.5 text-xs font-semibold tracking-wider text-therapy-warm-700 hover:text-therapy-sage-700 transition-colors border border-therapy-warm-300 rounded hover:border-therapy-sage-400 hover:bg-therapy-warm-100 uppercase"
+              className="ml-4 text-xs text-therapy-warm-500 hover:text-therapy-sage-700 transition-colors uppercase tracking-wide font-medium"
             >
               {language === 'lt' ? 'EN' : 'LT'}
             </button>
@@ -89,14 +93,14 @@ export function Header() {
         {isMenuOpen && (
           <>
             <motion.div
-              className="lg:hidden fixed inset-0 bg-black/30 z-30 top-16"
+              className="lg:hidden fixed inset-0 bg-black/30 z-30 top-[72px]"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               onClick={() => setIsMenuOpen(false)}
             />
             <motion.div
-              className="lg:hidden fixed left-0 right-0 top-16 bg-therapy-warm-50 shadow-xl z-40"
+              className="lg:hidden fixed left-0 right-0 top-[72px] bg-therapy-warm-50 shadow-xl z-40"
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -10 }}
@@ -128,7 +132,7 @@ export function Header() {
                         changeLanguage(language === 'lt' ? 'en' : 'lt');
                         setIsMenuOpen(false);
                       }}
-                      className="px-4 py-2.5 rounded-sm text-sm font-medium transition-colors bg-therapy-warm-100 text-therapy-warm-700 hover:bg-therapy-warm-200 border border-therapy-warm-300 uppercase"
+                      className="px-4 py-2.5 text-sm font-medium transition-colors text-therapy-warm-600 hover:text-therapy-sage-700 uppercase tracking-wide"
                     >
                       {language === 'lt' ? 'EN' : 'LT'}
                     </button>
