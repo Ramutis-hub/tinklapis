@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { LanguageProvider } from './hooks/useLanguage';
 import { Header } from './components/layout/Header';
 import { Footer } from './components/Footer';
 import { ScrollToTop } from './components/ScrollToTop';
@@ -14,6 +15,7 @@ import { NotFoundPage } from './pages/NotFoundPage';
 
 export function App() {
   return (
+    <LanguageProvider>
     <BrowserRouter>
       <ScrollToTop />
       <div className="min-h-screen bg-therapy-sand-50 flex flex-col">
@@ -34,6 +36,7 @@ export function App() {
         <Footer />
       </div>
     </BrowserRouter>
+    </LanguageProvider>
   );
 }
 
