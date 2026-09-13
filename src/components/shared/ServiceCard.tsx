@@ -10,11 +10,11 @@ interface ServiceCardProps {
 
 export function ServiceCard({ title, description, linkTo, linkLabel }: ServiceCardProps) {
   return (
-    <div className="bg-white border border-therapy-warm-200 rounded-sm p-7 md:p-8 transition-all duration-300 hover:border-therapy-sage-300">
+    <div className="pl-6 border-l border-therapy-warm-200 transition-all duration-300 hover:border-therapy-sage-400">
       <h2 className="text-xl md:text-2xl font-serif text-therapy-warm-800 font-normal mb-4 leading-snug">
         {title}
       </h2>
-      <p className="text-sm md:text-base text-therapy-warm-600 leading-relaxed mb-6">
+      <p className="text-sm md:text-base text-therapy-warm-600 leading-relaxed mb-5">
         {description}
       </p>
       <Link

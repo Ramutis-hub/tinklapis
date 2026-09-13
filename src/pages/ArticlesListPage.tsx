@@ -9,9 +9,12 @@ export function ArticlesListPage() {
   const { language } = useLanguage();
 
   const categories = Object.keys(CATEGORY_LABELS) as ArticleCategory[];
-  const sortedArticles = [...articles].sort((a, b) =>
-    b.publishedAt.localeCompare(a.publishedAt)
-  );
+  const sortedArticles = [...articles].sort((a, b) => {
+    if (a.language !== b.language) {
+      return a.language === 'lt' ? -1 : 1;
+    }
+    return b.publishedAt.localeCompare(a.publishedAt);
+  });
 
   return (
     <div className="bg-white">
@@ -28,13 +31,13 @@ export function ArticlesListPage() {
         </FadeIn>
       </div>
 
-      <section className="py-8 md:py-10 bg-therapy-warm-50/60 border-y border-therapy-warm-200/60">
+      <section className="py-6 md:py-8 border-y border-therapy-warm-200/60">
         <div className="max-w-4xl mx-auto px-6">
-          <div className="flex flex-wrap gap-2.5">
+          <div className="flex flex-wrap gap-x-5 gap-y-2">
             {categories.map((cat) => (
               <span
                 key={cat}
-                className="px-4 py-2 bg-white border border-therapy-warm-200 text-therapy-warm-600 text-sm rounded-sm"
+                className="text-sm text-therapy-warm-500"
               >
                 {CATEGORY_LABELS[cat]}
               </span>
@@ -45,7 +48,7 @@ export function ArticlesListPage() {
 
       <section className="py-12 md:py-16 bg-white">
         <div className="max-w-4xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-5 md:gap-6">
+          <div className="grid md:grid-cols-2 gap-6 md:gap-8">
             {sortedArticles.map((article, i) => (
               <FadeIn key={article.slug} delay={(i % 2) * 0.1}>
                 <ArticleCard article={article} />

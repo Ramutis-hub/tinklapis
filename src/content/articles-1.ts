@@ -38,7 +38,7 @@ export const article2: Article = {
   title: 'Ar terapija turi nuraminti? Apie nerimą ir pokytį',
   category: 'Psichoterapija',
   language: 'lt',
-  excerpt: 'Kartais terapijoje žmogus pasako, kad po paskutinio susitikimo pradėjo jausti daugiau nerimo. Ar terapija tikrai turi nuraminti?',
+  excerpt: 'Kartais terapijoje žmogus pasako, kad po paskutinio susitikimo pradėjo jausti daugiau nerimo. Ar terapija tikrai turi nuraminti, ar jos tikslas yra padaryti, kad žmogui kuo greičiau būtų lengviau? O gal kartais ji kaip tik sujudina tai, ką ilgą laiką pavyko apeiti.',
   relatedSlugs: ['kai-norisi-kad-kas-nors-pasakytu-kaip-gyventi', 'ar-as-esu-suauges', 'kai-rysys-gydo'],
   publishedAt: '2025-02-01',
   content: [

@@ -92,7 +92,7 @@ export const article8: Article = {
   title: 'Apie gedėjimą ir kaltę',
   category: 'Gedėjimas',
   language: 'lt',
-  excerpt: 'Kartais, netekus svarbaus žmogaus ar ryšio, skauda ne tik dėl pačios netekties. Skauda ir dėl balsų, kurie atsiranda aplink ją.',
+  excerpt: 'Kartais, netekus svarbaus žmogaus ar ryšio, skauda ne tik dėl pačios netekties. Skauda ir dėl balsų, kurie atsiranda aplink ją: ar tikrai padariau viską, ką galėjau? Viena skaudžiausių dalykų sielvarte yra tai, kad žmogus kartais nebegali tiesiog liūdėti.',
   relatedSlugs: ['kai-rysys-gydo', 'ar-terapija-turi-nuraminti', 'kai-artumas-tampa-atrama'],
   publishedAt: '2025-05-01',
   content: [
