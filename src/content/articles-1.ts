@@ -27,7 +27,7 @@ export const article1: Article = {
       en: 'A person starts going back through memories, reviewing them as if anew: trips, evenings, messages, strange little moments that seemed insignificant at the time. And somewhere here it is not only trust in the other that collapses. Sometimes, briefly, trust in yourself collapses too — your intuition, your ability to understand what is happening in the relationship.',
     },
     {
-      lt: 'Man atrodo, todėl neištikimybė poroje taip stipriai sužeidžia. Ne vien todėl, kad buvo peržengta riba, bet todėl, kad žmogus, kuris buvo mano artimiausias, mano saugumo vieta, tampa tuo, nuo kurio dabar turiu saugotis.',
+      lt: 'Man atrodo, kad todėl neištikimybė poroje taip stipriai sužeidžia. Ne vien todėl, kad buvo peržengta riba, bet todėl, kad žmogus, kuris buvo mano artimiausias, mano saugumo vieta, tampa tuo, nuo kurio dabar turiu saugotis.',
       en: 'I think that is why infidelity in a couple hurts so deeply. Not only because a line was crossed, but because the person who was closest to me, my safe place, becomes someone I now have to protect myself from.',
     },
     {
@@ -176,7 +176,7 @@ export const article2: Article = {
       en: 'A living life probably begins more when you stop running from yourself. When you can admit to yourself that something no longer works, that it hurts, that you are tired.',
     },
     {
-      lt: 'Kartais pamatai, jog tai, kas ilgai atrodė normalu, iš tikrųjų jau seniai vargina. Jog beveik nebesiilgisi, kad darbas užima per daug vietos, kad bandydamas prisitaikyti prie kitų kažkur pameti save.',
+      lt: 'Kartais pamatai, jog tai, kas ilgai atrodė normalu, iš tikrųjų jau seniai vargina. Jog beveik nebesiilgiesi, kad darbas užima per daug vietos, kad bandydamas prisitaikyti prie kitų kažkur pameti save.',
       en: 'Sometimes you notice that what long seemed normal has actually been wearing you down for a long time. That you barely long for anything, that work takes up too much space, that trying to adapt to others you lose yourself somewhere.',
     },
     {

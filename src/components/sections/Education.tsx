@@ -38,7 +38,7 @@ const additionalTraining = [
   {
     icon: Users,
     title: 'Mokymasis pas žymius geštalto terapeutus',
-    description: 'Jean-Marie Robine, Margherita Spagnuolo Lobb, Gianni Francesetti, Bob Resnick, Lynn Jacobs, Peter Philipson, Yan Rubal ir kiti.',
+    description: 'Jean-Marie Robine, Margherita Spagnuolo Lobb, Gianni Francesetti, Bob Resnick, Lynn Jacobs, Peter Philipson, Jan Roubal ir kiti.',
   },
   {
     icon: Star,

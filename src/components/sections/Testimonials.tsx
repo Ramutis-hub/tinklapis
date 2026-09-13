@@ -13,7 +13,7 @@ const testimonials = [
   {
     text: "Porų terapija su Ramučiu išgelbėjo mūsų santykius. Jis padėjo mums išmokti klausytis vienas kito ir rasti bendrus sprendimus. Dabar jaučiamės daug arčiau.",
     author: "M. ir J.",
-    service: "Porų konsultavimas", 
+    service: "Porų terapija", 
     rating: 5
   },
   {
@@ -23,7 +23,7 @@ const testimonials = [
     rating: 5
   },
   {
-    text: "Nuotolinės konsultacijos buvo labai patogios. Ramutis sugebėjo sukurti artumą ir pasitikėjimą net per ekraną. Jaučiausi išgirsta ir supras ta.",
+    text: "Nuotolinės konsultacijos buvo labai patogios. Ramutis sugebėjo sukurti artumą ir pasitikėjimą net per ekraną. Jaučiausi išgirsta ir suprasta.",
     author: "E. V.",
     service: "Nuotolinės konsultacijos",
     rating: 5
@@ -70,7 +70,7 @@ export function Testimonials() {
                     </div>
                   </div>
                   <div className="text-therapy-sage-600 text-sm font-medium">
-                    Patikinta
+                    Patvirtinta
                   </div>
                 </div>
               </div>

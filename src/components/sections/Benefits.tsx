@@ -18,7 +18,7 @@ export function Benefits() {
     {
       icon: Brain,
       title: "Profesionali pagalba",
-      description: "Remiuosi klinikinės psichologijos, psichoanalizės ir Gestalt principais. Kiekvienas seansas pritaikytas jūsų individualių poreikių."
+      description: "Remiuosi klinikinės psichologijos, psichoanalizės ir Gestalt principais. Kiekvienas seansas pritaikytas jūsų individualiems poreikiams."
     },
     {
       icon: Shield,
