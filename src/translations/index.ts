@@ -206,12 +206,12 @@ const translations: Record<Language, Translations> = {
       approach:
         'Mano terapinis darbas remiasi dialogu, gyvu susitikimu ir dėmesiu tam, kas vyksta čia ir dabar – tarp terapeuto ir kliento, tarp partnerių, tarp žmogaus ir jo paties patirties.\n\nStudijuoju ir gilinuosi į Geštalto psichoterapiją, psichoanalitinį mąstymą, porų terapiją ir emociškai fokusuotą terapiją / EFT. EFT man artima kaip kryptis, padedanti porose matyti prisirišimo poreikius, emocinius ciklus ir saugaus ryšio atkūrimo galimybę.',
       education: {
-        title: 'Išsilavinimas',
+        title: 'Išsilavinimas ir mokymai',
         items: [
           {
             title: 'Klinikinės psichologijos magistras, su pagyrimu',
             institution: 'Université Côte d\'Azur, Prancūzija',
-            details: 'Mokymai su Lakaniškos psichoanalitinės teorijos akcentu',
+            details: 'Mokymai su lakaniškos psichoanalitinės teorijos akcentu',
           },
           { title: 'Psichologijos bakalauras', institution: 'Mykolo Romerio universitetas, Lietuva' },
           { title: 'Geštalto terapijos mokymai (GATLA programa)', institution: 'Gestalt Associates Training Los Angeles, JAV' },
@@ -219,7 +219,7 @@ const translations: Record<Language, Translations> = {
           { title: 'Psichoanalitinė porų terapija', institution: 'Міжнародний інститут глибинної психології, Ukraina' },
           { title: 'Psichoterapijos studijos', institution: 'Scuola di Psicoterapia Torino – IPSIG, Italija' },
         ],
-        note: 'Nuolat gilinuosi tarptautiniuose mokymuose ir bendradarbiauju su kolegomis iš įvairių šalių',
+        note: 'Nuolat gilinuosi tarptautiniuose mokymuose ir bendradarbiauju su kolegomis iš įvairių šalių.',
       },
     },
     themes: {
@@ -376,8 +376,8 @@ const translations: Record<Language, Translations> = {
           },
           { title: 'Bachelor\u2019s degree in Psychology', institution: 'Mykolas Romeris University, Lithuania' },
           { title: 'Gestalt Therapy Training (GATLA programme)', institution: 'Gestalt Associates Training Los Angeles, USA' },
-          { title: 'Studies in Psychotherapy and Psychodrama', institution: 'Kyiv Institute of Gestalt and Psychodrama, Ukraine' },
-          { title: 'Psychoanalytic Couples Therapy', institution: 'International Institute of Depth Psychology, Ukraine' },
+          { title: 'Studies in Psychotherapy and Psychodrama', institution: 'Київський інститут гештальту та психодрами, Ukraine' },
+          { title: 'Psychoanalytic Couples Therapy', institution: 'Міжнародний інститут глибинної психології, Ukraine' },
           { title: 'Psychotherapy Studies', institution: 'Scuola di Psicoterapia Torino \u2013 IPSIG, Italy' },
         ],
         note: 'I continue my professional development through international training and collaboration with colleagues from different countries.',

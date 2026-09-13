@@ -68,19 +68,25 @@ export function AboutPage() {
             <h2 className="text-xl md:text-2xl font-serif text-therapy-warm-800 mb-6 md:mb-8 font-normal">
               {t.about.education.title}
             </h2>
-            <div className="space-y-5 text-therapy-warm-700">
+            <div className="space-y-6">
               {t.about.education.items.map((item, index) => (
-                <div key={index} className="text-sm md:text-base leading-relaxed pl-4 border-l border-therapy-warm-200">
-                  <div className="font-medium text-therapy-warm-900 mb-0.5">{item.title}</div>
-                  <div className="text-therapy-sage-600">{item.institution}</div>
+                <div key={index}>
+                  <div className="text-sm md:text-base font-medium text-therapy-warm-900 mb-1.5">
+                    {item.title}
+                  </div>
+                  <div className="text-sm text-therapy-sage-600 mb-1">
+                    {item.institution}
+                  </div>
                   {item.details && (
-                    <div className="text-therapy-warm-500 text-sm mt-0.5 italic">{item.details}</div>
+                    <div className="text-sm text-therapy-warm-500">
+                      {item.details}
+                    </div>
                   )}
                 </div>
               ))}
             </div>
-            <div className="mt-8 pt-6 border-t border-therapy-warm-200">
-              <p className="text-therapy-warm-500 text-center text-sm italic">
+            <div className="mt-8 pt-5 border-t border-therapy-warm-100">
+              <p className="text-therapy-warm-500 text-sm">
                 {t.about.education.note}
               </p>
             </div>
