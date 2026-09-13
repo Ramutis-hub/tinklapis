@@ -104,7 +104,7 @@ export function IntimacySexualityPage() {
       </section>
 
       <CTASection
-        title={language === 'lt' ? 'Noriite pasikalbėti apie artumą ar seksualumą?' : 'Want to talk about intimacy or sexuality?'}
+        title={language === 'lt' ? 'Norite pasikalbėti apie artumą ar seksualumą?' : 'Want to talk about intimacy or sexuality?'}
         buttonText={t.contact.cta}
       />
     </div>

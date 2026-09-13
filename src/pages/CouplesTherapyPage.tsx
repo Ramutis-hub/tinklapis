@@ -95,15 +95,48 @@ export function CouplesTherapyPage() {
               {language === 'lt' ? 'Kaip vyksta porų terapija?' : 'How does couples therapy work?'}
             </h2>
             <div className="space-y-4 text-base md:text-lg text-therapy-warm-700 leading-relaxed">
-              <p>{t.process.subtitle}</p>
-              <p className="text-sm text-therapy-warm-500 italic">{t.services.couples.duration}</p>
-              <p>{t.contact.description}. {t.contact.languages}.</p>
+              <p>
+                {language === 'lt'
+                  ? 'Kiekviena pora į terapiją atsineša savą istoriją, sunkumus ir būdą būti kartu. Todėl nėra vienos schemos, kuri tiktų visiems. Terapijoje tyrinėjame ne tik tai, ką kiekvienas jaučiate atskirai, bet ir tai, kas vyksta tarp jūsų: kaip bandote pasiekti vienas kitą, kur prarandate ryšį ir kokie pasikartojantys ciklai jus įtraukia.'
+                  : 'Every couple brings their own story, difficulties and way of being together to therapy. There is no single template that fits everyone. In therapy we explore not only what each of you feels separately, but also what happens between you: how you try to reach each other, where you lose connection, and what recurring cycles draw you in.'}
+              </p>
+              <p>
+                {language === 'lt'
+                  ? 'Paprastai susitinkame kartą per savaitę.'
+                  : 'We usually meet once a week.'}
+              </p>
+              <p className="text-sm text-therapy-warm-500 italic">
+                {language === 'lt' ? 'Sesija – 60 minučių' : 'Session – 60 minutes'}
+              </p>
+              <p>
+                {language === 'lt'
+                  ? 'Konsultuoju gyvai Vilniuje ir internetu. Dirbu lietuvių, anglų ir rusų kalbomis.'
+                  : 'I work in person in Vilnius and online. I work in Lithuanian, English and Russian.'}
+              </p>
             </div>
             <div className="mt-8 space-y-8">
               {[
-                { title: t.process.steps.first.title, description: t.process.steps.first.description },
-                { title: t.process.steps.safe.title, description: t.process.steps.safe.description },
-                { title: t.process.steps.integration.title, description: t.process.steps.integration.description },
+                {
+                  title: language === 'lt' ? 'Pirmasis susitikimas' : 'First meeting',
+                  description:
+                    language === 'lt'
+                      ? 'Susipažįstame ir kalbamės apie tai, kas jus atvedė į terapiją. Bandome suprasti, kaip kiekvienas matote santykio sunkumus, kas šiuo metu skaudžiausia ir ko tikitės iš terapijos.'
+                      : 'We get acquainted and talk about what brought you to therapy. We try to understand how each of you sees the relationship\u2019s difficulties, what is most painful right now, and what you hope for from therapy.',
+                },
+                {
+                  title: language === 'lt' ? 'Santykio ciklo supratimas' : 'Understanding the relationship cycle',
+                  description:
+                    language === 'lt'
+                      ? 'Pamažu tyrinėjame, kas vyksta tarp jūsų konfliktų ar atitolimo metu. Kas nutinka vienam, kai kitas atsitraukia, kritikuoja, ginasi ar užsisklendžia? Dažnai pora pradeda matyti ne tik vienas kito reakcijas, bet ir pasikartojantį ratą, į kurį abu patenka.'
+                      : 'Gradually we explore what happens between you during conflicts or distance. What happens to one when the other withdraws, criticizes, defends or shuts down? Often the couple begins to see not only each other\u2019s reactions, but also the recurring cycle they both fall into.',
+                },
+                {
+                  title: language === 'lt' ? 'Naujo ryšio kūrimas' : 'Creating new connection',
+                  description:
+                    language === 'lt'
+                      ? 'Kai ciklas tampa aiškesnis, atsiranda daugiau galimybių išgirsti, kas slypi po pykčiu, kritika ar atsitraukimu. Terapijoje ieškome būdų kalbėti apie jautresnius poreikius, baimes ir ilgesį taip, kad kitas galėtų ne tik išgirsti, bet ir pasilikti santykyje.'
+                      : 'As the cycle becomes clearer, there are more opportunities to hear what lies beneath anger, criticism or withdrawal. In therapy we look for ways to talk about more vulnerable needs, fears and longing so that the other can not only hear, but also stay in the relationship.',
+                },
               ].map((step, i) => (
                 <div key={i} className="flex gap-4">
                   <div className="flex-shrink-0 w-8 h-8 rounded-full bg-therapy-sage-100 border border-therapy-sage-200 flex items-center justify-center mt-0.5">
@@ -115,6 +148,13 @@ export function CouplesTherapyPage() {
                   </div>
                 </div>
               ))}
+            </div>
+            <div className="mt-8">
+              <p className="text-base md:text-lg text-therapy-warm-700 leading-relaxed">
+                {language === 'lt'
+                  ? 'Tikslas nėra tapti „porai be konfliktų", o kurti santykį, kuriame vis dažniau galima vienas kitą pasiekti net tada, kai sunku.'
+                  : 'The goal is not to become a \u201ccouple without conflicts\u201d, but to build a relationship where you can increasingly reach each other even when it\u2019s hard.'}
+              </p>
             </div>
             <div className="mt-8 p-5 bg-white rounded-sm border border-therapy-warm-200">
               <p className="text-sm font-medium text-therapy-warm-700 mb-1">{t.contact.cancellationTitle}</p>

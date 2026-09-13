@@ -24,23 +24,6 @@ export function ContactPage() {
         </FadeIn>
 
         <FadeIn delay={0.15}>
-          <div className="flex flex-col sm:flex-row justify-center gap-3 mb-12">
-            <a
-              href="tel:+37062176092"
-              className="inline-flex items-center justify-center bg-therapy-sage-600 text-white px-8 py-3.5 hover:bg-therapy-sage-500 transition-all duration-300 font-medium rounded-sm text-sm md:text-base"
-            >
-              {t.contact.cta}
-            </a>
-            <a
-              href="mailto:ramutis.klimanskis@gmail.com"
-              className="inline-flex items-center justify-center border border-therapy-warm-500 text-therapy-warm-100 px-8 py-3.5 hover:border-therapy-warm-300 hover:text-white transition-all duration-300 font-medium rounded-sm text-sm md:text-base"
-            >
-              {t.contact.ctaContact}
-            </a>
-          </div>
-        </FadeIn>
-
-        <FadeIn delay={0.25}>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-10">
             <div className="flex items-start gap-3 group">
               <Phone className="text-therapy-sage-400 flex-shrink-0 mt-0.5 group-hover:text-therapy-sage-300 transition-colors" size={18} />

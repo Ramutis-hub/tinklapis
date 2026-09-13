@@ -87,7 +87,7 @@ export function AboutPage() {
       </div>
 
       <CTASection
-        title={language === 'lt' ? 'Noriite susisiekti?' : 'Want to get in touch?'}
+        title={language === 'lt' ? 'Norite susisiekti?' : 'Want to get in touch?'}
         buttonText={t.contact.cta}
       />
     </div>
