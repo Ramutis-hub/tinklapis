@@ -25,14 +25,16 @@ export function Header() {
   }, [location.pathname]);
 
   const navLinks = [
-    { to: '/poru-terapija', label: language === 'lt' ? 'Porų terapija' : 'Couples therapy' },
+    { to: '/', label: language === 'lt' ? 'Pagrindinis' : 'Home' },
+    { to: '/apie-mane', label: language === 'lt' ? 'Apie mane' : 'About' },
+    { to: '/poru-terapija', label: language === 'lt' ? 'Porų terapija' : 'Couples Therapy' },
     { to: '/individuali-terapija', label: language === 'lt' ? 'Individuali terapija' : 'Individual Therapy' },
     { to: '/tekstai', label: language === 'lt' ? 'Tekstai' : 'Writing' },
-    { to: '/apie-mane', label: t.nav.about },
-    { to: '/kontaktai', label: t.nav.contact },
+    { to: '/kontaktai', label: language === 'lt' ? 'Kontaktai' : 'Contact' },
   ];
 
-  const isActive = (path: string) => location.pathname === path;
+  const isActive = (path: string) =>
+    path === '/' ? location.pathname === '/' : location.pathname === path;
 
   return (
     <motion.header
