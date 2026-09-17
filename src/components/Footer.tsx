@@ -23,11 +23,11 @@ export function Footer() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <Link to="/" className="flex flex-col justify-center gap-[3px]">
-              <span className="text-[12.5px] font-serif font-medium uppercase tracking-[0.07em] text-therapy-warm-100 leading-[1.05]">
+            <Link to="/" className="inline-flex flex-col items-center text-center gap-[4px]">
+              <span className="text-[13.5px] sm:text-[14px] font-serif font-medium tracking-[0.045em] text-therapy-warm-100 leading-[1.05]">
                 Ramutis Klimanskis
               </span>
-              <span className="text-[8px] font-sans font-normal uppercase tracking-[0.16em] text-therapy-warm-400 leading-[1.05]">
+              <span className="text-[7.5px] sm:text-[8px] font-sans font-medium uppercase tracking-[0.18em] text-therapy-warm-400 leading-[1]">
                 {language === 'lt' ? 'Psichoterapija' : 'Psychotherapy'}
               </span>
             </Link>
