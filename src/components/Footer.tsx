@@ -23,11 +23,29 @@ export function Footer() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <Link to="/" className="inline-flex flex-col items-center text-center gap-[4px]">
-              <span className="text-[13.5px] sm:text-[14px] font-serif font-medium tracking-[0.045em] text-therapy-warm-100 leading-[1.05]">
+            <Link to="/" className="inline-flex flex-col items-center text-center no-underline" style={{ gap: '5px' }}>
+              <span
+                className="text-therapy-warm-100 leading-none"
+                style={{
+                  fontFamily: "'Source Serif 4', Georgia, serif",
+                  fontSize: '15px',
+                  fontWeight: 600,
+                  letterSpacing: '0.02em',
+                  lineHeight: 1.05,
+                }}
+              >
                 Ramutis Klimanskis
               </span>
-              <span className="text-[7.5px] sm:text-[8px] font-sans font-medium uppercase tracking-[0.18em] text-therapy-warm-400 leading-[1]">
+              <span
+                className="text-therapy-warm-400 leading-none uppercase"
+                style={{
+                  fontFamily: "'Inter', system-ui, sans-serif",
+                  fontSize: '8px',
+                  fontWeight: 500,
+                  letterSpacing: '0.18em',
+                  lineHeight: 1,
+                }}
+              >
                 {language === 'lt' ? 'Psichoterapija' : 'Psychotherapy'}
               </span>
             </Link>
