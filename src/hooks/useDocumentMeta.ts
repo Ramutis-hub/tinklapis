@@ -96,13 +96,13 @@ const META_BY_PAGE: Record<string, { lt: MetaContent; en: MetaContent }> = {
   contact: {
     lt: {
       title: 'Kontaktai | Ramutis Klimanskis',
-      description: 'Susisiekite dėl psichoterapijos konsultacijos. Telefonas, el. paštas, adresas Kęstučio g. 17, Vilnius.',
+      description: 'Susisiekite dėl psichoterapijos konsultacijos. Telefonas, el. paštas, adresas Liepyno g. 11, Vilnius.',
       ogTitle: 'Kontaktai | Ramutis Klimanskis',
       ogDescription: 'Susisiekite dėl psichoterapijos konsultacijos.',
     },
     en: {
       title: 'Contact | Ramutis Klimanskis',
-      description: 'Get in touch to arrange a consultation. Phone, email, address Kęstučio g. 17, Vilnius.',
+      description: 'Get in touch to arrange a consultation. Phone, email, address Liepyno g. 11, Vilnius.',
       ogTitle: 'Contact | Ramutis Klimanskis',
       ogDescription: 'Get in touch to arrange a consultation.',
     },

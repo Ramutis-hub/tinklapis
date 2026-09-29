@@ -62,7 +62,7 @@ export function Contact() {
             <MapPin className="text-therapy-sage-400 flex-shrink-0 mt-0.5 group-hover:text-therapy-sage-300 transition-colors" size={18} />
             <div>
               <p className="text-therapy-warm-400 text-xs font-medium mb-0.5">{t.contact.address}</p>
-              <p className="text-white font-medium text-sm md:text-base">Kęstučio g. 17, Vilnius</p>
+              <p className="text-white font-medium text-sm md:text-base">Liepyno g. 11, Vilnius</p>
             </div>
           </div>
 
