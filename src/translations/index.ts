@@ -128,7 +128,7 @@ const translations: Record<Language, Translations> = {
       couples: {
         title: 'Porų terapija',
         description:
-          'Porų terapija gali būti naudinga, kai santykyje daugėja konfliktų, tylos, atsitraukimo, pykčio ar jausmo, kad vienas kito nebepasiekiate.\n\nTerapijoje padedu tyrinėti ne tik ginčo turinį, bet ir gilesnį emocinį ciklą: kas vyksta tarp jūsų, kai vienas puola, kitas atsitraukia; kai vienas ilgisi artumo, o kitas jaučiasi spaudžiamas; kai abu nori ryšio, bet neberanda kelio vienas pas kitą.',
+          'Porų terapija gali būti naudinga, kai santykyje daugėja konfliktų, tylos, atsitraukimo, pykčio ar jausmo, kad vienas kito nebepasiekiate.\n\nTerapijoje padedu tyrinėti ne tik ginčo turinį, bet ir gilesnį emocinį ciklą: kas vyksta tarp jūsų, kai vienas puola, kitas atsitraukia; kai vienas ilgisi artumo, o kitas jaučiasi spaudžiamas; kai abu nori ryšio, bet neberanda kelio vienas pas kitą.\n\nEsu Tarptautinio į emocijas orientuotos terapijos centro (ICEEFT) narys. Dirbdamas su poromis remiuosi geštalto terapijos ir į emocijas orientuotos porų terapijos (EFT) principais. Savo profesines kompetencijas nuolat gilinu tarptautiniuose mokymuose ir supervizijose.',
         topics: [
           'Pasikartojantys konfliktai',
           'Emocinis ar fizinis nutolimas',
@@ -218,6 +218,8 @@ const translations: Record<Language, Translations> = {
           { title: 'Psichoterapijos ir psichodramos studijos', institution: 'Київський інститут гештальту та психодрами, Ukraina' },
           { title: 'Psichoanalitinė porų terapija', institution: 'Міжнародний інститут глибинної психології, Ukraina' },
           { title: 'Psichoterapijos studijos', institution: 'Scuola di Psicoterapia Torino – IPSIG, Italija' },
+          { title: 'Į emocijas orientuotos porų terapijos (EFCT) įvadiniai mokymai „Externship“', institution: 'International Centre for Excellence in Emotionally Focused Therapy (ICEEFT)' },
+          { title: 'Tęstinės grupinės į emocijas orientuotos porų terapijos (EFT) supervizijos', institution: 'Dr. Rebecca Jorgensen – ICEEFT sertifikuota EFT supervizorė ir mokymų vedėja' },
         ],
         note: 'Nuolat gilinuosi tarptautiniuose mokymuose ir bendradarbiauju su kolegomis iš įvairių šalių.',
       },
@@ -289,7 +291,7 @@ const translations: Record<Language, Translations> = {
       couples: {
         title: 'Couples Therapy',
         description:
-          'Couples therapy can be helpful when conflict, silence, withdrawal or anger begin to take up more space in the relationship, or when you feel that you can no longer reach one another.\n\nIn therapy, we explore not only what you argue about, but also the deeper emotional cycle between you: what happens when one partner pursues and the other withdraws; when one longs for closeness while the other feels pressured; when both want connection but can no longer find a way towards one another.',
+          'Couples therapy can be helpful when conflict, silence, withdrawal or anger begin to take up more space in the relationship, or when you feel that you can no longer reach one another.\n\nIn therapy, we explore not only what you argue about, but also the deeper emotional cycle between you: what happens when one partner pursues and the other withdraws; when one longs for closeness while the other feels pressured; when both want connection but can no longer find a way towards one another.\n\nI am a member of the International Centre for Excellence in Emotionally Focused Therapy (ICEEFT). In my work with couples, I draw on Gestalt therapy and Emotionally Focused Couple Therapy (EFT) principles. I continue to deepen my professional competence through international training and supervision.',
         topics: [
           'Recurring conflict',
           'Emotional or physical distance',
@@ -379,6 +381,8 @@ const translations: Record<Language, Translations> = {
           { title: 'Studies in Psychotherapy and Psychodrama', institution: 'Київський інститут гештальту та психодрами, Ukraine' },
           { title: 'Psychoanalytic Couples Therapy', institution: 'Міжнародний інститут глибинної психології, Ukraine' },
           { title: 'Psychotherapy Studies', institution: 'Scuola di Psicoterapia Torino \u2013 IPSIG, Italy' },
+          { title: 'Emotionally Focused Couple Therapy (EFCT) introductory training \u201cExternship\u201d', institution: 'International Centre for Excellence in Emotionally Focused Therapy (ICEEFT)' },
+          { title: 'Ongoing group supervision in Emotionally Focused Couple Therapy (EFT)', institution: 'Dr. Rebecca Jorgensen \u2013 ICEEFT certified EFT supervisor and trainer' },
         ],
         note: 'I continue my professional development through international training and collaboration with colleagues from different countries.',
       },
